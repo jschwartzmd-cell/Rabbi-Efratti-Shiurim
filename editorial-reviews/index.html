@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Editorial Reviews — Rabbi Ephrati Shiurim</title>
+<title>Reviews — Rabbi Ephrati Shiurim</title>
 <style>
   :root{
     --blue:#1e3a8a;
@@ -17,7 +17,7 @@
   html,body{background:var(--paper);color:var(--ink);}
   body{
     font-family: Georgia, "Times New Roman", serif;
-    max-width: 900px;
+    max-width: 960px;
     margin: 40px auto;
     padding: 24px 36px 60px;
     line-height: 1.6;
@@ -49,12 +49,14 @@
     padding: 16px 20px;
     margin: 22px 0 28px;
     border-radius: 3px;
-    font-size: 15.5px;
+    font-size: 15px;
   }
-  .nav{
-    font-size: 14px;
-    margin-bottom: 22px;
+  .lede p{margin: 6px 0;}
+  .lede .type-label{
+    color: var(--blue);
+    font-weight: bold;
   }
+  .nav{font-size: 14px; margin-bottom: 22px;}
   .nav a{
     color: var(--blue);
     text-decoration: none;
@@ -69,38 +71,60 @@
     padding-bottom: 4px;
     border-bottom: 1px solid var(--rule);
   }
-  .review-row{
-    display: grid;
-    grid-template-columns: 130px 1fr auto;
-    gap: 18px;
-    align-items: baseline;
-    padding: 12px 0;
+  .shiur-block{
+    padding: 16px 0;
     border-bottom: 1px dotted #d4c8a0;
   }
-  .review-row:last-child{border-bottom: none;}
-  .review-date{
+  .shiur-block:last-child{border-bottom: none;}
+  .shiur-header{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 18px;
+    align-items: baseline;
+    margin-bottom: 10px;
+  }
+  .shiur-date{
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 13px;
     color: var(--gold);
     letter-spacing: 0.06em;
   }
-  .review-title{
+  .shiur-title{
     color: var(--ink);
     font-size: 16.5px;
+    font-weight: 600;
   }
-  .review-links a{
+  .review-group{
+    display: grid;
+    grid-template-columns: 130px 200px 1fr;
+    gap: 12px;
+    align-items: baseline;
+    padding: 4px 0;
+    font-size: 14px;
+  }
+  .review-group + .review-group{margin-top: 4px;}
+  .rg-type{
+    grid-column: 2;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: var(--blue);
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .rg-links{grid-column: 3;}
+  .rg-links a{
     color: var(--blue);
     text-decoration: none;
     font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 12px;
+    font-size: 11.5px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     border: 1px solid var(--gold);
-    padding: 4px 8px;
-    margin-left: 6px;
+    padding: 3px 8px;
+    margin-right: 5px;
     border-radius: 3px;
   }
-  .review-links a:hover{background: var(--gold); color: var(--paper);}
+  .rg-links a:hover{background: var(--gold); color: var(--paper);}
   .heb{font-family: "SBL Hebrew", "Times New Roman", serif; font-size: 1.05em;}
   footer{
     margin-top: 40px;
@@ -127,8 +151,8 @@
 
 <header>
   <div class="kicker">Rabbi Ephrati · Shiurim on Tefillah</div>
-  <h1>Editorial Reviews <span class="count">1 review</span></h1>
-  <div class="meta">Independent editorial reads on each week's shiur write-up · Index updated 26 July 2026</div>
+  <h1>Reviews <span class="count">1 shiur · 2 reviews</span></h1>
+  <div class="meta">Two independent reads on each week's shiur · Index updated 26 July 2026</div>
 </header>
 
 <div class="nav">
@@ -136,22 +160,36 @@
 </div>
 
 <div class="lede">
-Each entry here is an <strong>independent editorial review</strong> of that week's shiur write-up, produced by a reviewer given only the finished HTML — no exposure to the writing process, no access to the source transcript or Rabbi Ephrati's notes. The reviews cover what works, where the piece is weak or could be sharper, factual/citation concerns to double-check, and copy-level polish suggestions. They are diagnostic — not corrections — and are intended as a second opinion, not a definitive verdict.
+<p>Each shiur receives two reviews of different character:</p>
+<p><span class="type-label">Shiur Review</span> — a content-focused read from the raw source material (transcript, summary, and finished write-up). This is a review of the <em>shiur itself</em>: what the Rav was after, what worked, what the ideas needed more of, and follow-up questions worth asking. Same in spirit as a chaver's reaction after sitting through it.</p>
+<p><span class="type-label">Editorial Review</span> — a cold read of the finished write-up only, by a reviewer with no exposure to the source material or the writing process. Diagnostic — flags weak paragraphs, contradictions, factual concerns, copy-level polish suggestions. A friend who wasn't in the writing room.</p>
 </div>
 
 <h2>2026</h2>
 
-<div class="review-row">
-  <div class="review-date">19 July 2026</div>
-  <div class="review-title"><span class="heb">הַמַּפִּיל</span>, Hareini Mochel, and the Maharam's Prison Seder</div>
-  <div class="review-links">
-    <a href="2026-07-19 — Editorial Review.pdf">PDF</a>
-    <a href="2026-07-19 — Editorial Review.html">HTML</a>
+<div class="shiur-block">
+  <div class="shiur-header">
+    <div class="shiur-date">19 July 2026</div>
+    <div class="shiur-title"><span class="heb">קריאת שמע על המטה</span> — <span class="heb">המפיל</span>, Hareini Mochel, and the Maharam's Prison Seder</div>
+  </div>
+  <div class="review-group">
+    <div class="rg-type">Shiur Review</div>
+    <div class="rg-links">
+      <a href="2026-07-19 — Shiur Review.pdf">PDF</a>
+      <a href="2026-07-19 — Shiur Review.html">HTML</a>
+    </div>
+  </div>
+  <div class="review-group">
+    <div class="rg-type">Editorial Review</div>
+    <div class="rg-links">
+      <a href="2026-07-19 — Editorial Review.pdf">PDF</a>
+      <a href="2026-07-19 — Editorial Review.html">HTML</a>
+    </div>
   </div>
 </div>
 
 <footer>
-Reviews are produced automatically each week as part of the Mareh Mekamos pipeline. They are one reader's opinion — <em>caveat lector</em>. Feedback and disagreement welcome.
+Reviews are produced automatically each week as part of the Mareh Mekamos pipeline. They are two readers' opinions — <em>caveat lector</em>. Feedback and disagreement welcome.
 </footer>
 
 </body>
