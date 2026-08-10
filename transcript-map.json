@@ -1,0 +1,1010 @@
+{
+  "generated": "2026-08-10",
+  "project": "Mareh Mekamos — Sefer Edition",
+  "total_shiurim": 76,
+  "processing": {
+    "batch_size": 5,
+    "order": "chronological_oldest_first",
+    "voice": "classic_torah_sefer_scholarly"
+  },
+  "shiurim": {
+    "2024-06-23": {
+      "primary_html": "2024-06-23 — הַקְּטֹרֶת — הִיסְטוֹרְיָה, סוֹד וְהַשְׁפָּעָה.html",
+      "all_html": [
+        "2024-06-23 — הַקְּטֹרֶת — הִיסְטוֹרְיָה, סוֹד וְהַשְׁפָּעָה.html"
+      ],
+      "transcript": "AUDIO-2024-06-23-10-33-15-transcript.txt",
+      "summary": "AUDIO-2024-06-23-10-33-15-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "done",
+      "reviews_done": true,
+      "sefer_completed": "2026-08-10"
+    },
+    "2024-07-04": {
+      "primary_html": "2024-07-04 — The Kotel HaMa'aravi — History, Sanctity, and Halacha.html",
+      "all_html": [
+        "2024-07-04 — The Kotel HaMa'aravi — History, Sanctity, and Halacha.html",
+        "2024-07-04 — הַכֹּתֶל הַמַּעֲרָבִי — הִיסְטוֹרְיָה, קְדוּשָּׁה וַהֲלָכָה.html"
+      ],
+      "transcript": "AUDIO-2024-07-04-11-12-00-transcript.txt",
+      "summary": "AUDIO-2024-07-04-11-12-00-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "done",
+      "reviews_done": true,
+      "sefer_completed": "2026-08-10"
+    },
+    "2024-08-04": {
+      "primary_html": "2024-08-04 — פְּסוּקֵי דְּזִמְרָה — מֵהוֹדוּ עַד בָּרוּךְ שֶׁאָמַר.html",
+      "all_html": [
+        "2024-08-04 — פְּסוּקֵי דְּזִמְרָה — מֵהוֹדוּ עַד בָּרוּךְ שֶׁאָמַר.html"
+      ],
+      "transcript": "AUDIO-2024-08-04-10-53-47-transcript.txt",
+      "summary": "AUDIO-2024-08-04-10-53-47-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "done",
+      "reviews_done": true,
+      "sefer_completed": "2026-08-10"
+    },
+    "2024-08-11": {
+      "primary_html": "2024-08-11 — בָּרוּךְ שֶׁאָמַר וּמִזְמוֹר לְתוֹדָה.html",
+      "all_html": [
+        "2024-08-11 — בָּרוּךְ שֶׁאָמַר וּמִזְמוֹר לְתוֹדָה.html"
+      ],
+      "transcript": "AUDIO-2024-08-11-10-45-32-transcript.txt",
+      "summary": "AUDIO-2024-08-11-10-45-32-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "done",
+      "reviews_done": true,
+      "sefer_completed": "2026-08-10"
+    },
+    "2024-08-13": {
+      "primary_html": "2024-08-13 — זוֹכֶה וְרוֹאֶה בְּשִׂמְחָתָהּ — אֲבֵלוּת שֶׁיֵּשׁ בָּהּ טַעַם שִׂמְחָה.html",
+      "all_html": [
+        "2024-08-13 — זוֹכֶה וְרוֹאֶה בְּשִׂמְחָתָהּ — אֲבֵלוּת שֶׁיֵּשׁ בָּהּ טַעַם שִׂמְחָה.html"
+      ],
+      "transcript": "AUDIO-2024-08-13-14-24-44-transcript.txt",
+      "summary": "AUDIO-2024-08-13-14-24-44-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "done",
+      "reviews_done": true,
+      "sefer_completed": "2026-08-10"
+    },
+    "2024-08-18": {
+      "primary_html": "2024-08-18 — מִזְמוֹר לְתוֹדָה · צִיצִית · יְהִי כְבוֹד · אַשְׁרֵי.html",
+      "all_html": [
+        "2024-08-18 — מִזְמוֹר לְתוֹדָה · צִיצִית · יְהִי כְבוֹד · אַשְׁרֵי.html"
+      ],
+      "transcript": "AUDIO-2024-08-18-10-38-45-transcript.txt",
+      "summary": "AUDIO-2024-08-18-10-38-45-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2024-08-25": {
+      "primary_html": "2024-08-25 — אַשְׁרֵי — פֶּתַח לְעוֹלָם הַבָּא.html",
+      "all_html": [
+        "2024-08-25 — אַשְׁרֵי — פֶּתַח לְעוֹלָם הַבָּא.html"
+      ],
+      "transcript": "AUDIO-2024-08-25-10-49-27-transcript.txt",
+      "summary": "AUDIO-2024-08-25-10-49-27-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2024-09-01": {
+      "primary_html": "2024-09-01 — סוֹף פְּסוּקֵי דְּזִמְרָה — מַהֲרַ״ם מֵרוֹטֶנְבּוּרְג, וַיְבָרֶךְ דָּוִד וְשִׁירַת הַיָּם.html",
+      "all_html": [
+        "2024-09-01 — סוֹף פְּסוּקֵי דְּזִמְרָה — מַהֲרַ״ם מֵרוֹטֶנְבּוּרְג, וַיְבָרֶךְ דָּוִד וְשִׁירַת הַיָּם.html"
+      ],
+      "transcript": "AUDIO-2024-09-01-10-54-52-transcript.txt",
+      "summary": "AUDIO-2024-09-01-10-54-52-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2024-09-02": {
+      "primary_html": "2024-09-02 — אֱמוּנָה בְּבִיאַת הַמָּשִׁיחַ — אֱמוּנָה, צִפִּיָּה וּגְבוּלוֹתֵיהֶן.html",
+      "all_html": [
+        "2024-09-02 — אֱמוּנָה בְּבִיאַת הַמָּשִׁיחַ — אֱמוּנָה, צִפִּיָּה וּגְבוּלוֹתֵיהֶן.html"
+      ],
+      "transcript": "AUDIO-2024-09-02-11-06-22-transcript.txt",
+      "summary": "AUDIO-2024-09-02-11-06-22-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2024-09-08": {
+      "primary_html": "2024-09-08 — אָז יָשִׁיר · יִשְׁתַּבַּח · כִּסֵּא שְׁלֹמֹה הַמֶּלֶךְ.html",
+      "all_html": [
+        "2024-09-08 — אָז יָשִׁיר · יִשְׁתַּבַּח · כִּסֵּא שְׁלֹמֹה הַמֶּלֶךְ.html"
+      ],
+      "transcript": "AUDIO-2024-09-08-11-08-17-transcript.txt",
+      "summary": "AUDIO-2024-09-08-11-08-17-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2024-09-22": {
+      "primary_html": "2024-09-22 — בָּרְכוּ — מְקוֹרוֹת, כֹּחַ וּמַעֲשֶׂה.html",
+      "all_html": [
+        "2024-09-22 — בָּרְכוּ — מְקוֹרוֹת, כֹּחַ וּמַעֲשֶׂה.html"
+      ],
+      "transcript": "AUDIO-2024-09-22-10-39-34-transcript.txt",
+      "summary": "AUDIO-2024-09-22-10-39-34-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2024-09-29": {
+      "primary_html": "2024-09-29 — סְלִיחוֹת — חֶסֶד וֶאֱמֶת לִפְנֵי יוֹם הַדִּין.html",
+      "all_html": [
+        "2024-09-29 — סְלִיחוֹת — חֶסֶד וֶאֱמֶת לִפְנֵי יוֹם הַדִּין.html"
+      ],
+      "transcript": "AUDIO-2024-09-29-01-46-22-transcript.txt",
+      "summary": "AUDIO-2024-09-29-01-46-22-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2024-12-25": {
+      "primary_html": "2024-12-25 — כֵּיצַד נַעֲשׂוּ הַחַשְׁמוֹנָאִים לִמְלָכִים.html",
+      "all_html": [
+        "2024-12-25 — כֵּיצַד נַעֲשׂוּ הַחַשְׁמוֹנָאִים לִמְלָכִים.html"
+      ],
+      "transcript": "AUDIO-2024-12-25-11-00-32-transcript.txt",
+      "summary": "AUDIO-2024-12-25-11-00-32-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2024-12-29": {
+      "primary_html": "2024-12-29 — בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד.html",
+      "all_html": [
+        "2024-12-29 — בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד.html"
+      ],
+      "transcript": "AUDIO-2024-12-29-10-41-32-transcript.txt",
+      "summary": "AUDIO-2024-12-29-10-41-32-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-01-01": {
+      "primary_html": "2025-01-01 — מַדּוּעַ אֵין מַסֶּכֶת חֲנוּכָּה.html",
+      "all_html": [
+        "2025-01-01 — מַדּוּעַ אֵין מַסֶּכֶת חֲנוּכָּה.html"
+      ],
+      "transcript": "AUDIO-2025-01-01-11-22-53-transcript.txt",
+      "summary": "AUDIO-2025-01-01-11-22-53-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-01-05": {
+      "primary_html": "2025-01-05 — יְדִיד נֶפֶשׁ — מְקוֹרוֹ וְהִתְפַּתְּחוּתוֹ שֶׁל הַפִּיּוּט.html",
+      "all_html": [
+        "2025-01-05 — יְדִיד נֶפֶשׁ — מְקוֹרוֹ וְהִתְפַּתְּחוּתוֹ שֶׁל הַפִּיּוּט.html"
+      ],
+      "transcript": "AUDIO-2025-01-05-10-41-55-transcript.txt",
+      "summary": "AUDIO-2025-01-05-10-41-55-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-01-12": {
+      "primary_html": "2025-01-12 — Seder Kriat Shema and Its Halachot.html",
+      "all_html": [
+        "2025-01-12 — Seder Kriat Shema and Its Halachot.html"
+      ],
+      "transcript": "AUDIO-2025-01-12-10-45-46-transcript.txt",
+      "summary": "AUDIO-2025-01-12-10-45-46-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-01-26": {
+      "primary_html": "2025-01-26 — The Hidden History of Birkat Emet V'Yatziv.html",
+      "all_html": [
+        "2025-01-26 — The Hidden History of Birkat Emet V'Yatziv.html"
+      ],
+      "transcript": "AUDIO-2025-01-26-10-35-37-transcript.txt",
+      "summary": "AUDIO-2025-01-26-10-35-37-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-02-02": {
+      "primary_html": "2025-02-02 — Birkat Emet V'Yatziv — Origins, Nusach, and Semichat Geulah L'Tefillah.html",
+      "all_html": [
+        "2025-02-02 — Birkat Emet V'Yatziv — Origins, Nusach, and Semichat Geulah L'Tefillah.html"
+      ],
+      "transcript": "AUDIO-2025-02-02-10-44-57-transcript.txt",
+      "summary": "AUDIO-2025-02-02-10-44-57-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-02-09": {
+      "primary_html": "2025-02-09 — The Origins and Development of Shemoneh Esrei.html",
+      "all_html": [
+        "2025-02-09 — The Origins and Development of Shemoneh Esrei.html"
+      ],
+      "transcript": "AUDIO-2025-02-09-10-45-57-transcript.txt",
+      "summary": "AUDIO-2025-02-09-10-45-57-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-02-16": {
+      "primary_html": "2025-02-16 — The Origins of Shemoneh Esrei — Words of the Malachim.html",
+      "all_html": [
+        "2025-02-16 — The Origins of Shemoneh Esrei — Words of the Malachim.html"
+      ],
+      "transcript": "AUDIO-2025-02-16-10-39-02-transcript.txt",
+      "summary": "AUDIO-2025-02-16-10-39-02-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-02-23": {
+      "primary_html": "2025-02-23 — The Three-Part Structure of Shemoneh Esrei and Birkat Avot.html",
+      "all_html": [
+        "2025-02-23 — The Three-Part Structure of Shemoneh Esrei and Birkat Avot.html"
+      ],
+      "transcript": "AUDIO-2025-02-23-10-36-53-transcript.txt",
+      "summary": "AUDIO-2025-02-23-10-36-53-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-03-02": {
+      "primary_html": "2025-03-02 — Hilchos Tefillah — Repetition of Words in Chazanus.html",
+      "all_html": [
+        "2025-03-02 — Hilchos Tefillah — Repetition of Words in Chazanus.html"
+      ],
+      "transcript": "AUDIO-2025-03-02-10-41-36-transcript.txt",
+      "summary": "AUDIO-2025-03-02-10-41-36-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-03-09": {
+      "primary_html": "2025-03-09 — Purim Falling on Erev Shabbos Kodesh.html",
+      "all_html": [
+        "2025-03-09 — Purim Falling on Erev Shabbos Kodesh.html"
+      ],
+      "transcript": "AUDIO-2025-03-09-11-14-24-transcript.txt",
+      "summary": "AUDIO-2025-03-09-11-14-24-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-03-16": {
+      "primary_html": "2025-03-16 — Magen Avraham — The Soul of the First Berachah.html",
+      "all_html": [
+        "2025-03-16 — Magen Avraham — The Soul of the First Berachah.html"
+      ],
+      "transcript": "AUDIO-2025-03-16-10-34-30-transcript.txt",
+      "summary": "AUDIO-2025-03-16-10-34-30-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-03-23": {
+      "primary_html": "2025-03-23 — HaKel HaGadol HaGibor v'HaNorah, the Two Bows, and Birkat Gevurot.html",
+      "all_html": [
+        "2025-03-23 — HaKel HaGadol HaGibor v'HaNorah, the Two Bows, and Birkat Gevurot.html"
+      ],
+      "transcript": "AUDIO-2025-03-23-12-01-51-transcript.txt",
+      "summary": "AUDIO-2025-03-23-12-01-51-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-03-30": {
+      "primary_html": "2025-03-30 — Kedushah — The Daily Mitzvah of Kiddush Hashem.html",
+      "all_html": [
+        "2025-03-30 — Kedushah — The Daily Mitzvah of Kiddush Hashem.html"
+      ],
+      "transcript": "AUDIO-2025-03-30-10-58-43-transcript.txt",
+      "summary": "AUDIO-2025-03-30-10-58-43-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-04-06": {
+      "primary_html": "2025-04-06 — Preparing for Pesach — Bedikat Chametz and Bi'ur Chametz.html",
+      "all_html": [
+        "2025-04-06 — Preparing for Pesach — Bedikat Chametz and Bi'ur Chametz.html"
+      ],
+      "transcript": "AUDIO-2025-04-06-10-31-12-transcript.txt",
+      "summary": "AUDIO-2025-04-06-10-31-12-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-05-04": {
+      "primary_html": "2025-05-04 — Atah Kadosh, the Kuzari, and Atah Chonen.html",
+      "all_html": [
+        "2025-05-04 — Atah Kadosh, the Kuzari, and Atah Chonen.html"
+      ],
+      "transcript": "AUDIO-2025-05-04-10-32-47-transcript.txt",
+      "summary": "AUDIO-2025-05-04-10-32-47-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-05-18": {
+      "primary_html": "2025-05-18 — Atah Chonen, Hashiveinu, and the Path of Teshuvah.html",
+      "all_html": [
+        "2025-05-18 — Atah Chonen, Hashiveinu, and the Path of Teshuvah.html"
+      ],
+      "transcript": "AUDIO-2025-05-18-10-46-29-transcript.txt",
+      "summary": "AUDIO-2025-05-18-10-46-29-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-05-25": {
+      "primary_html": "2025-05-25 — Refaeinu and Barech Aleinu — Healing, Sustenance, and Rain.html",
+      "all_html": [
+        "2025-05-25 — Refaeinu and Barech Aleinu — Healing, Sustenance, and Rain.html"
+      ],
+      "transcript": "AUDIO-2025-05-25-10-33-21-transcript.txt",
+      "summary": "AUDIO-2025-05-25-10-33-21-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-05-26": {
+      "primary_html": "2025-05-26 — Mitzvat Yishuv Eretz Yisrael.html",
+      "all_html": [
+        "2025-05-26 — Mitzvat Yishuv Eretz Yisrael.html"
+      ],
+      "transcript": "AUDIO-2025-05-26-10-52-37-transcript.txt",
+      "summary": "AUDIO-2025-05-26-10-52-37-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-06-15": {
+      "primary_html": "2025-06-15 — Teka B'Shofar in a Time of War.html",
+      "all_html": [
+        "2025-06-15 — Teka B'Shofar in a Time of War.html"
+      ],
+      "transcript": "AUDIO-2025-06-15-10-35-12-transcript.txt",
+      "summary": "AUDIO-2025-06-15-10-35-12-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-06-22": {
+      "primary_html": "2025-06-22 — Hashivah Shofteinu and Birkat HaMinim.html",
+      "all_html": [
+        "2025-06-22 — Hashivah Shofteinu and Birkat HaMinim.html"
+      ],
+      "transcript": "AUDIO-2025-06-22-11-31-10-transcript.txt",
+      "summary": "AUDIO-2025-06-22-11-31-10-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-06-29": {
+      "primary_html": "2025-06-29 — Birkat HaMinim and Birkat Al HaTzaddikim.html",
+      "all_html": [
+        "2025-06-29 — Birkat HaMinim and Birkat Al HaTzaddikim.html"
+      ],
+      "transcript": "AUDIO-2025-06-29-10-39-40-transcript.txt",
+      "summary": "AUDIO-2025-06-29-10-39-40-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-07-06": {
+      "primary_html": "2025-07-06 — Birkat Yerushalayim and Tzemach David.html",
+      "all_html": [
+        "2025-07-06 — Birkat Yerushalayim and Tzemach David.html"
+      ],
+      "transcript": "AUDIO-2025-07-06-10-36-15-transcript.txt",
+      "summary": "AUDIO-2025-07-06-10-36-15-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-07-20": {
+      "primary_html": "2025-07-20 — Shema Koleinu — The Culmination of Our Petitions.html",
+      "all_html": [
+        "2025-07-20 — Shema Koleinu — The Culmination of Our Petitions.html"
+      ],
+      "transcript": "AUDIO-2025-07-20-10-37-44-transcript.txt",
+      "summary": "AUDIO-2025-07-20-10-37-44-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-07-27": {
+      "primary_html": "2025-07-27 — Tefillat Nachem and Modim.html",
+      "all_html": [
+        "2025-07-27 — Tefillat Nachem and Modim.html"
+      ],
+      "transcript": "AUDIO-2025-07-27-10-37-47-transcript.txt",
+      "summary": "AUDIO-2025-07-27-10-37-47-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-07-31": {
+      "primary_html": "2025-07-31 — Al Naharot Bavel — A Study of Tehillim 137.html",
+      "all_html": [
+        "2025-07-31 — Al Naharot Bavel — A Study of Tehillim 137.html"
+      ],
+      "transcript": "AUDIO-2025-07-31-21-35-24-transcript.txt",
+      "summary": "AUDIO-2025-07-31-21-35-24-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-08-24": {
+      "primary_html": "2025-08-24 — Birkat Modim and Nesias Kapayim.html",
+      "all_html": [
+        "2025-08-24 — Birkat Modim and Nesias Kapayim.html"
+      ],
+      "transcript": "AUDIO-2025-08-24-10-46-37-transcript.txt",
+      "summary": "AUDIO-2025-08-24-10-46-37-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-09-14": {
+      "primary_html": "2025-09-14 — Machnisei Rachamim and the Question of Intermediaries.html",
+      "all_html": [
+        "2025-09-14 — Machnisei Rachamim and the Question of Intermediaries.html"
+      ],
+      "transcript": "AUDIO-2025-09-14-13-28-07-transcript.txt",
+      "summary": "AUDIO-2025-09-14-13-28-07-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-09-28": {
+      "primary_html": "2025-09-28 — The Cholera Epidemic and רבי ישראל סלנטר's Decision on יום כיפור.html",
+      "all_html": [
+        "2025-09-28 — The Cholera Epidemic and רבי ישראל סלנטר's Decision on יום כיפור.html"
+      ],
+      "transcript": "AUDIO-2025-09-28-10-55-48-transcript.txt",
+      "summary": "AUDIO-2025-09-28-10-55-48-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-10-19": {
+      "primary_html": "2025-10-19 — Siyum שמונה עשרה — יהיו לרצון, אלוקי נצור, and the מחלוקת of Pressburg.html",
+      "all_html": [
+        "2025-10-19 — Siyum שמונה עשרה — יהיו לרצון, אלוקי נצור, and the מחלוקת of Pressburg.html"
+      ],
+      "transcript": "AUDIO-2025-10-19-11-45-13-transcript.txt",
+      "summary": "AUDIO-2025-10-19-11-45-13-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-10-27": {
+      "primary_html": "2025-10-27 — The Depth of כוונה in שמונה עשרה.html",
+      "all_html": [
+        "2025-10-27 — The Depth of כוונה in שמונה עשרה.html"
+      ],
+      "transcript": "AUDIO-2025-10-27-09-48-02-transcript.txt",
+      "summary": "AUDIO-2025-10-27-09-48-02-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-11-02": {
+      "primary_html": "2025-11-02 — שיעור על תחנון.html",
+      "all_html": [
+        "2025-11-02 — שיעור על תחנון.html"
+      ],
+      "transcript": "AUDIO-2025-11-02-10-27-55-transcript.txt",
+      "summary": "AUDIO-2025-11-02-10-27-55-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-11-10": {
+      "primary_html": "2025-11-10 — תחנון, נפילת אפים, and the Origins of והוא רחום.html",
+      "all_html": [
+        "2025-11-10 — תחנון, נפילת אפים, and the Origins of והוא רחום.html"
+      ],
+      "transcript": "AUDIO-2025-11-10-17-17-49-transcript.txt",
+      "summary": "AUDIO-2025-11-10-17-17-49-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-11-23": {
+      "primary_html": "2025-11-23 — סיום תחנון and Opening the ארון קודש.html",
+      "all_html": [
+        "2025-11-23 — סיום תחנון and Opening the ארון קודש.html"
+      ],
+      "transcript": "AUDIO-2025-11-23-12-47-12-transcript.txt",
+      "summary": "AUDIO-2025-11-23-12-47-12-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-11-30": {
+      "primary_html": "2025-11-30 — קריאת התורה — Sacred Protocols and the Legacy of יקעס.html",
+      "all_html": [
+        "2025-11-30 — קריאת התורה — Sacred Protocols and the Legacy of יקעס.html"
+      ],
+      "transcript": "AUDIO-2025-11-30-10-35-54-transcript.txt",
+      "summary": "AUDIO-2025-11-30-10-35-54-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-12-07": {
+      "primary_html": "2025-12-07 — קריאת התורה, קדושה דסידרא, and למנצח מזמור לדוד.html",
+      "all_html": [
+        "2025-12-07 — קריאת התורה, קדושה דסידרא, and למנצח מזמור לדוד.html"
+      ],
+      "transcript": "AUDIO-2025-12-07-11-11-51-transcript.txt",
+      "summary": "AUDIO-2025-12-07-11-11-51-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-12-14": {
+      "primary_html": "2025-12-14 — The Light That Never Dims — Rabbi Ephrati on פרשת ויגש and חנוכה.html",
+      "all_html": [
+        "2025-12-14 — The Light That Never Dims — Rabbi Ephrati on פרשת ויגש and חנוכה.html"
+      ],
+      "transcript": "AUDIO-2025-12-14-13-13-45-transcript.txt",
+      "summary": "AUDIO-2025-12-14-13-13-45-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2025-12-28": {
+      "primary_html": "2025-12-28 — קדושה דסידרא, ובא לציון, and שיר של יום.html",
+      "all_html": [
+        "2025-12-28 — קדושה דסידרא, ובא לציון, and שיר של יום.html"
+      ],
+      "transcript": "AUDIO-2025-12-28-13-16-19-transcript.txt",
+      "summary": "AUDIO-2025-12-28-13-16-19-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-01-01": {
+      "primary_html": "2026-01-01 — בית חוניו and the Possibility of Bringing קרבנות Today.html",
+      "all_html": [
+        "2026-01-01 — בית חוניו and the Possibility of Bringing קרבנות Today.html"
+      ],
+      "transcript": "AUDIO-2026-01-01-11-23-54-transcript.txt",
+      "summary": "AUDIO-2026-01-01-11-23-54-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-01-04": {
+      "primary_html": "2026-01-04 — פיטום הקטרת.html",
+      "all_html": [
+        "2026-01-04 — פיטום הקטרת.html"
+      ],
+      "transcript": "AUDIO-2026-01-04-13-04-20-transcript.txt",
+      "summary": "AUDIO-2026-01-04-13-04-20-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-01-11": {
+      "primary_html": "2026-01-11 — תפילת עלינו לשבח.html",
+      "all_html": [
+        "2026-01-11 — תפילת עלינו לשבח.html"
+      ],
+      "transcript": "AUDIO-2026-01-11-14-37-49-transcript.txt",
+      "summary": "AUDIO-2026-01-11-14-37-49-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-02-01": {
+      "primary_html": "2026-02-01 — עלינו לשבח, אל תירא, and the שש זכירות.html",
+      "all_html": [
+        "2026-02-01 — עלינו לשבח, אל תירא, and the שש זכירות.html"
+      ],
+      "transcript": "AUDIO-2026-02-01-10-50-01-transcript.txt",
+      "summary": "AUDIO-2026-02-01-10-50-01-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-02-08": {
+      "primary_html": "2026-02-08 — The Three פרשיות, הודו, and שיר השירים.html",
+      "all_html": [
+        "2026-02-08 — The Three פרשיות, הודו, and שיר השירים.html"
+      ],
+      "transcript": "AUDIO-2026-02-08-10-47-59-transcript.txt",
+      "summary": "AUDIO-2026-02-08-10-47-59-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-02-22": {
+      "primary_html": "2026-02-22 — קבלת שבת — History and Mystical Practice.html",
+      "all_html": [
+        "2026-02-22 — קבלת שבת — History and Mystical Practice.html"
+      ],
+      "transcript": "02-22 Lecture_ Kabbalas Shabbos History and Mystical Practice-transcript.txt",
+      "summary": "02-22 Lecture_ Kabbalas Shabbos History and Mystical Practice-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-03-01": {
+      "primary_html": "2026-03-01 — Customs and Tefillot of ליל שבת — אנא בכח, כגוונא, and במה מדליקין.html",
+      "all_html": [
+        "2026-03-01 — Customs and Tefillot of ליל שבת — אנא בכח, כגוונא, and במה מדליקין.html"
+      ],
+      "transcript": "03-01 Lecture_ Jewish Customs and Prayers for Leil Shabbos-transcript.txt",
+      "summary": "03-01 Lecture_ Jewish Customs and Prayers for Leil Shabbos-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-03-08": {
+      "primary_html": "2026-03-08 — תפילת מעריב של חול.html",
+      "all_html": [
+        "2026-03-08 — תפילת מעריב של חול.html"
+      ],
+      "transcript": "AUDIO-2026-03-08-11-05-25-transcript.txt",
+      "summary": "AUDIO-2026-03-08-11-05-25-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-03-15": {
+      "primary_html": "2026-03-15 — הגדה של פסח — The Foundation of Jewish Transmission.html",
+      "all_html": [
+        "2026-03-15 — הגדה של פסח — The Foundation of Jewish Transmission.html"
+      ],
+      "transcript": "AUDIO-2026-03-15-12-43-20-transcript.txt",
+      "summary": "AUDIO-2026-03-15-12-43-20-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-03-18": {
+      "primary_html": "2026-03-18 — Preparing and Leading the פסח Seder — Rabbi Yechiel Spero (Guest שיעור at Rabbi Ephrati's Shul).html",
+      "all_html": [
+        "2026-03-18 — Preparing and Leading the פסח Seder — Rabbi Yechiel Spero (Guest שיעור at Rabbi Ephrati's Shul).html"
+      ],
+      "transcript": "AUDIO-2026-03-18-23-11-46-transcript.txt",
+      "summary": "AUDIO-2026-03-18-23-11-46-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-03-22": {
+      "primary_html": "2026-03-22 — The Significance of the Seder — Ground Brick in חרוסת, the Algerian מרור, and a שאלה in ירושלים.html",
+      "all_html": [
+        "2026-03-22 — The Significance of the Seder — Ground Brick in חרוסת, the Algerian מרור, and a שאלה in ירושלים.html"
+      ],
+      "transcript": "AUDIO-2026-03-22-10-49-31-transcript.txt",
+      "summary": "AUDIO-2026-03-22-10-49-31-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-04-12": {
+      "primary_html": "2026-04-12 — The Customs of Mourning During ספירת העומר.html",
+      "all_html": [
+        "2026-04-12 — The Customs of Mourning During ספירת העומר.html"
+      ],
+      "transcript": "AUDIO-2026-04-12-10-52-57-transcript.txt",
+      "summary": "AUDIO-2026-04-12-10-52-57-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-04-19": {
+      "primary_html": "2026-04-19 — The רוקח, ברכו, and ורחם.html",
+      "all_html": [
+        "2026-04-19 — The רוקח, ברכו, and ורחם.html"
+      ],
+      "transcript": "AUDIO-2026-04-19-12-31-41-transcript.txt",
+      "summary": "AUDIO-2026-04-19-12-31-41-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-04-26": {
+      "primary_html": "2026-04-26 — ברכת המעריב ערבים.html",
+      "all_html": [
+        "2026-04-26 — ברכת המעריב ערבים.html"
+      ],
+      "transcript": "AUDIO-2026-04-26-10-34-23-transcript.txt",
+      "summary": "AUDIO-2026-04-26-10-34-23-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-05-03": {
+      "primary_html": "2026-05-03 — אהבת עולם, אמת ואמונה, and השכיבנו.html",
+      "all_html": [
+        "2026-05-03 — אהבת עולם, אמת ואמונה, and השכיבנו.html"
+      ],
+      "transcript": "AUDIO-2006-05-03-10-23-15-transcript.txt",
+      "summary": "AUDIO-2006-05-03-10-23-15-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-05-10": {
+      "primary_html": "2026-05-10 — השכיבנו, גאולה אריכתא, and שמירת שבת.html",
+      "all_html": [
+        "2026-05-10 — השכיבנו, גאולה אריכתא, and שמירת שבת.html"
+      ],
+      "transcript": "WhatsApp Audio 2026-05-10 at 10.52.33 AM-transcript.txt",
+      "summary": "WhatsApp Audio 2026-05-10 at 10.52.33 AM-Summary.png",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-05-17": {
+      "primary_html": "2026-05-17 — אשכיבנו, סוכת שלום, and יראו עינינו.html",
+      "all_html": [
+        "2026-05-17 — אשכיבנו, סוכת שלום, and יראו עינינו.html"
+      ],
+      "transcript": "AUDIO-2026-05-17-17-57-44-transcript.txt",
+      "summary": "AUDIO-2026-05-17-17-57-44-Summary.png",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-05-24": {
+      "primary_html": "2026-05-24 — ברוך ה׳ לעולם, קדיש דמעריב, and ושמרו.html",
+      "all_html": [
+        "2026-05-24 — ברוך ה׳ לעולם, קדיש דמעריב, and ושמרו.html"
+      ],
+      "transcript": "AUDIO-2026-05-24-10-50-37-transcript.txt",
+      "summary": "AUDIO-2026-05-24-10-50-37-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-06-07": {
+      "primary_html": "2026-06-07 — שמונה עשרה של שבת and ויכולו.html",
+      "all_html": [
+        "2026-06-07 — שמונה עשרה של שבת and ויכולו.html"
+      ],
+      "transcript": "AUDIO-2026-06-07-transcript.txt",
+      "summary": "AUDIO-2026-06-07-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-06-14": {
+      "primary_html": "2026-06-14 — ויכולו, the Marriage of שבת, and מגן אבות — altered.html",
+      "all_html": [
+        "2026-06-14 — ויכולו, the Marriage of שבת, and מגן אבות — altered.html",
+        "2026-06-14 — ויכולו, the Marriage of שבת, and מגן אבות.html"
+      ],
+      "transcript": "AUDIO-2026-06-14-tanscript.txt",
+      "summary": "WhatsApp Audio 2026-06-14 at 4.46.18 PM-Summary.png",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-06-21": {
+      "primary_html": "2026-06-21 — מגן אבות, the Smile in the Aron, and Vihi Noam.html",
+      "all_html": [
+        "2026-06-21 — מגן אבות, the Smile in the Aron, and Vihi Noam.html"
+      ],
+      "transcript": "WhatsApp Audio 2026-06-21 at 11.47.04 AM-transcript.txt",
+      "summary": "WhatsApp Audio 2026-06-21 at 11.47.04 AM-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-06-28": {
+      "primary_html": "2026-06-28 — וִיהִי נֹעַם, the Malach Duma, and the Three Goyrem Ra L'atzmo.html",
+      "all_html": [
+        "2026-06-28 — וִיהִי נֹעַם, the Malach Duma, and the Three Goyrem Ra L'atzmo.html"
+      ],
+      "transcript": "WhatsAppAudio 2026-06-28 Tefilah Chabura - Motzoi Shabbos, Vehi Noam-transcript.txt",
+      "summary": "WhatsAppAudio 2026-06-28  Tefilah Chabura - Motzoi Shabbos, Vehi Noam-Summary.txt",
+      "pdfs": [
+        "WhatsAppAudio 2026-06-28  tefilah_chabura___motzoi_shabbos__vehi_noam.pdf"
+      ],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-07-12": {
+      "primary_html": "2026-07-12 — קריאת שמע על המיטה, Mazikim, and the Machloikes on הַמַּפִּיל.html",
+      "all_html": [
+        "2026-07-12 — קריאת שמע על המיטה, Mazikim, and the Machloikes on הַמַּפִּיל.html"
+      ],
+      "transcript": "WhatsApp Audio 2026-07-12 at 10.55.20 AM-Full Transcript.txt",
+      "summary": "WhatsApp Audio 2026-07-12 at 10.55.20 AM-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": false
+    },
+    "2026-07-19": {
+      "primary_html": "2026-07-19 — הַמַּפִּיל, Hareini Mochel, and the Maharam's Prison Seder.html",
+      "all_html": [
+        "2026-07-19 — הַמַּפִּיל, Hareini Mochel, and the Maharam's Prison Seder.html"
+      ],
+      "transcript": "01 קריאת שמע על המטה continued 2026-07-19-transcript.txt",
+      "summary": "01 קריאת שמע על המטה continued 2026-07-19-Summary.txt",
+      "pdfs": [],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": true
+    },
+    "2026-08-09": {
+      "primary_html": "2026-08-09 — Entering Shabbos Shacharis — מִזְמוֹר לְתוֹדָה, תפילין, and the Seventh Wing.html",
+      "all_html": [
+        "2026-08-09 — Entering Shabbos Shacharis — מִזְמוֹר לְתוֹדָה, תפילין, and the Seventh Wing.html"
+      ],
+      "transcript": "WhatsApp Audio 2026-08-09 at 10.51.15 AM-transcript.txt",
+      "summary": "WhatsApp Audio 2026-08-09 at 10.51.15 AM-Summary.txt",
+      "pdfs": [
+        "WhatsApp Audio 2026-08-09 at 10.51.pdf"
+      ],
+      "inputs_status": "full",
+      "sefer_status": "pending",
+      "reviews_done": true
+    }
+  },
+  "warnings": [],
+  "duplicate_resolutions": [
+    {
+      "date": "2024-09-29",
+      "all_transcripts": [
+        "AUDIO-2024-09-29-01-46-22 (1)-transcript.txt",
+        "AUDIO-2024-09-29-01-46-22-transcript.txt"
+      ],
+      "selected": "AUDIO-2024-09-29-01-46-22-transcript.txt"
+    },
+    {
+      "date": "2024-12-29",
+      "all_transcripts": [
+        "AUDIO-2024-12-29-10-41-32-transcript (1).txt",
+        "AUDIO-2024-12-29-10-41-32-transcript.txt"
+      ],
+      "selected": "AUDIO-2024-12-29-10-41-32-transcript.txt"
+    },
+    {
+      "date": "2026-03-08",
+      "all_transcripts": [
+        "03-08 Lecture_ Weekday Ma’ariv vs. Shabbos Ma’ariv, Halachic Status, and Synagogue Customs-transcript.txt",
+        "AUDIO-2026-03-08-11-05-25-transcript.txt"
+      ],
+      "selected": "AUDIO-2026-03-08-11-05-25-transcript.txt"
+    },
+    {
+      "date": "2026-03-15",
+      "all_transcripts": [
+        "03-15 Lecture_ Passover Seder, Jewish Tradition, and the Haggadah-transcript.txt",
+        "AUDIO-2026-03-15-12-43-20-transcript.txt"
+      ],
+      "selected": "AUDIO-2026-03-15-12-43-20-transcript.txt"
+    },
+    {
+      "date": "2026-04-12",
+      "all_transcripts": [
+        "AUDIO-2026-04-12-10-52-57-transcript.txt",
+        "AUDIO-2026-04-12-10-53-20-transcript.txt"
+      ],
+      "selected": "AUDIO-2026-04-12-10-52-57-transcript.txt"
+    },
+    {
+      "date": "2026-04-19",
+      "all_transcripts": [
+        "04-19 Torah Lecture_ Maariv Prayer Structure and the Legacy of the Rokeach-transcript (1).txt",
+        "AUDIO-2026-04-19-12-31-41-transcript.txt"
+      ],
+      "selected": "AUDIO-2026-04-19-12-31-41-transcript.txt"
+    },
+    {
+      "date": "2026-04-26",
+      "all_transcripts": [
+        "04-26 Shiur_ Blessings of Kriat Shema - Structure and Hashkafic Foundations-transcript.txt",
+        "AUDIO-2026-04-26-10-34-23-transcript.txt"
+      ],
+      "selected": "AUDIO-2026-04-26-10-34-23-transcript.txt"
+    },
+    {
+      "date": "2026-06-14",
+      "all_transcripts": [
+        "AUDIO-2026-06-14-tanscript.txt",
+        "WhatsApp Audio 2026-06-14 at 4.46.18 PM-transcript.txt"
+      ],
+      "selected": "AUDIO-2026-06-14-tanscript.txt"
+    },
+    {
+      "date": "2026-07-12",
+      "all_transcripts": [
+        "WhatsApp Audio 2026-07-12 at 10.55.20 AM-Full Transcript.txt",
+        "WhatsApp Audio 2026-07-12 at 10.55.20 AM-transcript.txt"
+      ],
+      "selected": "WhatsApp Audio 2026-07-12 at 10.55.20 AM-Full Transcript.txt"
+    }
+  ]
+}
