@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>שיעור על תחנון — Rabbi Ephrati</title>
+<style>
+  :root{
+    --blue:#1e3a8a;
+    --blue-soft:#2c5282;
+    --gold:#b8860b;
+    --gold-soft:#d4a017;
+    --ink:#1a1a1a;
+    --paper:#fdfaf3;
+    --rule:#c9a227;
+  }
+  *{box-sizing:border-box}
+  body{
+    font-family:"Georgia","Iowan Old Style","Times New Roman",serif;
+    background:var(--paper);
+    color:var(--ink);
+    max-width:820px;
+    margin:40px auto;
+    padding:0 28px 60px 28px;
+    line-height:1.65;
+    font-size:17px;
+  }
+  header.title{
+    text-align:center;
+    border-top:3px double var(--rule);
+    border-bottom:3px double var(--rule);
+    padding:22px 10px;
+    margin-bottom:32px;
+  }
+  header.title .kicker{
+    font-variant:small-caps;
+    letter-spacing:.18em;
+    color:var(--gold);
+    font-size:.9rem;
+    margin-bottom:8px;
+  }
+  header.title h1{
+    font-size:1.7rem;
+    color:var(--blue);
+    margin:.1em 0 .25em 0;
+    line-height:1.25;
+  }
+  header.title .subtitle{
+    font-style:italic;
+    color:var(--blue-soft);
+    font-size:1.05rem;
+  }
+  header.title .meta{
+    margin-top:14px;
+    font-size:.92rem;
+    color:#5a4b1a;
+  }
+  .lead{
+    font-style:italic;
+    color:#3b3b3b;
+    border-left:3px solid var(--gold);
+    padding:6px 16px;
+    margin:0 0 28px 0;
+    background:#fbf4dd55;
+  }
+  .dedication{
+    text-align:center;
+    font-size:.95rem;
+    color:#5a4b1a;
+    border-top:1px solid var(--gold-soft);
+    border-bottom:1px solid var(--gold-soft);
+    padding:10px 8px;
+    margin:0 0 26px 0;
+  }
+  h2{
+    font-variant:small-caps;
+    letter-spacing:.06em;
+    color:var(--blue);
+    border-bottom:1.5px solid var(--gold);
+    padding-bottom:4px;
+    margin-top:42px;
+    font-size:1.25rem;
+  }
+  h3{
+    color:var(--gold);
+    font-style:italic;
+    font-size:1.08rem;
+    margin-top:28px;
+    margin-bottom:6px;
+  }
+  blockquote{
+    border-left:3px solid var(--blue-soft);
+    margin:14px 0;
+    padding:6px 18px;
+    background:#eef2fb55;
+    color:#222;
+  }
+  blockquote.heb{
+    border-left:none;
+    border-right:3px solid var(--blue-soft);
+    background:#eef2fb55;
+  }
+  .heb{
+    font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;
+    direction:rtl;
+    unicode-bidi:embed;
+    color:var(--blue);
+  }
+  .heb-inline{
+    font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;
+    direction:rtl;
+    unicode-bidi:embed;
+  }
+  .callout{
+    background:#fbf4dd;
+    border:1px solid var(--gold-soft);
+    border-radius:6px;
+    padding:14px 18px;
+    margin:22px 0;
+  }
+  .callout .label{
+    display:block;
+    font-variant:small-caps;
+    letter-spacing:.12em;
+    color:var(--gold);
+    font-size:.82rem;
+    margin-bottom:6px;
+  }
+  .footnote-ref{
+    font-size:.78rem;
+    vertical-align:super;
+    color:var(--gold);
+    text-decoration:none;
+    margin-left:1px;
+  }
+  .footnote-ref:hover{text-decoration:underline}
+  section.mareh{
+    margin-top:48px;
+    border-top:2px solid var(--rule);
+    padding-top:18px;
+  }
+  section.mareh h2{
+    border-bottom:none;
+    margin-top:0;
+  }
+  section.mareh ol{
+    padding-left:22px;
+    color:#2a2a2a;
+    list-style:decimal;
+  }
+  section.mareh li{margin:12px 0;padding-left:4px}
+  section.mareh li .short{font-weight:600;color:var(--blue)}
+  section.mareh li .expanded{color:#2a2a2a}
+  section.mareh li .backref{color:var(--gold);text-decoration:none;margin-left:6px;font-size:0.85em}
+  section.mareh .note-academic{border-left:3px solid var(--gold-soft);background:rgba(184,134,11,0.04);padding:8px 12px;margin-top:4px;font-size:0.95em}
+  footer.colophon{
+    margin-top:50px;
+    border-top:3px double var(--rule);
+    padding-top:18px;
+    text-align:center;
+    font-style:italic;
+    color:#5a4b1a;
+    font-size:.92rem;
+  }
+  hr.fancy{
+    border:none;
+    text-align:center;
+    margin:30px 0;
+  }
+  hr.fancy::before{
+    content:"❦";
+    color:var(--gold);
+    font-size:1.2rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="title">
+  <div class="kicker">Rabbi Ephrati · Sunday Morning שיעור on תפילה</div>
+  <h1>שיעור על תחנון</h1>
+  <div class="subtitle">The אריז״ל's וידוי, the כח of נפילת אפים, and the מחלוקת over Skipping תחנון</div>
+  <div class="meta">Recorded 2 November 2025 · Reworked from the original שיעור</div>
+</header>
+
+<div class="dedication">
+  לעילוי נשמת ר' דוד בן משה שלום ע״ה — Danny Kriegsman, whose יארצייט was on שמיני עצרת.<br>
+  Sponsored by Reb Meyer and Mrs. Weissman.
+</div>
+
+<p class="lead">
+  Today's שיעור is sponsored by Reb Meyer and Mrs. Weissman לעילוי נשמת her father, ר' דוד בן משה שלום ע״ה. The יארצייט fell on שמיני עצרת, the same day on which their אייניקל Yoel Rubin had his ברית in Baltimore. May the רבונו של עולם give them tremendous נחת.
+</p>
+
+<div class="callout">
+  <span class="label">A Remarkable Jewish Life</span>
+  Mrs. Weissman wrote me this morning about her father — an extraordinary yid. He was employed by a NASA contractor; if not for ר' דוד, Neil Armstrong would not have survived the first space mission. He was a yid dedicated to הלכה — and a brilliant man. Because of him, a NASA contractor of over forty thousand employees began hiring שומרי שבת and let them leave early on Friday.<br><br>
+  During the Apollo mission of 1969 he was on duty in mission control, on a critical test run, on פורים. He had to be at his post and could not leave to hear the מגילה. As a true שעת הדחק, he received a special היתר to hear the מגילה over the phone. (Do <em>not</em> learn from that היתר — it was an extreme שעת הדחק.) May he be a מליץ יושר for the משפחה.
+</div>
+
+<h2>I. A Petichah — To Whom Are We Saying ואמרו אמן?</h2>
+<p>
+  Before we begin תחנון, ר' זריאל דוד asked a beautiful question. At the very end of שמונה עשרה we say: <span class="heb-inline">עושה שלום במרומיו, הוא יעשה שלום עלינו ועל כל ישראל ואמרו אמן</span>. We discussed the three steps last week — but who exactly are we addressing when we say <strong>ואמרו אמן</strong>? In קדיש the answer is obvious: the חזן says it and the קהל answers אמן. But here, immediately after our private עמידה, who is the audience?
+</p>
+<p>
+  Some say we are addressing the מלאכים. We have just finished a long שמונה עשרה; we want all our תפילות accepted; we want שלום על כלל ישראל. We turn to the מלאכים: <span class="heb-inline">ואמרו אמן</span>. You do not hear it — but you imagine that the מלאכים answer with a thunderous אמן.
+</p>
+
+<h2>II. The וידוי Before נפילת אפים</h2>
+
+<h3>Where Did It Come From?</h3>
+<p>
+  Before we discuss נפילת אפים itself, we must understand the structure. תחנון as we daven it begins with <strong>אשמנו</strong> and the <strong>שלש עשרה מידות הרחמים</strong>, and only afterwards comes נפילת אפים. The וידוי-before-נפילת-אפים is <em>not</em> part of the original תחנון. In the time of the ראשונים, most קהילות did not say it. It is an addition from the times of the האריז״ל — another example of how our סידור was profoundly reshaped by the Arizal's revolution incorporating קבלה into daily davening.
+</p>
+<p>
+  Today all of כלל ישראל that follows נוסח ספרד says אשמנו before נפילת אפים. In נוסח אשכנז the practices vary — some say it on Monday and Thursday, some not at all, some only sometimes. The whole institution comes from the האריז״ל, who found the practice in the זוהר הקדוש<a href="#fn1" id="ref1" class="footnote-ref">[1]</a>. The טור and שלחן ערוך<a href="#fn2" id="ref2" class="footnote-ref">[2]</a> do not even mention this systematically. The טור notes that some קהילות had the מנהג, but it was far from universal. The האריז״ל instituted it not more than three or four hundred years ago — and from him it spread throughout כלל ישראל.
+</p>
+
+<h3>The זוהר on the מקטרגים</h3>
+<p>
+  The זוהר reveals what we cannot see or hear. In שמים, the moment a yid finishes davening, the <strong>מקטרגים</strong> — the סטרא אחרא, the סמ״ך-מ״ם, the שטן, whatever you want to call those כחות הטומאה — pounce on his תפילות, attempting to block them from reaching הקדוש ברוך הוא. What is their argument? "Why would You accept this Jew's תפילה? He's a חוטא — he did this, he did that!" They begin reciting <em>our</em> אשמנו בגדנו for us, item by item, in indictment.
+</p>
+<p>
+  The זוהר teaches: be clever. Steal their words. Say your עברות before the מקטרג opens his mouth. Once you have already confessed <span class="heb-inline">אשמנו בגדנו</span>, expressed regret, and accepted upon yourself, the מקטרג is left standing in the corner with nothing left to say.
+</p>
+
+<h3>Why Only at שחרית?</h3>
+<p>
+  Why is this concentrated at שחרית and not at מנחה or מעריב? According to the זוהר as the האריז״ל understood it, immediately after שחרית is when the מקטרג most actively tries to block our תפילות. We rush to confess before he has the chance.
+</p>
+
+<h2>III. אשמנו בגדנו — A Collective Confession</h2>
+
+<h3>"But I Didn't Do These Things!"</h3>
+<p>
+  A natural question arises. If you never stole — or if you did תשובה and returned what you took — why are you saying גזלנו? Why stand before הקדוש ברוך הוא and confess to things you did not do? The answer is profound. When we say אשמנו we are not only confessing for ourselves. We are saying: "I am sorry on behalf of my friends, my colleagues, my peers, on behalf of the entire כלל ישראל." We are connected to every yid. We are not separate atoms running parallel lives. We are <em>one</em> גוף. Even when we are physically distant, בעצם we are one. It is therefore incumbent upon every yid to say אשמנו even for חטאים he did not personally commit.
+</p>
+
+<h3>The רמב״ם and the Man Who Wouldn't Say וידוי</h3>
+<p>
+  The חיד״א<a href="#fn3" id="ref3" class="footnote-ref">[3]</a> brings down a famous מעשה. There was a great חכם and צדיק in the time of the רמב״ם who came to him with a question. (The חיד״א notes that he heard this story <span class="heb-inline">איש מפי איש</span>, going back to the רמב״ם himself — very rare to have such an unbroken chain.) The yid told the רמב״ם:
+</p>
+<blockquote>
+  "I am not saying תחנון on יום כיפור. I am not saying אשמנו בגדנו or על חטא, because when I look at the list, I did not do these things. Why should I lie? Why should I stand five times before הקדוש ברוך הוא on יום כיפור and lie that I did things I did not do?"
+</blockquote>
+<p>
+  The רמב״ם answered:
+</p>
+<blockquote>
+  "You had better say the תחנון. Little do you know — every single חטא in the על חטא and in the אשמנו, I guarantee you are עובר them every single day. Not only that — according to your מדרגה you are probably עובר even more עברות."
+</blockquote>
+<p>
+  How can a yid be עובר עבודה זרה? When did anyone here last commit עבודה זרה? The answer: any time you shout at your wife in anger you are עובר עבודה זרה. The גמרא<a href="#fn4" id="ref4" class="footnote-ref">[4]</a> says <span class="heb-inline">כל הכועס כאילו עובד עבודה זרה</span> — anyone who is angry is as if he worships idols. Not literally — but חז״ל treat it as a שטיקל עבודה זרה. Any time you have גאוה — when your ego rears its head — you are עובר עבודה זרה. So yes, we are עובר on all of these; we just do not realize it.
+</p>
+<p>
+  The רמב״ם finished: "Now you must also say על חטא for the עברה of not wanting to say על חטא."
+</p>
+
+<h3>And בגדנו</h3>
+<p>
+  When we say בגדנו, we mean we were disloyal. We were not faithful in our relationship with הקדוש ברוך הוא. It is the language of infidelity. Anytime you do an עברה it is, כביכול, like being מזנה. That is the meaning of בגדנו.
+</p>
+
+<h2>IV. ואתה צדיק — Accepting His דין</h2>
+
+<h3>The יסוד ושורש העבודה</h3>
+<p>
+  There is an interesting מדרש brought down in the ספר <strong>יסוד ושורש העבודה</strong><a href="#fn5" id="ref5" class="footnote-ref">[5]</a>, written by ר' אלכסנדר זיסקין מהורודנא — one of the great גדולים who lived in the times immediately after the בעל שם טוב. He was a tremendous צדיק and מקובל who very nearly became חסיד. He went to the מגיד ממעזריטש — the main ממשיך of the בעל שם טוב — and said, "I want to be your תלמיד." The מגיד told him: "You do not belong here. The ליטוואקעס need <em>you</em>. Stay with the מתנגדים. They will learn your ספר."
+</p>
+<p>
+  The יסוד ושורש העבודה is a remarkable ספר — easy to learn, like a שמועה ספר. It gives understanding and appreciation for every תפילה we say and every מצוה we do. It is a מצוה to learn it before ראש השנה, before סוכות, before פסח. ArtScroll has put out a recent English translation.
+</p>
+
+<h3>The מדרש</h3>
+<p>
+  The ספר brings the מדרש: הקדוש ברוך הוא tells the מלאכי השרת, "Look at My children, look at My beloved כלל ישראל. I give them צרות, I give them יסורים — personal, communal — and they suffer. Yet instead of complaining, instead of saying 'it is not fair,' My children come to Me every day and say:
+</p>
+<blockquote class="heb">
+  <span class="heb">ואתה צדיק על כל הבא עלינו — whatever You bring on me is right. We deserve it. You are the צדיק; we are the רשעים; we did the עברות.</span>
+</blockquote>
+<p>
+  When a yid says this with passion, he arouses tremendous רחמים. הקדוש ברוך הוא points to him and says, "Look at My children — they never blame Me. They always blame themselves." There is a great סגולה to say <span class="heb-inline">ואתה צדיק</span> with כוונה and ענוה, and to mean it. It gives unusual force to all the תפילות that follow.
+</p>
+
+<h2>V. נפילת אפים — Source and Origin</h2>
+
+<h3>The Sources in תורה</h3>
+<p>
+  Where does the practice of נפילת אפים come from? We find it by משה רבינו in פרשת עקב — <span class="heb-inline">ואתנפל</span><a href="#fn6" id="ref6" class="footnote-ref">[6]</a>, "and I fell." We find it in the story of קרח, where כלל ישראל <span class="heb-inline">ויפלו על פניהם ויאמרו: א-ל אלוקי הרוחות</span><a href="#fn7" id="ref7" class="footnote-ref">[7]</a> — they fell on their faces. When they begged מחילה in קרח, they were forgiven through the falling. Falling on the floor demonstrates a certain self-subjugation: we are worthless, we nullify ourselves before הקדוש ברוך הוא immediately after שמונה עשרה.
+</p>
+
+<h3>Why Specifically Right After davening?</h3>
+<p>
+  But where does it come from that we are supposed to say it specifically <em>right after</em> davening? There is no explicit גמרא that says so. The source comes from one of the most important Talmudic stories about the authority of תורה שבעל פה — the famous מעשה of <strong>תנור של עכנאי</strong>.
+</p>
+
+<h2>VI. רבי אליעזר and אימא שלום</h2>
+
+<h3>תנור של עכנאי</h3>
+<p>
+  After the חורבן, רבי יוחנן בן זכאי was running כלל ישראל. The צדוקים were undermining all of תורה שבעל פה; the פרושים — a much smaller group, the חכמים — had moved the סנהדרין to יבנה shortly before the חורבן. רבי יוחנן בן זכאי was very afraid. He needed to make a public statement that the כח of חז״ל remained intact, that פסק הלכה remained binding for every single yid.
+</p>
+<p>
+  In that period the great תנא רבי אליעזר בן הורקנוס had a מחלוקת with all the חכמים over a particular oven — תנור של עכנאי<a href="#fn8" id="ref8" class="footnote-ref">[8]</a> — that had been broken down and reconnected with cement. רבי אליעזר held it was טהור: once broken down, the act of reconnecting does not produce a new כלי, and so the oven cannot be מקבל טומאה. All the חכמים held it was טמא.
+</p>
+<p>
+  The two sides argued. רבי אליעזר remained immovable. The חכמים said: "We counted votes. We are the רבים. You may hold what you wish, but you must be מכניע yourself to the חכמים." רבי אליעזר answered: "No. The truth is with me. I will prove it through נסים." Suddenly the carob tree outside the בית מדרש uprooted itself; the stream of water reversed its flow; the walls of the בית מדרש began to collapse, almost falling on the חכמים. רבי אליעזר said, "Look! The הלכה is like me!"
+</p>
+<p>
+  The dispute climaxed when רבי אליעזר called out, "רבותי, listen to the בת קול!" A heavenly voice declared the הלכה was like רבי אליעזר. רבי יהושע stood up and proclaimed: <span class="heb-inline">לא בשמים היא!</span><a href="#fn9" id="ref9" class="footnote-ref">[9]</a> That declaration cemented the כח of חז״ל forever — we do not defer to heaven on הלכה; the תורה was given to us. The גמרא relates that when הקדוש ברוך הוא heard רבי יהושע, He smiled and said: <span class="heb-inline">נצחוני בני, נצחוני בני</span> — "My children have defeated Me." הקדוש ברוך הוא Himself held like רבי אליעזר — but the decision was no longer His to make.
+</p>
+
+<h3>The נידוי</h3>
+<p>
+  Therefore רבי אליעזר was placed in נידוי — one of the harshest punishments in all of חז״ל. He had to remain in his home, barred from the בית מדרש. He was a lonely, isolated, rejected, alienated תנא for many years until the day of his פטירה, when the חכמים finally came and said, "We are sorry — but we had to do it." (רבי עקיבא, who was a תלמיד of רבי אליעזר, joined with the חכמים. Imagine — the גדול הדור excommunicated.)
+</p>
+
+<h3>אימא שלום at the Door</h3>
+<p>
+  רבי אליעזר's wife was named <strong>אימא שלום</strong> — "Mother of Peace," an appropriate name. She was the sister of רבן גמליאל, who led the נידוי. רבן גמליאל had become the נשיא after רבי יוחנן בן זכאי, from a family of royal lineage. Imagine her position — caught between her brother, the נשיא, and her husband, the גדול הדור excommunicated by her own brother.
+</p>
+<p>
+  אימא שלום realized something. Her husband was the most pained man in כלל ישראל. His כח התפילה was beyond anyone else's. If he ever fell on his face during נפילת אפים and truly cried out from the depth of his צער, his תפילה would certainly reach. And the גמרא is explicit — even הקדוש ברוך הוא agreed רבי אליעזר was right; the חכמים had simply <em>chosen</em> the other הלכה. אימא שלום knew that if her husband ever davened that her brother רבן גמליאל should be punished, his תפילה would be answered.
+</p>
+<p>
+  So every single day, immediately after רבי אליעזר finished שמונה עשרה at home — he could not daven in the בית מדרש — אימא שלום stood by his side and distracted him. She would interrupt at the precise moment, ask him a question, hand him something, do anything to make him forget. By the time he remembered, the moment was past. Every single day for a long time she did this. She was saving her brother's life every single morning.
+</p>
+
+<h3>The Day of the שופר</h3>
+<p>
+  One day she miscalculated. There were no calendars on the wall in those days. She thought it was ראש חודש (when there is no תחנון), but it was the thirtieth day, not the thirty-first. For the first time in a long time, she did not interrupt. רבי אליעזר fell and said תחנון. Suddenly she ran into the room: "אוי ואבוי! You are going to kill my brother!" As the words left her mouth, a שופר sounded from the home of רבן גמליאל. The נשיא had just died. רבי אליעזר had accomplished it in that one moment. (Another version: a poor man knocked, she ran to give him a loaf of bread, and in those moments רבי אליעזר said תחנון. Whichever the correct version, he said תחנון, and רבן גמליאל passed away.)
+</p>
+
+<h2>VII. The כח of נפילת אפים</h2>
+<p>
+  Do you grasp the כח of נפילת אפים? Obviously רבי אליעזר was at the very highest level. But when an ordinary yid says נפילת אפים, the האריז״ל and the ראשונים say it is even more potent than שמונה עשרה. The physical gesture — falling, fully subjugating the self, saying אשמנו בגדנו גזלנו, demonstrating to הקדוש ברוך הוא, "Despite all my ego when I stood in your presence in שמונה עשרה, I am nothing" — invokes overwhelming רחמים. If a yid is being נרדף — if you are being chased by an enemy, if someone is pursuing you with שנאה — נפילת אפים is the time. (Please do not use this against people you simply dislike. We want to be like אימא שלום, not like the rest of the world.) But understand: this is the most powerful moment of the entire davening. Say it as much as you can.
+</p>
+
+<h2>VIII. The הלכות of נפילת אפים</h2>
+
+<h3>Right After the עמידה</h3>
+<p>
+  The ריטב״א<a href="#fn10" id="ref10" class="footnote-ref">[10]</a> raises a question on the story. Did אימא שלום really have nothing else to do all day except stand by her husband's side and distract him? Was she stuck to him the whole day? The ריטב״א answers: she was not that type. The proof is that she only needed to be next to him for a few short minutes, immediately after שמונה עשרה. From this we learn that נפילת אפים — תחנון על פנים — is bound to שמונה עשרה and is to be said immediately after davening.
+</p>
+
+<h3>רשות, Not חיוב</h3>
+<p>
+  Another point the ראשונים derive from this גמרא: נפילת אפים is only a <strong>רשות</strong>, not a חיוב. If it were a חיוב, רבי אליעזר would never have listened to his wife — he would have said, "Sorry, רבצין, I am saying תחנון." If your wife tells you not to say קריאת שמע or שמונה עשרה you do not listen. The חפץ חיים<a href="#fn11" id="ref11" class="footnote-ref">[11]</a> writes — and we learn this from other ראשונים as well — that there are times you do not listen to your wife. I am the biggest advocate of listening to your wife about virtually everything. But when it comes to a request that runs against the רצון of הקדוש ברוך הוא, you must take a stand. Obviously do it carefully, and do not create issues at home — I am a big advocate of שלום בית. But when it conflicts with what הקדוש ברוך הוא wants, the חפץ חיים says: stand firm.
+</p>
+<p>
+  The בית יוסף<a href="#fn12" id="ref12" class="footnote-ref">[12]</a> brings a ראיה from this גמרא that נפילת אפים is said after שמונה עשרה. The אחרונים ask exactly what proof — perhaps it could equally have been after מנחה — but משמע from the גמרא that her interruption was after שחרית.
+</p>
+
+<h2>IX. The חסידישע Approach</h2>
+
+<h3>Origins in the Court of the בעל שם טוב</h3>
+<p>
+  Who decides whether to say תחנון on a given day? In many חסידישע shtieblach, when the בעל תפילה has a יארצייט or even a ספק יארצייט, he determines whether the ציבור skips. Where does this מנהג come from? It traces back to the תלמידים of the בעל שם טוב. Their reasoning was a serious theological concern: תחנון is so potent that without complete כוונה — the כוונה רבי אליעזר had — it is dangerous. The זוהר states explicitly that one who is not properly מכוון by נפילת אפים will not be זוכה לאריכות ימים — חס ושלום, his days may be cut short. Because of that danger, the תלמידי הבעל שם טוב taught: when there is even a שטיקל שמחה, skip תחנון.
+</p>
+<p>
+  This is why we do not say תחנון on חנוכה or פורים. (Interesting historical fact: in earlier times, in the great ישיבות of בבל — פומבדיתא and elsewhere — they <em>did</em> say תחנון on חנוכה and פורים.)
+</p>
+
+<h3>The מנחת אלעזר's Critique</h3>
+<p>
+  The הייליגע מנחת אלעזר<a href="#fn13" id="ref13" class="footnote-ref">[13]</a> unleashed fierce criticism against the practice of frequently skipping תחנון. He wrote with real fire and brimstone against חסידים who pick any יארצייט of any צדיק as grounds to skip. His argument was unanswerable: there is no day in the Jewish calendar without a יארצייט of some holy person. Take the principle to its conclusion and you would never say תחנון at all. Indeed many חסידים maintained handbooks of צדיקים' יארצייטן for this purpose. In קרעסטיר, at the רבי's חסידישע ישיבה, they would consult the handbook every morning — "Today is י' ניסן of רבי so-and-so" — and skip. The reality was that תחנון was almost never said.
+</p>
+
+<h3>The צאנזער and his Stick</h3>
+<p>
+  The דברי חיים<a href="#fn14" id="ref14" class="footnote-ref">[14]</a> — the הייליגע צאנזער — was the father of the last generation of חסידות; for גאליציאנער, פוילישע, and אונגארישע חסידים, the צאנזער was everything. Even the סאטמאר רבי, one of the chief figures of חסידישע life on American shores, followed צאנז in everything. The צאנזער had only <em>one</em> יארצייט on which he did not say תחנון: כ״א אדר, the יארצייט of the נורא עלימה מלך. That was the only יציאה מן הכלל. Every other time, if any חסיד tried to skip on the strength of his רבי's יארצייט, the צאנזער would take out a stick: <em>everyone</em> say תחנון — right now.
+</p>
+
+<h2>X. The Story of the רדושיצער and the Five Thousand תחנונים</h2>
+<p>
+  Even great חסידישע רביים who valued הלכה were troubled by widespread abandonment of תחנון. The רדושיצער רבי<a href="#fn15" id="ref15" class="footnote-ref">[15]</a>, one of the great חסידישע leaders, once received a visitor — a יורד, who had lost everything. "Rebbi, I have nothing. My family is hungry. I have debts. What should I do? I need a ישועה!"
+</p>
+<p>
+  The רבי asked him: "Do you say תחנון every day?" "Rebbi," the man replied, "it's a foreign word. What's תחנון? ברוך שם כבוד מלכותו לעולם ועד — חס ושלום from תחנון!" "How long have you been missing תחנון at שחרית?" "Since childhood. I grew up in a חסידישע ישיבה. I never said תחנון. Maybe a few times a year." "How many times have you missed it in your life?"
+</p>
+<p>
+  He sat down and calculated. Thousands.
+</p>
+<p>
+  The רבי said: "You must now be משלם every תחנון you missed. Sit and say תחנון five thousand times, over and over. Only then will you be able to ask for a ישועה." He took it seriously. He sat for five weeks saying תחנון seventy or eighty times a day until he completed the five thousand. The day he completed the last one, he made a successful business deal — and lived happily ever after.
+</p>
+
+<h2>XI. When תחנון Is Skipped — The Standard List</h2>
+<p>
+  Since תחנון is, in its origin, a רשות, whenever there is a recognized excuse it is omitted. The standard list:
+</p>
+<p>
+  ל״ג בעומר — the יארצייט of רבי שמעון בר יוחאי, called a הילולא in the זוהר (a הילולא connotes שמחה). At a ברית מילה — though there is a מחלוקת regarding מנחה on the day of a ברית. When there is a חתן present at שלש סעודות. Some hold even at a בר מצוה or a סיום מסכתא. On חנוכה, on פורים. On ראש חודש, on ימים טובים, on חול המועד. All of תשרי after סוכות. The בית יוסף<a href="#fn16" id="ref16" class="footnote-ref">[16]</a> in סימן קל״א discusses the case of a ברית: in בריסק they did say תחנון at מנחה even if the ברית was that morning, while in other places they did not — a recognized מחלוקת between בריסק and וילנא.
+</p>
+
+<div class="callout">
+  <span class="label">A Note on יארצייט Practice</span>
+  According to the שלחן ערוך, the original practice on a parent's יארצייט was not to drink ברענפן and eat לאכיש but to <em>fast</em>. Who today fasts on his father's יארצייט? The Litvaks do; אשכנזים who follow the שלחן ערוך maintain it. We have somewhat softened the practice over time. The מלמדי זלמן would fast on a יארצייט; his grandson, the הייליגע רב זלמן מלצר, would fast and host a סעודה.
+</div>
+
+<h2>XII. ר' משה פיינשטיין — Don't Make a Fight</h2>
+<p>
+  Even great רבנים who held strongly that one should say תחנון addressed the practical problem: what do you do when you find yourself in a מנין that skips? רב משה פיינשטיין<a href="#fn17" id="ref17" class="footnote-ref">[17]</a> paskens — and this is his פסק:
+</p>
+<blockquote>
+  "I do not know from these things. Don't make a fight. Don't start screaming."
+</blockquote>
+<p>
+  This is what too often happens in shul: arguments break out — תחנון or no תחנון — מחלוקת erupts. Reb Moshe says you are missing the entire point. Don't fight. Even if they are doing something שלא כהלכה in your view, after קדיש go to the side and say תחנון quietly on your own. That is his פסק להלכה. You are not trying to embarrass anyone. You are not making a public stand. Go to the side and say it. (According to the proper סדר תפילה, תחנון comes before אשרי and לציון because of קבלת עולים, which we will learn as we continue.)
+</p>
+
+<h2>XIII. A Lesson from the חזון איש</h2>
+<p>
+  Let me share a powerful story. I grew up in בני ברק, so this was part of my childhood. The חזון איש<a href="#fn18" id="ref18" class="footnote-ref">[18]</a> never davened in shul; he had his own מנין in his house. He did not know from selective omission of תחנון. The שלחן ערוך says you say תחנון; you skip on ראש חודש, ימים טובים, חול המועד, and during all of תשרי after סוכות — period. The חזון איש's מנין in his private שטיבל ran by the book; he was the רב, he decided everything.
+</p>
+<p>
+  One day a שליח ציבור came — perhaps a חסיד — who decided it was his רבי's יארצייט and that he would not say תחנון. Without even asking the חזון איש in his own shul, this בעל תפילה launched straight into קדיש after שמונה עשרה, giving no one a chance to begin תחנון.
+</p>
+<p>
+  You would expect the חזון איש to protest: "What are you doing? תחנון is מחמת מנהג!" He did not say a word. A תלמיד who was present testified that the חזון איש was completely silent. After davening, quietly, after אשרי and לציון, the חזון איש went to the side, in his own house, in his own מנין — and said תחנון by himself. Then he turned to the בעל תפילה and said: <strong>יישר כח</strong>. Not a word of criticism.
+</p>
+<p>
+  Let us learn from that חזון איש. He did not publicly correct or rebuke. The בעל תפילה certainly made a mistake going against הלכה in the חזון איש's own מנין. But the lesson is for us: next time you are tempted to make a scene over תחנון — to say it, or not — think twice. If you want to say תחנון the way משה רבינו said it, the way רבי אליעזר said it, the way the חזון איש said it — say it quietly, on your own.
+</p>
+
+<hr class="fancy">
+
+<h2>סיכום</h2>
+<p>
+  תחנון is both powerful and contested. We must respect legitimate מנהגים, and at the same time we must recognize that תחנון is an integral part of our tefillah, rooted in the שלחן ערוך and practiced by the very greatest of our גדולים. The path forward is not confrontation but personal commitment — saying תחנון with כוונה when it is appropriate, and preserving שלום in our קהילות when it is not.
+</p>
+
+<section class="mareh">
+  <h2>מראה מקומות &nbsp;·&nbsp; Mareh Mekomos</h2>
+  <ol>
+    <li id="fn1"><span class="short"><em><span class="heb-inline">זוהר חלק ג', פרשת בלק רכ"ב ע"א</span></em>; <em><span class="heb-inline">זוהר חלק א', נ"ח ע"ב</span></em>.</span> <span class="expanded">— The <span class="heb-inline">זוהר</span> on the danger of <span class="heb-inline">נפילת אפים</span> performed without proper <span class="heb-inline">כוונה</span>: it can shorten one's days. The same passages develop the role of <span class="heb-inline">מקטרגים</span> who attempt to block the <span class="heb-inline">תפילה</span> immediately after <span class="heb-inline">שמונה עשרה</span> — neutralized by the <span class="heb-inline">קהל</span>'s preemptive recital of <em><span class="heb-inline">אשמנו בגדנו</span></em> in <span class="heb-inline">וידוי</span>. The <span class="heb-inline">אריז"ל</span>'s integration of <span class="heb-inline">וידוי</span> before <span class="heb-inline">נפילת אפים</span> draws on these passages and on <em><span class="heb-inline">שער הכוונות</span></em>, <span class="heb-inline">דרושי נפילת אפים</span>.</span> <a class="backref" href="#ref1" title="Return to text">↩</a></li>
+
+    <li id="fn2"><span class="short"><em><span class="heb-inline">טור</span></em> and <em><span class="heb-inline">שלחן ערוך, אורח חיים סימנים קל"א – קל"ד</span></em>.</span> <span class="expanded">— The <span class="heb-inline">טור</span> in <span class="heb-inline">או"ח קל"א</span> notes that some <span class="heb-inline">קהילות</span> say <span class="heb-inline">וידוי</span> before <span class="heb-inline">נפילת אפים</span> while others do not; the <span class="heb-inline">שלחן ערוך</span> codifies the basic structure of <span class="heb-inline">תחנון</span>, <span class="heb-inline">נפילת אפים</span>, the days when <span class="heb-inline">תחנון</span> is omitted, and the <span class="heb-inline">למנצח</span>/<span class="heb-inline">ארץ ישראל</span> distinctions. Universal incorporation of <em><span class="heb-inline">אשמנו</span></em> as the standard prelude to <span class="heb-inline">נפילת אפים</span> spread through the <span class="heb-inline">אריז"ל</span>'s influence in the 17th century.</span> <a class="backref" href="#ref2" title="Return to text">↩</a></li>
+
+    <li id="fn3"><span class="short"><em><span class="heb-inline">חיד"א</span></em>, citing the <span class="heb-inline">רמב"ם</span> on <span class="heb-inline">וידוי</span>.</span> <div class="note-academic"><strong>Note:</strong> The <span class="heb-inline">חיד"א</span> (<span class="heb-inline">ר' חיים יוסף דוד אזולאי</span>, 1724–1806) brings the <span class="heb-inline">מעשה</span> in his commentary tradition <em><span class="heb-inline">איש מפי איש</span></em> back to the <span class="heb-inline">רמב"ם</span>: a great <span class="heb-inline">חכם</span> who refused to say <span class="heb-inline">וידוי</span> on <span class="heb-inline">יום הכפורים</span> on the grounds that he had not committed those sins, and the <span class="heb-inline">רמב"ם</span>'s response that the <span class="heb-inline">וידוי</span> applies on a deeper level to every yid daily. Verify exact location in the <span class="heb-inline">חיד"א</span>'s writings (likely <em><span class="heb-inline">דבש לפי</span></em>, <em><span class="heb-inline">פתח עינים</span></em>, or <em><span class="heb-inline">לב דוד</span></em>).</div> <a class="backref" href="#ref3" title="Return to text">↩</a></li>
+
+    <li id="fn4"><span class="short"><em><span class="heb-inline">שבת ק"ה ע"ב</span></em>; <em><span class="heb-inline">זוהר חלק א' כ"ז ע"ב</span></em> — anger as <span class="heb-inline">עבודה זרה</span>.</span> <span class="expanded">— <em><span class="heb-inline">"אמר ר' אבין: כל הכועס — כאילו עובד עבודה זרה"</span></em>. The <span class="heb-inline">גמרא</span>'s comparison is grounded in the <span class="heb-inline">פסוק</span> in <span class="heb-inline">תהלים פ"א:י'</span>: <em><span class="heb-inline">לא יהיה בך אל זר</span></em> — <span class="heb-inline">חז"ל</span> read this as the "foreign god" within the angry person himself. The <span class="heb-inline">רמב"ם</span> codifies the principle in <em><span class="heb-inline">הלכות דעות פ"ב</span></em>; the <span class="heb-inline">זוהר</span> develops the kabbalistic dimension.</span> <a class="backref" href="#ref4" title="Return to text">↩</a></li>
+
+    <li id="fn5"><span class="short"><em><span class="heb-inline">יסוד ושורש העבודה</span></em>, <span class="heb-inline">ר' אלכסנדר זיסקין מהורודנא</span> (1730–1794).</span> <span class="expanded">— <span class="heb-inline">ר' אלכסנדר זיסקין מהורודנא</span> (Grodno, Belarus), known as the <em><span class="heb-inline">בעל יסוד ושורש העבודה</span></em>. The work is a guide to the <span class="heb-inline">כוונות</span> and <span class="heb-inline">מחשבות</span> appropriate to every part of <span class="heb-inline">עבודת ה'</span>: from the moment one wakes, through every <span class="heb-inline">תפילה</span>, <span class="heb-inline">ברכה</span>, and <span class="heb-inline">מצוה</span> of the day, week, and year. The <span class="heb-inline">מדרש</span> on <em><span class="heb-inline">ואתה צדיק על כל הבא עלינו</span></em> (cf. <span class="heb-inline">נחמיה ט':ל"ג</span>) and the <span class="heb-inline">סגולה</span> of saying it with <span class="heb-inline">ענוה</span> appears in his treatment of <span class="heb-inline">נפילת אפים</span>. He is recorded as a near-disciple of the <span class="heb-inline">מגיד ממעזריטש</span>; the <span class="heb-inline">מגיד</span> reportedly told him to remain in his Litvish community.</span> <a class="backref" href="#ref5" title="Return to text">↩</a></li>
+
+    <li id="fn6"><span class="short"><em><span class="heb-inline">דברים ט':י"ח</span></em> and <em><span class="heb-inline">ט':כ"ה</span></em> — <em><span class="heb-inline">ואתנפל לפני ה'</span></em>.</span> <span class="expanded">— <span class="heb-inline">משה רבינו</span> in <em><span class="heb-inline">פרשת עקב</span></em> recounting his <span class="heb-inline">תפילה</span> after <span class="heb-inline">חטא העגל</span> and at other crisis moments: <em><span class="heb-inline">"ואתנפל לפני ה' כראשונה ארבעים יום וארבעים לילה"</span></em>. This is the foundational scriptural source for <span class="heb-inline">נפילת אפים</span>.</span> <a class="backref" href="#ref6" title="Return to text">↩</a></li>
+
+    <li id="fn7"><span class="short"><em><span class="heb-inline">במדבר ט"ז:כ"ב</span></em>; <em><span class="heb-inline">ט"ז:מ"ה</span></em> — <em><span class="heb-inline">ויפלו על פניהם</span></em>.</span> <span class="expanded">— In <em><span class="heb-inline">פרשת קרח</span></em>: <span class="heb-inline">משה</span> and <span class="heb-inline">אהרן</span> fall on their faces and say <em><span class="heb-inline">"א-ל אלוקי הרוחות לכל בשר"</span></em> at the moment of <span class="heb-inline">קרח</span>'s rebellion and at the plague that follows. A second classical source for the gesture of <em><span class="heb-inline">נפילת אפים</span></em> as an act of <span class="heb-inline">תפילה</span> in moments of communal crisis.</span> <a class="backref" href="#ref7" title="Return to text">↩</a></li>
+
+    <li id="fn8"><span class="short"><em><span class="heb-inline">בבא מציעא נ"ט ע"ב</span></em> — תנור של עכנאי.</span> <span class="expanded">— The classic <span class="heb-inline">סוגיא</span> of <em>Tanur shel Achnai</em>: the dispute between <span class="heb-inline">רבי אליעזר בן הורקנוס</span> and the <span class="heb-inline">חכמים</span>, the supernatural signs, the <span class="heb-inline">בת קול</span>, <span class="heb-inline">רבי יהושע</span>'s declaration of <em><span class="heb-inline">לא בשמים היא</span></em>, the <span class="heb-inline">נצחוני בני</span> of <span class="heb-inline">הקב"ה</span>, the <span class="heb-inline">נידוי</span> of <span class="heb-inline">רבי אליעזר</span>, and the story of <span class="heb-inline">אימא שלום</span> standing by him to prevent his <span class="heb-inline">תפילה</span> at <span class="heb-inline">נפילת אפים</span> from harming her brother <span class="heb-inline">רבן גמליאל</span>. The שיעור's derivation that <span class="heb-inline">נפילת אפים</span> is a <span class="heb-inline">רשות</span> bound to immediately after <span class="heb-inline">שמונה עשרה</span> draws from this <span class="heb-inline">סוגיא</span>.</span> <a class="backref" href="#ref8" title="Return to text">↩</a></li>
+
+    <li id="fn9"><span class="short"><em><span class="heb-inline">דברים ל':י"ב</span></em> — <em><span class="heb-inline">לא בשמים היא</span></em>.</span> <span class="expanded">— The <span class="heb-inline">פסוק</span>: <em><span class="heb-inline">"לא בשמים היא לאמר מי יעלה לנו השמימה ויקחה לנו"</span></em>. <span class="heb-inline">רבי יהושע</span>'s declaration in <span class="heb-inline">בבא מציעא נ"ט ע"ב</span> reads it: the <span class="heb-inline">תורה</span> was given at <span class="heb-inline">סיני</span> to <span class="heb-inline">בני ישראל</span>; we no longer defer to a <span class="heb-inline">בת קול</span> for <span class="heb-inline">פסק הלכה</span>, but follow the rule of <em><span class="heb-inline">אחרי רבים להטות</span></em> (<span class="heb-inline">שמות כ"ג:ב'</span>). One of the foundational principles of <span class="heb-inline">תורה שבעל פה</span>.</span> <a class="backref" href="#ref9" title="Return to text">↩</a></li>
+
+    <li id="fn10"><span class="short"><em><span class="heb-inline">חידושי הריטב"א</span></em> on <em><span class="heb-inline">בבא מציעא נ"ט ע"ב</span></em>.</span> <span class="expanded">— <span class="heb-inline">ר' יום טוב בן אברהם אשבילי</span> (Spain, c. 1260–1330) on the <span class="heb-inline">סוגיא</span>: <span class="heb-inline">אימא שלום</span>'s daily vigil cannot be read as constant — she stood by her husband only briefly each day, immediately after <span class="heb-inline">שמונה עשרה</span>. From this the <span class="heb-inline">ריטב"א</span> derives that <span class="heb-inline">נפילת אפים</span> belongs immediately after <span class="heb-inline">שמונה עשרה</span> and is a <span class="heb-inline">רשות</span> rather than a <span class="heb-inline">חיוב</span>. Cited by the <span class="heb-inline">בית יוסף</span> ad loc.</span> <a class="backref" href="#ref10" title="Return to text">↩</a></li>
+
+    <li id="fn11"><span class="short"><em><span class="heb-inline">חפץ חיים</span></em> on listening (and not listening) to one's wife in matters of <span class="heb-inline">רצון השם</span>.</span> <div class="note-academic"><strong>Note:</strong> The <span class="heb-inline">חפץ חיים</span>'s general teaching that one defers to one's wife in matters of <span class="heb-inline">שלום בית</span> but stands firm where her request would compromise the <span class="heb-inline">רצון</span> of <span class="heb-inline">הקב"ה</span> appears across his writings (cf. <em><span class="heb-inline">שמירת הלשון</span></em> on <span class="heb-inline">בין אדם לחבירו</span>). The principle goes back to <span class="heb-inline">רש"י</span> on <em><span class="heb-inline">"כל אשר תאמר אליך שרה שמע בקולה"</span></em> (<span class="heb-inline">בראשית כ"א:י"ב</span>) and to <span class="heb-inline">בבא מציעא נ"ט ע"א</span> on the value of a wife's counsel. Verify exact <span class="heb-inline">מקור</span> in the <span class="heb-inline">חפץ חיים</span>'s published works.</div> <a class="backref" href="#ref11" title="Return to text">↩</a></li>
+
+    <li id="fn12"><span class="short"><em><span class="heb-inline">בית יוסף, אורח חיים סימן קל"א</span></em>.</span> <span class="expanded">— The <span class="heb-inline">בית יוסף</span>'s extensive treatment of <span class="heb-inline">תחנון</span> and <span class="heb-inline">נפילת אפים</span>: derivation from the <span class="heb-inline">בבא מציעא</span> <span class="heb-inline">סוגיא</span> that the place of <span class="heb-inline">נפילת אפים</span> is immediately after <span class="heb-inline">שמונה עשרה</span>; discussion of the days on which <span class="heb-inline">תחנון</span> is omitted; the <span class="heb-inline">מחלוקת</span> between <span class="heb-inline">בריסק</span> and <span class="heb-inline">וילנא</span> regarding <span class="heb-inline">תחנון</span> at <span class="heb-inline">מנחה</span> on the day of a <span class="heb-inline">ברית</span>; and the practical halachic structure of <span class="heb-inline">תחנון</span> codified in <span class="heb-inline">או"ח קל"א – קל"ד</span>.</span> <a class="backref" href="#ref12" title="Return to text">↩</a></li>
+
+    <li id="fn13"><span class="short"><em><span class="heb-inline">שו"ת מנחת אלעזר</span></em>, <span class="heb-inline">ר' חיים אלעזר שפירא ממונקאטש</span> (1868–1937).</span> <span class="expanded">— The <span class="heb-inline">מונקאטשער רבי</span>'s <em><span class="heb-inline">שו"ת מנחת אלעזר</span></em> contains his sharp critique of the practice of skipping <span class="heb-inline">תחנון</span> on every <span class="heb-inline">יארצייט</span> of any <span class="heb-inline">צדיק</span>. His argument is structural: there is no day in the calendar without a <span class="heb-inline">יארצייט</span> of <em>some</em> <span class="heb-inline">צדיק</span>, so the principle if extended would eliminate <span class="heb-inline">תחנון</span> entirely. He is one of the most quoted <span class="heb-inline">פוסקים</span> in Hungarian and <span class="heb-inline">חסידי</span> circles on practical questions of <span class="heb-inline">תחנון</span>.</span> <a class="backref" href="#ref13" title="Return to text">↩</a></li>
+
+    <li id="fn14"><span class="short"><em><span class="heb-inline">דברי חיים</span></em>, <span class="heb-inline">ר' חיים האלברשטאם מצאנז</span> (1797–1876).</span> <span class="expanded">— The <span class="heb-inline">צאנזער רבי</span>, founder of the <span class="heb-inline">חסידות צאנז</span> dynasty and one of the dominant <span class="heb-inline">פוסקים</span> and <span class="heb-inline">חסידי</span> leaders of the 19th century. The <span class="heb-inline">סאטמאר רבי</span> (<span class="heb-inline">ר' יואל טייטלבוים</span>) and many other <span class="heb-inline">חסידי הונגריה</span> followed his rulings. The שיעור reports — based on <span class="heb-inline">צאנז</span> oral tradition — that he insisted on saying <span class="heb-inline">תחנון</span> almost universally, with the single exception of <span class="heb-inline">כ"א אדר</span> (<span class="heb-inline">יארצייט</span> of the <em><span class="heb-inline">נועם אלימלך</span></em>, <span class="heb-inline">ר' אלימלך מליז'נסק</span>). Verify <span class="heb-inline">צאנז</span> sources for the precise practice.</span> <a class="backref" href="#ref14" title="Return to text">↩</a></li>
+
+    <li id="fn15"><span class="short"><span class="heb-inline">ר' יששכר בער מראדושיץ</span> (1765–1843) — the "5,000 <span class="heb-inline">תחנונים</span>" story.</span> <div class="note-academic"><strong>Note:</strong> The <span class="heb-inline">ראדושיצער</span> <span class="heb-inline">רבי</span>, <span class="heb-inline">ר' יששכר בער</span>, was one of the great Polish <span class="heb-inline">חסידי</span> leaders, a <span class="heb-inline">תלמיד</span> of the <span class="heb-inline">חוזה מלובלין</span>. The story of the <span class="heb-inline">יורד</span> assigned 5,000 <span class="heb-inline">תחנונים</span> as <span class="heb-inline">תיקון</span> for years of skipping is widely told in <span class="heb-inline">חסידי</span> oral tradition; verify against printed <span class="heb-inline">סיפורי חסידים</span> (e.g., <em><span class="heb-inline">סיפורי חסידים</span></em> by <span class="heb-inline">ר' שלמה זוין</span>).</div> <a class="backref" href="#ref15" title="Return to text">↩</a></li>
+
+    <li id="fn16"><span class="short"><em><span class="heb-inline">בית יוסף, אורח חיים סימן קל"א</span></em> — exemptions from <span class="heb-inline">תחנון</span>.</span> <span class="expanded">— Same <span class="heb-inline">סימן</span> as fn 12 above. The <span class="heb-inline">בית יוסף</span> and the <span class="heb-inline">שלחן ערוך</span>/<span class="heb-inline">רמ"א</span> ad loc. enumerate the days <span class="heb-inline">תחנון</span> is omitted: <span class="heb-inline">שבת</span>, <span class="heb-inline">יו"ט</span>, <span class="heb-inline">חוה"מ</span>, <span class="heb-inline">ר"ח</span>, <span class="heb-inline">חנוכה</span>, <span class="heb-inline">פורים</span> and <span class="heb-inline">שושן פורים</span>, <span class="heb-inline">ל"ג בעומר</span>, <span class="heb-inline">ט"ו באב</span>, <span class="heb-inline">ט"ו בשבט</span>, <span class="heb-inline">י"ד וט"ו אדר ראשון</span>, all of <span class="heb-inline">תשרי</span> after <span class="heb-inline">סוכות</span>, <span class="heb-inline">ערב ר"ה ויום כיפור</span>, the day of a <span class="heb-inline">ברית מילה</span> in the shul of the <span class="heb-inline">בעל ברית</span>, the presence of a <span class="heb-inline">חתן</span>, etc. The <span class="heb-inline">מחלוקת</span> between <span class="heb-inline">בריסק</span> and <span class="heb-inline">וילנא</span> on whether to say <span class="heb-inline">תחנון</span> at <span class="heb-inline">מנחה</span> when there had been a <span class="heb-inline">ברית</span> that morning is recorded in the <span class="heb-inline">פוסקים</span> ad loc.</span> <a class="backref" href="#ref16" title="Return to text">↩</a></li>
+
+    <li id="fn17"><span class="short"><em><span class="heb-inline">שו"ת אגרות משה, אורח חיים</span></em>, <span class="heb-inline">ר' משה פיינשטיין</span>.</span> <span class="expanded">— Rav Moshe Feinstein (1895–1986) on the practical question of one who finds himself in a <span class="heb-inline">מנין</span> that omits <span class="heb-inline">תחנון</span> when in his view there is no halachic basis to omit it: do not start a <span class="heb-inline">מחלוקת</span>; do not embarrass the <span class="heb-inline">בעל תפילה</span> or the <span class="heb-inline">קהל</span>; afterward, go to the side and say <span class="heb-inline">תחנון</span> quietly on one's own. The <span class="heb-inline">פסק</span> appears in his <em><span class="heb-inline">אגרות משה או"ח</span></em>; verify exact <span class="heb-inline">סימן</span> against the printed responsa.</span> <a class="backref" href="#ref17" title="Return to text">↩</a></li>
+
+    <li id="fn18"><span class="short"><span class="heb-inline">חזון איש</span> (<span class="heb-inline">ר' אברהם ישעיה קרליץ</span>, 1878–1953) — anecdote on <span class="heb-inline">תחנון</span> in his private <span class="heb-inline">מנין</span>.</span> <div class="note-academic"><strong>Note:</strong> The <span class="heb-inline">חזון איש</span> davened in his own <span class="heb-inline">מנין</span> in his home in <span class="heb-inline">בני ברק</span>. The anecdote — a <span class="heb-inline">בעל תפילה</span> launched into <span class="heb-inline">קדיש</span> after <span class="heb-inline">שמונה עשרה</span> without saying <span class="heb-inline">תחנון</span>, and the <span class="heb-inline">חזון איש</span> said nothing publicly but went to the side, said <span class="heb-inline">תחנון</span> on his own, and afterward thanked the <span class="heb-inline">בעל תפילה</span> with <em><span class="heb-inline">יישר כח</span></em> — is from oral <span class="heb-inline">בני ברק</span> tradition. Verify against <em><span class="heb-inline">פאר הדור</span></em> (the <span class="heb-inline">חזון איש</span> biography) or <em><span class="heb-inline">מעשה איש</span></em> for printed citation.</div> <a class="backref" href="#ref18" title="Return to text">↩</a></li>
+  </ol>
+</section>
+
+<footer class="colophon">
+  Reworked from a שיעור delivered by Rabbi Ephrati on 2 November 2025.<br>
+  לעילוי נשמת ר' דוד בן משה שלום ע״ה (Danny Kriegsman).<br>
+  Hebrew terminology preserved in Hebrew script throughout, with footnotes and מראה מקומות appended.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Siyum שמונה עשרה — יהיו לרצון, אלוקי נצור, and the מחלוקת of Pressburg — Rabbi Ephrati</title>
+<style>
+  :root{
+    --blue:#1e3a8a;
+    --blue-soft:#2c5282;
+    --gold:#b8860b;
+    --gold-soft:#d4a017;
+    --ink:#1a1a1a;
+    --paper:#fdfaf3;
+    --rule:#c9a227;
+  }
+  *{box-sizing:border-box}
+  body{
+    font-family:"Georgia","Iowan Old Style","Times New Roman",serif;
+    background:var(--paper);
+    color:var(--ink);
+    max-width:820px;
+    margin:40px auto;
+    padding:0 28px 60px 28px;
+    line-height:1.65;
+    font-size:17px;
+  }
+  header.title{
+    text-align:center;
+    border-top:3px double var(--rule);
+    border-bottom:3px double var(--rule);
+    padding:22px 10px;
+    margin-bottom:32px;
+  }
+  header.title .kicker{
+    font-variant:small-caps;
+    letter-spacing:.18em;
+    color:var(--gold);
+    font-size:.9rem;
+    margin-bottom:8px;
+  }
+  header.title h1{
+    font-size:1.7rem;
+    color:var(--blue);
+    margin:.1em 0 .25em 0;
+    line-height:1.25;
+  }
+  header.title .subtitle{
+    font-style:italic;
+    color:var(--blue-soft);
+    font-size:1.05rem;
+  }
+  header.title .meta{
+    margin-top:14px;
+    font-size:.92rem;
+    color:#5a4b1a;
+  }
+  .lead{
+    font-style:italic;
+    color:#3b3b3b;
+    border-left:3px solid var(--gold);
+    padding:6px 16px;
+    margin:0 0 28px 0;
+    background:#fbf4dd55;
+  }
+  .dedication{
+    text-align:center;
+    font-size:.95rem;
+    color:#5a4b1a;
+    border-top:1px solid var(--gold-soft);
+    border-bottom:1px solid var(--gold-soft);
+    padding:10px 8px;
+    margin:0 0 26px 0;
+  }
+  h2{
+    font-variant:small-caps;
+    letter-spacing:.06em;
+    color:var(--blue);
+    border-bottom:1.5px solid var(--gold);
+    padding-bottom:4px;
+    margin-top:42px;
+    font-size:1.25rem;
+  }
+  h3{
+    color:var(--gold);
+    font-style:italic;
+    font-size:1.08rem;
+    margin-top:28px;
+    margin-bottom:6px;
+  }
+  blockquote{
+    border-left:3px solid var(--blue-soft);
+    margin:14px 0;
+    padding:6px 18px;
+    background:#eef2fb55;
+    color:#222;
+  }
+  blockquote.heb{
+    border-left:none;
+    border-right:3px solid var(--blue-soft);
+    background:#eef2fb55;
+  }
+  .heb{
+    font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;
+    direction:rtl;
+    unicode-bidi:embed;
+    color:var(--blue);
+  }
+  .heb-inline{
+    font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;
+    direction:rtl;
+    unicode-bidi:embed;
+  }
+  .callout{
+    background:#fbf4dd;
+    border:1px solid var(--gold-soft);
+    border-radius:6px;
+    padding:14px 18px;
+    margin:22px 0;
+  }
+  .callout .label{
+    display:block;
+    font-variant:small-caps;
+    letter-spacing:.12em;
+    color:var(--gold);
+    font-size:.82rem;
+    margin-bottom:6px;
+  }
+  .footnote-ref{
+    font-size:.78rem;
+    vertical-align:super;
+    color:var(--gold);
+    text-decoration:none;
+    margin-left:1px;
+  }
+  .footnote-ref:hover{text-decoration:underline}
+  section.mareh{
+    margin-top:48px;
+    border-top:2px solid var(--rule);
+    padding-top:18px;
+  }
+  section.mareh h2{
+    border-bottom:none;
+    margin-top:0;
+  }
+  section.mareh ol{
+    padding-left:22px;
+    color:#2a2a2a;
+    list-style:decimal;
+  }
+  section.mareh li{margin:12px 0;padding-left:4px}
+  section.mareh li .short{font-weight:600;color:var(--blue)}
+  section.mareh li .expanded{color:#2a2a2a}
+  section.mareh li .backref{color:var(--gold);text-decoration:none;margin-left:6px;font-size:0.85em}
+  section.mareh .note-academic{border-left:3px solid var(--gold-soft);background:rgba(184,134,11,0.04);padding:8px 12px;margin-top:4px;font-size:0.95em}
+  footer.colophon{
+    margin-top:50px;
+    border-top:3px double var(--rule);
+    padding-top:18px;
+    text-align:center;
+    font-style:italic;
+    color:#5a4b1a;
+    font-size:.92rem;
+  }
+  hr.fancy{
+    border:none;
+    text-align:center;
+    margin:30px 0;
+  }
+  hr.fancy::before{
+    content:"❦";
+    color:var(--gold);
+    font-size:1.2rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="title">
+  <div class="kicker">Rabbi Ephrati · Sunday Morning שיעור on תפילה</div>
+  <h1>Siyum שמונה עשרה: יהיו לרצון, אלוקי נצור, and the מחלוקת of Pressburg</h1>
+  <div class="subtitle">Closing the עמידה — נוסחאות, ראשונים, and the תפילה of מר בריה דרבינא</div>
+  <div class="meta">Recorded 19 October 2025 · Reworked from the original שיעור</div>
+</header>
+
+<div class="dedication">
+  This שיעור is sponsored by Yitzchak and Mrs. Pele לעילוי נשמת her father,<br>
+  ר' חיים יהודה בן מאיר ווילינגער ז״ל — survivor of the war and the death march from סיילישע, who left behind a beautiful family. May his memory be a blessing.
+</div>
+
+<p class="lead">
+  After the long break of ימים טובים we return to our regular structure. Last time we finished the ברכה of שים שלום; today we move into what comes next — the close of שמונה עשרה, the נוסח question of עושה השלום versus המברך את עמו ישראל בשלום, and the much later piece of תפילה we call אלוקי נצור.
+</p>
+
+<h2>I. עושה השלום vs. המברך את עמו ישראל בשלום</h2>
+
+<h3>The נוסח Question</h3>
+<p>
+  Last time we addressed the נוסח אשכנז version of the closing ברכה. Most of the world says <span class="heb-inline">ברוך אתה ה' המברך את עמו ישראל בשלום</span>. נוסח אשכנז, however, says <span class="heb-inline">עושה השלום</span> during עשרת ימי תשובה. I forgot to mention one fascinating fact: there is a sefer called <em>חוט המשולש</em><a href="#fn1" id="ref1" class="footnote-ref">[1]</a> which reveals that in earlier times נוסח אשכנז said <span class="heb-inline">עושה השלום</span> the entire year — not only during the ימים נוראים. Today, אשכנזים do it only during עשרת ימי תשובה.
+</p>
+
+<h3>Why Specifically During עשרת ימי תשובה?</h3>
+<p>
+  We discussed at length why these days are different. The גמטריא of <span class="heb-inline">השלום</span> equals <span class="heb-inline">סנדלפון</span> — the מלאך who writes and records our כתיבה וחתימה טובה. During עשרת ימי תשובה we want to invoke the רחמים associated with that מלאך. This led us into the whole question of how we are permitted to seem to daven <em>to</em> מלאכים at all; the answer being that when we say <span class="heb-inline">מכניסי רחמים</span> we are not actually davening <em>to</em> them.
+</p>
+<p>
+  And there is a beautiful irony: the גמטריא of <span class="heb-inline">עושה</span> equals <span class="heb-inline">השלום</span>, so even by saying the single word <span class="heb-inline">עושה</span> you invoke that same מלאך. Before the מנהג אשכנז narrowed down to say <span class="heb-inline">עושה השלום</span> only during the ימים נוראים, there was a genuine מנהג to say it the whole year. It became a controversial topic, and different סידורים printed it different ways.
+</p>
+
+<h2>II. The Sefer חוט המשולש</h2>
+<p>
+  חוט המשולש is a fascinating sefer that every yid should have at home, especially every תלמיד of the חתם סופר. One of the חתם סופר's grandchildren wrote it as a biography of three generations: his grandfather רבי עקיבא איגר, his father the חתם סופר, and his own father the כתב סופר. (רבי עקיבא איגר was the חתם סופר's father-in-law: the חתם סופר's first wife was childless for many years, and his second marriage was to רבי עקיבא איגר's daughter.) The title is taken from the principle that three consecutive generations of תורה — the גמרא in כתובות calls it <span class="heb-inline">חוט המשולש לא ינתק</span><a href="#fn2" id="ref2" class="footnote-ref">[2]</a> — do not get cut off.
+</p>
+<p>
+  The descendants kept writing, and each named his sefer after his own name:
+</p>
+<blockquote>
+  חתם סופר → כתב סופר → שבט סופר → דעת סופר.
+</blockquote>
+<p>
+  The first one to make עליה moved to ארץ ישראל. The אייניקלך of the חתם סופר still serve as great רבנים today; there are thousands of them.
+</p>
+
+<h2>III. The מחלוקת in פרעסבורג</h2>
+
+<h3>The Chassidic Revolution</h3>
+<p>
+  In חוט המשולש there is a long account of a great controversy in פרעסבורג. פרעסבורג was always a unique city — a city of Oberland yidden who davened נוסח אשכנז. But after the בעל שם טוב revealed himself there was an upheaval over the נוסח של תפילה, and the חתם סופר and others adjusted certain things in response.
+</p>
+<p>
+  The חסידים in the 1700s changed davening on two main fronts.
+</p>
+<p>
+  <strong>The physical posture of davening.</strong> The חרמות against the חסידים — yes, the וילנא גאון and his תלמידים placed the חסידים in חרם — describe how when they davened they looked like absolute lunatics. They jumped up and down, rolled on the floor, called out. We also shuckle when we learn and daven, based on the זוהר הקדוש and other ספרים, but the חסידים took it to another level. The וילנא גאון objected that this turned the decorum of the shul into a circus.
+</p>
+<p>
+  <strong>The נוסח התפילה itself.</strong> They changed the actual נוסח. The שו״ת literature of the פוסקים of that period is full of sharp קושיות against the חסידים over those changes. למעשה, the חסידים won. The חפץ חיים said toward the end of his life that without the בעל שם טוב and the חסידיש movement, the משכילים would have taken over כלל ישראל. We needed that warmth — even though it came at a price: changes in shul decorum, in נוסח, and the introduction of all kinds of מנהגים based on קבלה that had not been part of our standard Jewish experience. הקדוש ברוך הוא knows what He is doing. The חסידים eventually adopted נוסח האר״י (or נוסח אר״י of חב״ד), incorporating elements based on קבלה into the נוסח התפילה.
+</p>
+
+<h3>The Pressburg Split — "עושה'ניקס" and "המברך'ניקס"</h3>
+<p>
+  In פרעסבורג the קהל split over precisely this. One camp held to <span class="heb-inline">המברך את עמו ישראל בשלום</span>, the other to <span class="heb-inline">עושה השלום</span>. The מחלוקת became so acute that one camp was nicknamed the <strong>עושה'ניקס</strong> and the other the <strong>המברך'ניקס</strong>.
+</p>
+<p>
+  Picture the irony: the ברכה of שלום itself became the dividing line of two warring camps. We all want שלום — that is what we are <em>asking for</em>. And that is what they fought about.
+</p>
+
+<h2>IV. יהיו לרצון — Before, After, or Both?</h2>
+
+<h3>What is יהיו לרצון?</h3>
+<p>
+  At the very end of שמונה עשרה we say a פסוק from תהלים: <span class="heb-inline">יהיו לרצון אמרי פי והגיון לבי לפניך</span>. May the words of my mouth — and even more, the unspoken thoughts of my heart — be לרצון, accepted, before You. From the standpoint of דקדוק the verb is open: it could mean "the things I <em>will</em> say in the next few minutes of שמונה עשרה" or "the things I <em>have already</em> said." That ambiguity matters.
+</p>
+
+<h3>The גמרא in ברכות</h3>
+<p>
+  The גמרא asks: who told us to say יהיו לרצון at the <em>end</em> of שמונה עשרה? Maybe — like <span class="heb-inline">ה' שפתי תפתח</span> at the beginning — it should be at the start.<a href="#fn3" id="ref3" class="footnote-ref">[3]</a>
+</p>
+<p>
+  The answer comes through this principle: תפילה in the strict sense <em>is</em> שמונה עשרה. קריאת שמע is not תפילה. We bundle it all together as davening, but when חז״ל say "תפילה" they mean the עמידה. Just as we are not מפסיק between גאולה and תפילה — and <span class="heb-inline">ה' שפתי תפתח</span> is not considered a הפסק but rather part and parcel of שמונה עשרה — the same applies to יהיו לרצון. It is part of the עמידה.
+</p>
+
+<h3>Following דוד המלך</h3>
+<p>
+  And we always follow דוד המלך, especially in שמונה עשרה. Every ברכה of שמונה עשרה is patterned on קפיטלעך תהלים in the order in which דוד המלך embedded his בקשות. After eighteen קפיטלעך תהלים — corresponding to our eighteen ברכות — דוד המלך says <span class="heb-inline">יהיו לרצון אמרי פי והגיון לבי לפניך</span>. So obviously it must come at the <em>end</em>.
+</p>
+<p>
+  (Technically it is after the nineteenth perek, not the eighteenth. But פרק א and פרק ב are counted as one in the times of the גמרא — a famous גמרא in ברכות. We have nineteen ברכות too, with ברכת המינים, so the math works out perfectly.)
+</p>
+
+<h3>The מחלוקת הראשונים</h3>
+<p>
+  Then the question sharpens: do we say יהיו לרצון <em>before</em> אלוקי נצור, <em>after</em> it, or <em>both</em>?
+</p>
+<p>
+  The רשב״א in מסכת ברכות writes: if the גמרא says דוד המלך said it immediately after the eighteen קפיטלעך, and we mimic דוד, then it must be said immediately after שמונה עשרה — <em>before</em> אלוקי נצור. Why? Because אלוקי נצור is not part of שמונה עשרה.<a href="#fn4" id="ref4" class="footnote-ref">[4]</a>
+</p>
+<p>
+  The וילנא גאון raises a powerful objection. If you say יהיו לרצון <em>first</em>, then אלוקי נצור is no longer part of שמונה עשרה — it is as if you have already taken three steps back. So the גר״א says: leave יהיו לרצון for last. Insert אלוקי נצור directly after <span class="heb-inline">המברך את עמו ישראל בשלום</span> while you are still standing in שמונה עשרה, and only then say יהיו לרצון.
+</p>
+<p>
+  We adopt the גר״א's מנהג; the רמ״ע מפאנו<a href="#fn5" id="ref5" class="footnote-ref">[5]</a> also says it. The משנה ברורה<a href="#fn6" id="ref6" class="footnote-ref">[6]</a>, however, says that what we actually do today is even better: say it <em>both</em> times — once before אלוקי נצור (as part of the עמידה proper, satisfying the רשב״א) and once after (satisfying the גר״א). It is admittedly a bit תרתי דסתרי and does not perfectly hold together, but that is the מנהג.
+</p>
+
+<div class="callout">
+  <span class="label">A Standing Question on מנחה of יום כיפור</span>
+  There is a great question in the אחרונים at מנחה every יום כיפור. Look at any מחזור: do you say <span class="heb-inline">על חטא</span> <em>before</em> אלוקי נצור or <em>after</em>? וידוי has to be part of the תפילה — it cannot come after שמונה עשרה. The אחרונים argue exactly what to do; many say to follow whatever is printed in your מחזור, and יש על מי לסמוך either way.
+</div>
+
+<h2>V. Where Did אלוקי נצור Come From?</h2>
+<p>
+  Did you know אלוקי נצור only appeared later? This whole tefillah that every yid says religiously three times a day, and considers part of davening, was not back in the day. In the time of the גאונים and ראשונים not many people said it. The אבודרהם<a href="#fn7" id="ref7" class="footnote-ref">[7]</a>, one of the great מפרשים on תפילה, says it was originally only for יחידים. Today it is in every סידור — but if you research ancient סידורים you will find that not all of them included it, and not all the גאונים said it.
+</p>
+<p>
+  Its source is a גמרא in ברכות<a href="#fn8" id="ref8" class="footnote-ref">[8]</a> about a famous אמורא named <strong>מר בריה דרבינא</strong> — Mar, the son of Ravina. (This is a different Ravina than the one we know from "רבינא ורב אשי," who came later.)
+</p>
+
+<h2>VI. מר בריה דרבינא — A Man מלומד בנסים</h2>
+
+<h3>נס הכותל and the Story Behind a Legend</h3>
+<p>
+  The past year, when we were in וורמייזא with הרב זצ״ל, we visited the בית מדרש of רש״י. The historian Yehuda Gevera — a remarkable historian — brought us to the start of רש״י's בית מדרש and showed us an indentation in the wall. According to legend, when רש״י's mother was carrying him she was walking down a very narrow street where she lived. A knight on horseback came galloping through the alley. She would have been run over — and we would not have רש״י על כל התורה or על כל הש״ס. The legend says הקדוש ברוך הוא made a נס: the wall opened, she pressed herself into it, the knight passed, and ברוך השם, we have רש״י. (The historian was, in fact, mocking it, and proved conclusively that the story never actually happened.)
+</p>
+<p>
+  But where does such a story come from? It comes from the גמרא — not about רש״י, but about מר בריה דרבינא. The גמרא in ברכות דף נ״ד<a href="#fn9" id="ref9" class="footnote-ref">[9]</a> says he was walking in the marketplace of מחוזא — מחוזא was a place in modern-day Iraq, near present-day Mosul — when suddenly a mad camel charged at him. Behind him a hole opened in the wall, and he flew into the safety of the house. For the rest of his life every time he passed by that place he said:
+</p>
+<blockquote class="heb">
+  <span class="heb">ברוך שעשה לי נס במקום הזה.</span>
+</blockquote>
+<p>
+  That is the ברכה you make on the spot of a personal miracle. The גמרא records other נסים of his as well; he was <strong>מלומד בנסים</strong> — the expression we use for someone to whom miracles routinely happen. גמרא is not legend. Whatever חז״ל say is אמת לאמיתו.
+</p>
+
+<h3>The Origin of Breaking the Glass under the חופה</h3>
+<p>
+  מר בריה דרבינא is also the source of the מנהג to break a glass under the חופה. The גמרא in ברכות tells that he was making a חתונה for his son, and everybody was very happy — too happy for his liking. Perhaps he was a Litvak; the שמחה had crossed into הוללות, into wildness. So at his own son's חתונה he stood up, took a vase worth four hundred זוז — it must have been an extraordinary, expensive piece — and smashed it on the floor. Everyone fell silent. The הוללות dissipated. They realized they had gone too far.
+</p>
+<p>
+  From there comes the מנהג that the חתן smashes a glass under the חופה — תוספות<a href="#fn10" id="ref10" class="footnote-ref">[10]</a> says it is <strong>זכר לחורבן</strong>: <span class="heb-inline">אם אשכחך ירושלים תשכח ימיני</span>.<a href="#fn11" id="ref11" class="footnote-ref">[11]</a> May we all be זוכה to break glasses at חופות for our children and grandchildren.
+</p>
+
+<h2>VII. The תפילה of אלוקי נצור</h2>
+<p>
+  The same גמרא says that מר בריה דרבינא, after his daily שמונה עשרה, decided to add his own private words. That is itself a חידוש. We are not allowed to add to the מטבע שטבעו חכמים — the formula minted by the אנשי כנסת הגדולה. We are talking about the last generation of נביאים, שמעון הצדיק, and figures from centuries before him.
+</p>
+<p>
+  But the גמרא explains: while you may not add new ברכות, you can add personal language at the place we now call <strong>אלוקי נצור</strong>. מר בריה דרבינא added in his own words: <span class="heb-inline">אלוקי נצור לשוני מרע… עד כל מחשבותם</span> — until "all their thoughts." (Our printed נוסח is slightly different from the גמרא's; the גמרא has the language closer to "anyone who wants to harm me." נוסח ספרד keeps that explicit, while other נוסחאות have softened it. But that is what one is supposed to have in כוונה.)
+</p>
+<p>
+  Once you have said יהיו לרצון, however, you have effectively sealed שמונה עשרה — it is as if you have already taken three steps back. From that point on, you may add whatever you wish in your own words.
+</p>
+
+<h2>VIII. The Two Questions Behind the Whole סוגיא</h2>
+<p>
+  We left off with two questions raised by רבינו ברוך that hover over the closing of שמונה עשרה.
+</p>
+<p>
+  <strong>First — why <em>this</em> תפילה?</strong> Why did the early generations standardize the personal addition of <em>this</em> particular אמורא — מר בריה דרבינא's <span class="heb-inline">אלוקי נצור לשוני מרע</span> — and not the personal תפילה of any of the dozens of other אמוראים the גמרא in ברכות records?
+</p>
+<p>
+  <strong>Second — why specifically about לשון הרע?</strong> Out of all the תרי״ג מצוות, why do we conclude שמונה עשרה with a request to be saved specifically from לשון הרע? We say <span class="heb-inline">ברוך השם</span>, we thank for everything, and then specifically: "please, הקדוש ברוך הוא, save me from לשון הרע today."
+</p>
+<p>
+  The מפרשי תפילה answer that this is itself a <span class="heb-inline">סימן</span> — a testimony to how prevalent and dangerous לשון הרע really is. We do not fully appreciate what we are saying. Often, even as we are still taking our three steps back, we are already speaking לשון הרע to the person beside us. The גמרא teaches: do not say "I am a צדיק" — everyone stumbles in לשון הרע, if not actual לשון הרע then at least אבק לשון הרע. A yid davens to הקדוש ברוך הוא: I know I am about to step into the world. I have just spoken to You. Please let the words that come out of my mouth today be holy.
+</p>
+
+<h2>IX. Two Beautiful כוונות in יהיו לרצון</h2>
+
+<h3>Accepting Even Words Without כוונה</h3>
+<p>
+  Another way to read יהיו לרצון is straightforward and personal. None of us is מכוון to every single word of שמונה עשרה unless we are holding at a very high level. Saying every word — fine, ברוך השם. But <em>thinking</em> every word? That is hard. We say to הקדוש ברוך הוא: the words that left my mouth, even where I had no כוונה, even if they are empty — accept them. <span class="heb-inline">אמרי פי</span>. And the פסוק adds <span class="heb-inline">והגיון לבי</span> — the parts where I <em>did</em> have כוונה, accept those too.
+</p>
+<p>
+  The world makes a joke. If a man wants to take a trip he needs a plane ticket and a visa. If he wants to be in Hong Kong, all he has to do is take three steps back, three steps forward, and start שמונה עשרה — his brain is already in Hong Kong. We are simply asking הקדוש ברוך הוא: even if our כוונה wandered, please accept the words. The פסוק <span class="heb-inline">אלה ברכב ואלה בסוסים ואנחנו בשם ה' אלוקינו נזכיר</span> — the גוים have רכב and סוסים and military; we have הקדוש ברוך הוא's name.<a href="#fn12" id="ref12" class="footnote-ref">[12]</a>
+</p>
+
+<h3>The רד״ק — Thoughts Beyond Words</h3>
+<p>
+  The רד״ק<a href="#fn13" id="ref13" class="footnote-ref">[13]</a> on that very פסוק says something beautiful. The meaning is something else: there were always thoughts and כוונות behind the words that could not be put into words. Sometimes you want to daven for something but cannot find the language. We are <em>supposed</em> to use our own words at this point in שמונה עשרה. The פוסקים say: add whatever you want into אלוקי נצור — a שידוך for your child, פרנסה, anything — ask.
+</p>
+<p>
+  But sometimes the thought is in your head and you cannot get it out. We tell הקדוש ברוך הוא: You are <span class="heb-inline">יודע מחשבות</span>. You know what I mean even when I cannot say it. Read my מחשבות as if I had said them. That is also a beautiful כוונה a yid should have at this point of davening.
+</p>
+
+<h2>X. When to Lengthen — אלוקי נצור or יהיו לרצון?</h2>
+<p>
+  Practically speaking, where should one elaborate? The פוסקים say it is better to lengthen <em>after</em> יהיו לרצון, not during שמונה עשרה proper. The reason is technical: if you are מאריך and מאריך in personal בקשות while still in שמונה עשרה, you will miss קדיש, miss קדושה, miss אמן. After יהיו לרצון you may answer קדיש and קדושה, you may say אמן, and you can elaborate as long as you wish. That is exactly how the שלחן ערוך<a href="#fn14" id="ref14" class="footnote-ref">[14]</a> frames it.
+</p>
+
+<h2>XI. The שלה הקדוש and the פסוק of One's Name</h2>
+
+<h3>Identity by Name</h3>
+<p>
+  The שלה הקדוש<a href="#fn15" id="ref15" class="footnote-ref">[15]</a> teaches something profound about the connection between a person's name and his נשמה. A person here in this world is identified by his looks, his career, his vocation — and also his name. In עולם האמת a נשמה is identified only by one thing: by its name. There is even a tradition that when a נשמה arrives there for its accounting, some people forget their own name at that crucial moment.
+</p>
+<p>
+  The שלה brings down a סגולה: at the end of שמונה עשרה, recite a פסוק that begins with the first letter of your name and ends with the last letter. If your name is ישראל, find a פסוק beginning with י and ending with ל. (I personally practiced this מנהג in my youth and later left it off, since it does not actually originate with the שלה himself, but many continue the practice and it remains printed in our סידורים.)
+</p>
+
+<h3>Where Does the מנהג Actually Come From?</h3>
+<p>
+  Its origins are obscure. There is a fascinating phenomenon in תנ״ך study: when learning with פירוש רש״י you sometimes encounter additions in parentheses. Some are authentic רש״י; others are <em>פירוש אחר</em>. Who wrote them?
+</p>
+<p>
+  אפרים זלמן מרגליות of Brody — one of the most prolific authors of the nineteenth century — addressed exactly this in his ספר שם אפרים<a href="#fn16" id="ref16" class="footnote-ref">[16]</a>. In his commentary on רש״י על נ״ך, particularly in שופטים פרק כ', he writes very sharply about how the printers and publishers added material to רש״י without proper attribution, creating confusion that led people to believe רש״י had said things he never said. Despite his protests, those parenthetical additions remain in our printed editions of נ״ך to this day.
+</p>
+<p>
+  The earliest reference to saying the פסוק of one's name appears in <em>ספר מכלול</em> from one of the ראשונים, and in <em>תריסר אסר</em><a href="#fn17" id="ref17" class="footnote-ref">[17]</a>. But that source does not say to recite it during davening — it simply says that if a person recites the פסוק that begins with his name's first letter and ends with its last, the תורה will protect him from עונש גהינום. There is no instruction to incorporate it into תפילה.
+</p>
+<p>
+  The first appearance of the practice <em>in the סידור</em> is אמסטרדם 1699<a href="#fn18" id="ref18" class="footnote-ref">[18]</a>. (I have actually seen a copy of that סידור.) From that point on the printers began including it universally — why not? Everyone wants an extra זכות against גהינום. רבי יעקב עמדין<a href="#fn19" id="ref19" class="footnote-ref">[19]</a> also brings the מנהג, and after 1699 it appears in virtually every printed סידור.
+</p>
+<p>
+  The זוהר הקדוש<a href="#fn20" id="ref20" class="footnote-ref">[20]</a> cites the broader idea — a person's name is essentially his נשמה, and references פרשת האזינו on this. Therefore when you invoke your name through the פסוק you are invoking your נשמה, and the כח התורה of repeating that פסוק provides spiritual protection.
+</p>
+
+<h2>XII. Names from תנ״ך — נמרוד and ישמעאל</h2>
+<p>
+  An interesting discussion arose over which biblical names are appropriate. נמרוד is a popular name in ארץ ישראל today, yet נמרוד is an infamous personality in תנ״ך. ישמעאל too is a תנ״ך name, and we still find yidden named ישמעאל. Which biblical personalities are considered acceptable to name a child after, and which are not?
+</p>
+<p>
+  We have to judge yidden לכף זכות. Many people simply do not know the תנ״ך context — they hear a name that sounds biblical and pleasant and use it without realizing the associations. There is even a story of a מוהל who refused to perform a ברית מילה when the parents wanted to name the child נמרוד, precisely because of that figure's reputation in תנ״ך.
+</p>
+
+<h2>XIII. The Name Is the נשמה</h2>
+<p>
+  In עולם האמת a yid is identified by his נשמה. Here, by looks, by what he does, his career, his vocation, and also by his name — but in עולם האמת, only by his name. That is why I like to ask people their Hebrew name. I do not want to call a yid by his English name; I want to call him by his real name. There were many גדולים who opposed English names altogether. Today we have to use them — but ever notice how all the Hungarian yidden who came after the war changed their names to English names? Even in Hungary they had Hungarian names.
+</p>
+<p>
+  The האריז״ל<a href="#fn21" id="ref21" class="footnote-ref">[21]</a> says that when a father names a son at the ברית מילה, it is רוח הקודש. Why? Because a name is not a label; it is a heavenly assignment of identity. הקדוש ברוך הוא, כביכול, identifies נשמות by name.
+</p>
+
+<div class="callout">
+  <span class="label">דרך אגב — Waking with the Hebrew Name</span>
+  The בני יששכר writes in his מאמרי חודש כסלו, in ספר אגרא דפרקא<a href="#fn22" id="ref22" class="footnote-ref">[22]</a>, one of the סברות: when you want to wake someone up — your child, a guest — alarm clocks do not help, lights do not help, water does not help. Say his Jewish name. Because then you are speaking to the נשמה, not the גוף. The נשמה leaves the body during sleep; you are inviting the נשמה back down. Use the Hebrew name.
+</div>
+
+<h2>XIV. שכר ועונש and גהינום</h2>
+<p>
+  There is a tradition — I am calling it a tradition because we do not know the exact מקור in חז״ל — that when a yid comes to עולם האמת, הקדוש ברוך הוא will judge us, and רשעים will be punished.
+</p>
+<p>
+  שכר ועונש is real. Whether we whitewash it or tell our kids "השם loves you, everything is good" — everything is <em>not</em> so good. There is עונש. You do מצוות, you receive שכר. You do עברות, you receive עונש. Even in 2025 we cannot forget this. תשובה כלפי שמיא is genuine — we just had יום כיפור and we are clean — but a חטא, untreated, gets עונש.
+</p>
+<p>
+  When a person comes up to שמים, the ספרים describe the experience in language that should make any of us tremble. They write of the מלאכי חבלה surrounding the נשמה, of the פטש it receives. It is a נשמה — it is spiritual — so how do you receive a physical blow? The ספרים struggle to give us the imagery, and the imagery is bad news. רבותי, if you have a connection in שמים, be careful when reading those ספרים. You can faint.
+</p>
+<p>
+  This is the deeper backdrop to the closing of our שמונה עשרה. We ask הקדוש ברוך הוא to accept our words even where כוונה fell short, to read our hearts where we could not find the language, to keep our tongues from לשון הרע, and to remember our נשמות by their true Hebrew names.
+</p>
+
+<hr class="fancy">
+
+<h2>סיכום</h2>
+<p>
+  May we be זוכה to daven to הקדוש ברוך הוא and have all our תפילות accepted. May we merit to say יהיו לרצון אמרי פי with proper כוונה — for both the words we say and the thoughts we cannot express. May our names be called in שמים with כבוד, and may we be guarded from לשון הרע and from every עבירה.
+</p>
+
+<section class="mareh">
+  <h2>מראה מקומות &nbsp;·&nbsp; Mareh Mekomos</h2>
+  <ol>
+    <li id="fn1"><span class="short"><em><span class="heb-inline">חוט המשולש</span></em>, by a grandchild of the <span class="heb-inline">חתם סופר</span> — three-generation biography (<span class="heb-inline">רבי עקיבא איגר</span>, <span class="heb-inline">חתם סופר</span>, <span class="heb-inline">כתב סופר</span>).</span> <span class="expanded">— The classic biographical compilation by <span class="heb-inline">ר' שלמה סופר</span> (1853–1930), grandson of the <span class="heb-inline">כתב סופר</span> and great-grandson of the <span class="heb-inline">חתם סופר</span>. Title from <span class="heb-inline">קהלת ד':י"ב</span> — <em><span class="heb-inline">והחוט המשולש לא במהרה ינתק</span></em>, applied in <span class="heb-inline">ב"מ פ"ה ע"א</span> to three consecutive generations of <span class="heb-inline">תורה</span> in one family. The sefer contains the detailed history of the <span class="heb-inline">פרעסבורג</span> נוסח controversy and the שיעור's note on the early <span class="heb-inline">אשכנז</span> practice of saying <span class="heb-inline">עושה השלום</span> the entire year.</span> <a class="backref" href="#ref1" title="Return to text">↩</a></li>
+
+    <li id="fn2"><span class="short"><em><span class="heb-inline">קהלת ד':י"ב</span></em>; <em><span class="heb-inline">בבא מציעא פ"ה ע"א</span></em>.</span> <span class="expanded">— <em><span class="heb-inline">החוט המשולש לא במהרה ינתק</span></em> — the principle, applied in <span class="heb-inline">ב"מ פ"ה</span> to a chain of three generations of <span class="heb-inline">תלמידי חכמים</span> in one family, that <span class="heb-inline">תורה</span> in three successive generations is "not easily severed." (Note: the שיעור attributed the source to <em><span class="heb-inline">כתובות</span></em>; the principal גמרא location is <em><span class="heb-inline">ב"מ פ"ה ע"א</span></em>.)</span> <a class="backref" href="#ref2" title="Return to text">↩</a></li>
+
+    <li id="fn3"><span class="short"><em><span class="heb-inline">ברכות ד' ע"ב</span></em> and <em><span class="heb-inline">ברכות ט' ע"ב</span></em>; <em><span class="heb-inline">ברכות ל"א ע"א</span></em>.</span> <span class="expanded">— The <span class="heb-inline">גמרא</span> in <span class="heb-inline">ברכות</span> establishes that <span class="heb-inline">ה' שפתי תפתח</span> (<span class="heb-inline">תהלים נ"א:י"ז</span>) is recited at the start of <span class="heb-inline">שמונה עשרה</span> as integral to it (no <span class="heb-inline">הפסק</span>). The parallel discussion of <span class="heb-inline">יהיו לרצון</span> at the close — its source in <span class="heb-inline">תהלים י"ט:ט"ו</span> following the eighteen <span class="heb-inline">קפיטלעך</span> of <span class="heb-inline">תהלים</span> that parallel the eighteen <span class="heb-inline">ברכות</span> of the <span class="heb-inline">עמידה</span> — is in <span class="heb-inline">ברכות ד' ע"ב</span> and is foundational for the placement of <span class="heb-inline">יהיו לרצון</span> at the end of <span class="heb-inline">שמונה עשרה</span>.</span> <a class="backref" href="#ref3" title="Return to text">↩</a></li>
+
+    <li id="fn4"><span class="short"><em><span class="heb-inline">חידושי הרשב"א, ברכות ל"א</span></em>.</span> <span class="expanded">— The <span class="heb-inline">רשב"א</span> (<span class="heb-inline">ר' שלמה בן אברהם בן אדרת</span>, Barcelona, c. 1235–1310) holds that <span class="heb-inline">יהיו לרצון</span> should be said immediately after the eighteen <span class="heb-inline">ברכות</span>, in parallel with <span class="heb-inline">דוד המלך</span>'s placement after the eighteen <span class="heb-inline">קפיטלעך</span> — and therefore <em>before</em> <span class="heb-inline">אלוקי נצור</span>, since <span class="heb-inline">אלוקי נצור</span> is post-<span class="heb-inline">עמידה</span>.</span> <a class="backref" href="#ref4" title="Return to text">↩</a></li>
+
+    <li id="fn5"><span class="short"><em><span class="heb-inline">ביאור הגר"א, או"ח קכ"ב</span></em>; <em><span class="heb-inline">רמ"ע מפאנו</span></em>.</span> <span class="expanded">— The <span class="heb-inline">גר"א</span> (<span class="heb-inline">ר' אליהו מווילנא</span>, 1720–1797) in his <span class="heb-inline">ביאור</span> on the <span class="heb-inline">שלחן ערוך</span> argues against the <span class="heb-inline">רשב"א</span>: <span class="heb-inline">אלוקי נצור</span> belongs <em>inside</em> <span class="heb-inline">שמונה עשרה</span> proper (before the three steps back), and <span class="heb-inline">יהיו לרצון</span> only after. The <span class="heb-inline">רמ"ע מפאנו</span> (<span class="heb-inline">ר' מנחם עזריה מפאנו</span>, 1548–1620) makes the same point in his liturgical writings.</span> <a class="backref" href="#ref5" title="Return to text">↩</a></li>
+
+    <li id="fn6"><span class="short"><em><span class="heb-inline">משנה ברורה, או"ח קכ"ב, ס"ק ג'</span></em>.</span> <span class="expanded">— The <span class="heb-inline">משנה ברורה</span> records the universal current <span class="heb-inline">מנהג</span>: say <span class="heb-inline">יהיו לרצון</span> <em>both</em> before and after <span class="heb-inline">אלוקי נצור</span>, satisfying the <span class="heb-inline">רשב"א</span> (first recital, attached to the <span class="heb-inline">עמידה</span>) and the <span class="heb-inline">גר"א</span>/<span class="heb-inline">רמ"ע מפאנו</span> (second recital, sealing the <span class="heb-inline">תפילה</span> just before the three steps back). The <span class="heb-inline">משנה ברורה</span> acknowledges this is somewhat <em><span class="heb-inline">תרתי דסתרי</span></em> but defends it as the established <span class="heb-inline">מנהג</span>.</span> <a class="backref" href="#ref6" title="Return to text">↩</a></li>
+
+    <li id="fn7"><span class="short"><em><span class="heb-inline">אבודרהם</span></em>, on <span class="heb-inline">סיום שמונה עשרה</span>.</span> <span class="expanded">— <span class="heb-inline">ר' דוד אבודרהם</span> (Seville, mid-14th century), author of the classic commentary on the <span class="heb-inline">סדור</span>. He records that <span class="heb-inline">אלוקי נצור</span> was originally an addition recited only by <span class="heb-inline">יחידים</span> (individuals as their personal closing <span class="heb-inline">תפילה</span>), and only later became universal. Verify exact location in printed <em><span class="heb-inline">אבודרהם</span></em> on the <span class="heb-inline">תפילה</span> of <span class="heb-inline">שחרית</span>.</span> <a class="backref" href="#ref7" title="Return to text">↩</a></li>
+
+    <li id="fn8"><span class="short"><em><span class="heb-inline">ברכות ט"ז ע"ב – י"ז ע"א</span></em> — אמוראים' personal <span class="heb-inline">תפילות</span>; <em><span class="heb-inline">ברכות ט"ז ע"ב</span></em> for <span class="heb-inline">מר בריה דרבינא</span>'s <span class="heb-inline">אלוקי נצור</span>.</span> <span class="expanded">— The <span class="heb-inline">גמרא</span> in <span class="heb-inline">ברכות</span> ch. 2 (after <span class="heb-inline">המשנה</span> of <span class="heb-inline">תפילת הדרך</span>) records the personal closing <span class="heb-inline">תפילות</span> of various <span class="heb-inline">אמוראים</span>: <span class="heb-inline">רבי</span>, <span class="heb-inline">רבי אלעזר</span>, <span class="heb-inline">רב</span>, <span class="heb-inline">רבי יוחנן</span>, <span class="heb-inline">רב חייא</span>, <span class="heb-inline">רב</span>, and others — and famously the <span class="heb-inline">תפילה</span> of <span class="heb-inline">מר בריה דרבינא</span>, beginning <em><span class="heb-inline">אלוקי, נצור לשוני מרע</span></em>, which became the standard closing <span class="heb-inline">תפילה</span> of every <span class="heb-inline">שמונה עשרה</span>.</span> <a class="backref" href="#ref8" title="Return to text">↩</a></li>
+
+    <li id="fn9"><span class="short"><em><span class="heb-inline">ברכות נ"ד ע"א-ע"ב</span></em>.</span> <span class="expanded">— The <span class="heb-inline">משנה</span>: <em><span class="heb-inline">הרואה מקום שנעשה לו נס מברך... ברוך שעשה לי נס במקום הזה</span></em>. The <span class="heb-inline">גמרא</span> (<span class="heb-inline">נ"ד ע"ב</span>) brings the story of <span class="heb-inline">מר בריה דרבינא</span> in the marketplace of <span class="heb-inline">מחוזא</span> — the mad camel and the wall that opened — and notes he was <em><span class="heb-inline">מלומד בנסים</span></em>. (Note: <span class="heb-inline">מחוזא</span> was a Babylonian Jewish center on the Tigris, not "near Mosul"; the shiur's geographic detail should be verified.)</span> <a class="backref" href="#ref9" title="Return to text">↩</a></li>
+
+    <li id="fn10"><span class="short"><em><span class="heb-inline">תוספות, ברכות ל"א ע"א</span></em>, <em><span class="heb-inline">ד"ה אייתי</span></em>; שבירת הכוס בחופה.</span> <span class="expanded">— <span class="heb-inline">תוספות</span> on the <span class="heb-inline">גמרא</span> of <span class="heb-inline">מר בריה דרבינא</span> smashing the costly cup at his son's <span class="heb-inline">חתונה</span> derives the <span class="heb-inline">מנהג</span> of breaking a glass under the <span class="heb-inline">חופה</span> as a <em><span class="heb-inline">זכר לחורבן</span></em>, on the <span class="heb-inline">פסוק</span> in <span class="heb-inline">תהלים קל"ז</span>: <em><span class="heb-inline">אם אשכחך ירושלים תשכח ימיני</span></em>. Codified in <span class="heb-inline">רמ"א, אבן העזר ס"ה ס"ג</span>.</span> <a class="backref" href="#ref10" title="Return to text">↩</a></li>
+
+    <li id="fn11"><span class="short"><em><span class="heb-inline">תהלים קל"ז:ה'</span></em> — <em><span class="heb-inline">אם אשכחך ירושלים תשכח ימיני</span></em>.</span> <span class="expanded">— The classical <span class="heb-inline">פסוק</span> from <span class="heb-inline">על נהרות בבל</span> recited by the <span class="heb-inline">חתן</span> just before breaking the glass: an oath never to forget <span class="heb-inline">ירושלים</span> even at the height of personal joy.</span> <a class="backref" href="#ref11" title="Return to text">↩</a></li>
+
+    <li id="fn12"><span class="short"><em><span class="heb-inline">תהלים כ':ח'</span></em> — <em><span class="heb-inline">אלה ברכב ואלה בסוסים, ואנחנו בשם ה' אלוקינו נזכיר</span></em>.</span> <span class="expanded">— From the <span class="heb-inline">קפיטל</span> recited by the <span class="heb-inline">לוים</span> over a <span class="heb-inline">קרבן</span> in time of trouble. The contrast between gentile reliance on chariots and horses and Jewish reliance on <span class="heb-inline">שם ה'</span>; cited in the שיעור as background to <span class="heb-inline">יהיו לרצון</span>'s plea that the <em>name</em> we invoke carries our words past wandering <span class="heb-inline">כוונה</span>.</span> <a class="backref" href="#ref12" title="Return to text">↩</a></li>
+
+    <li id="fn13"><span class="short"><em><span class="heb-inline">רד"ק על תהלים י"ט:ט"ו</span></em>.</span> <span class="expanded">— <span class="heb-inline">רבי דוד קמחי</span> (Provence, c. 1160–1235) on the <span class="heb-inline">פסוק</span> <em><span class="heb-inline">יהיו לרצון אמרי פי והגיון לבי לפניך</span></em>: <span class="heb-inline">דוד המלך</span> asks that even the unspoken <em><span class="heb-inline">הגיון לב</span></em> — the <span class="heb-inline">כוונות</span> and <span class="heb-inline">מחשבות</span> behind the words that he could not articulate — be accepted by <span class="heb-inline">הקב"ה</span>, <em><span class="heb-inline">יודע מחשבות</span></em>. The שיעור develops this as a beautiful <span class="heb-inline">כוונה</span> for the closing of <span class="heb-inline">שמונה עשרה</span>.</span> <a class="backref" href="#ref13" title="Return to text">↩</a></li>
+
+    <li id="fn14"><span class="short"><em><span class="heb-inline">שלחן ערוך, אורח חיים סימן קכ"ב</span></em>; <em><span class="heb-inline">משנה ברורה</span></em> there.</span> <span class="expanded">— The <span class="heb-inline">שלחן ערוך</span> codifies the order of <span class="heb-inline">אלוקי נצור</span>, the personal additions, and <span class="heb-inline">יהיו לרצון</span>. The <span class="heb-inline">פוסקים</span> direct that personal <span class="heb-inline">בקשות</span> and any lengthening should come <em>after</em> <span class="heb-inline">יהיו לרצון</span>, not within the <span class="heb-inline">עמידה</span> proper, so as not to forfeit responses to <span class="heb-inline">קדיש</span>, <span class="heb-inline">קדושה</span>, and <span class="heb-inline">אמן</span>.</span> <a class="backref" href="#ref14" title="Return to text">↩</a></li>
+
+    <li id="fn15"><span class="short"><em><span class="heb-inline">של"ה הקדוש</span></em> — <em><span class="heb-inline">שני לוחות הברית</span></em>, <span class="heb-inline">מסכת תמיד</span>.</span> <span class="expanded">— <span class="heb-inline">ר' ישעיה הורוויץ</span> (1565–1630), author of <em><span class="heb-inline">שני לוחות הברית</span></em>. The connection between a person's name and his <span class="heb-inline">נשמה</span>, and the <span class="heb-inline">סגולה</span> of saying a <span class="heb-inline">פסוק</span> at the close of <span class="heb-inline">שמונה עשרה</span> that begins with the first letter and ends with the last letter of one's name, is associated with him in popular tradition. The שיעור notes that the <span class="heb-inline">סגולה</span>'s direct attribution to the <span class="heb-inline">של"ה</span> himself is uncertain; verify against the printed <span class="heb-inline">של"ה</span>.</span> <a class="backref" href="#ref15" title="Return to text">↩</a></li>
+
+    <li id="fn16"><span class="short"><em><span class="heb-inline">שם אפרים</span></em>, <span class="heb-inline">ר' אפרים זלמן מרגליות</span> (1762–1828), Brody.</span> <span class="expanded">— <span class="heb-inline">ר' אפרים זלמן מרגליות</span> of Brody, one of the leading <span class="heb-inline">תלמידי חכמים</span> and bibliographers of his era. In <em><span class="heb-inline">שם אפרים</span></em> he documents the printers' interpolations into <span class="heb-inline">פירוש רש"י</span> on <span class="heb-inline">נ"ך</span> (especially in <span class="heb-inline">שופטים</span> and <span class="heb-inline">שמואל</span>) — additions later editions perpetuated. The שיעור invokes him to illustrate how unattributed <span class="heb-inline">מנהגים</span> and <span class="heb-inline">פירושים</span> migrate into our printed liturgy.</span> <a class="backref" href="#ref16" title="Return to text">↩</a></li>
+
+    <li id="fn17"><span class="short"><em><span class="heb-inline">ספר מכלול</span></em> (<span class="heb-inline">רד"ק</span>) and <em><span class="heb-inline">ספר תריסר אסר</span></em>.</span> <div class="note-academic"><strong>Note:</strong> <em><span class="heb-inline">מכלול</span></em> by the <span class="heb-inline">רד"ק</span> is a grammatical work; the citation given here should be verified against later <span class="heb-inline">מקובלים</span>' compilations citing the <span class="heb-inline">סגולה</span> of saying a <span class="heb-inline">פסוק</span> matching one's name as protection from <span class="heb-inline">עונש גהינום</span>. <em><span class="heb-inline">תריסר אסר</span></em> ("Twelve Bonds") is a less commonly cited title; verify the printed source. The <span class="heb-inline">סגולה</span> in its earliest forms appears in <span class="heb-inline">קבלי</span>-influenced <span class="heb-inline">חיבורים</span> of the late <span class="heb-inline">ראשונים</span> period; printed <span class="heb-inline">סדורים</span> began including the practice from the late 17th century onward.</div> <a class="backref" href="#ref17" title="Return to text">↩</a></li>
+
+    <li id="fn18"><span class="short"><em>סידור Amsterdam 1699</em> — first appearance of the <span class="heb-inline">פסוק</span> of one's name in print.</span> <div class="note-academic"><strong>Note:</strong> Late-17th-century Amsterdam <span class="heb-inline">סדור</span> printings (the major Jewish printing center of the era) appear to be the earliest mass-distribution liturgical books to insert the <span class="heb-inline">פסוק</span> of one's name at the close of <span class="heb-inline">שמונה עשרה</span>. After 1699 the practice spread universally. Verify exact bibliographic data; the shiur's mention of "I have actually seen a copy" should be cross-referenced against the JNUL/NLI digitized <span class="heb-inline">סדורים</span> collection.</div> <a class="backref" href="#ref18" title="Return to text">↩</a></li>
+
+    <li id="fn19"><span class="short"><em><span class="heb-inline">סידור היעב"ץ</span></em> — <span class="heb-inline">ר' יעקב עמדין</span> (1697–1776).</span> <span class="expanded">— <span class="heb-inline">ר' יעקב עמדין</span>, son of the <span class="heb-inline">חכם צבי</span>, in his celebrated <em><span class="heb-inline">סידור היעב"ץ</span></em> (also known as <em><span class="heb-inline">סידור עמודי שמים</span></em>) records the <span class="heb-inline">מנהג</span> of saying a <span class="heb-inline">פסוק</span> of one's name and discusses its meaning. His endorsement was central to the practice's universal acceptance in <span class="heb-inline">סדורי אשכנז</span>.</span> <a class="backref" href="#ref19" title="Return to text">↩</a></li>
+
+    <li id="fn20"><span class="short"><em><span class="heb-inline">זוהר, פרשת האזינו</span></em>; cf. <em><span class="heb-inline">פרשת תזריע</span></em>.</span> <span class="expanded">— The <span class="heb-inline">זוהר</span> develops the principle that a person's name is the channel of his <span class="heb-inline">נשמה</span> and reflects his spiritual root. The locus classicus is <em><span class="heb-inline">זוהר ח"ב, פרשת תזריע ל"ב ע"ב</span></em> on naming, and discussions in <em><span class="heb-inline">פרשת האזינו</span></em> on the soul's identification by name. The <span class="heb-inline">סגולה</span> of saying the matching <span class="heb-inline">פסוק</span> draws on this conceptual framework.</span> <a class="backref" href="#ref20" title="Return to text">↩</a></li>
+
+    <li id="fn21"><span class="short"><em><span class="heb-inline">האריז"ל</span></em> — <em><span class="heb-inline">שער הגלגולים</span></em>, on naming and <span class="heb-inline">רוח הקודש</span> at <span class="heb-inline">ברית מילה</span>.</span> <span class="expanded">— <span class="heb-inline">ר' יצחק לוריא</span> (1534–1572) teaches in his <span class="heb-inline">קבלי</span> writings (<em><span class="heb-inline">שער הגלגולים</span></em>, <em><span class="heb-inline">שער הכוונות</span></em>) that the name a father gives his son at the <span class="heb-inline">ברית מילה</span> is given by <span class="heb-inline">רוח הקודש</span> — that <span class="heb-inline">הקב"ה</span> places into the father's mouth precisely the name that matches the <span class="heb-inline">נשמה</span>'s root. Cited widely in later <span class="heb-inline">חסידי</span> and <span class="heb-inline">קבלי</span> literature.</span> <a class="backref" href="#ref21" title="Return to text">↩</a></li>
+
+    <li id="fn22"><span class="short"><em><span class="heb-inline">אגרא דפרקא</span></em>, <span class="heb-inline">בני יששכר</span> (<span class="heb-inline">ר' צבי אלימלך מדינוב</span>, 1783–1841), <em><span class="heb-inline">מאמרי חודש כסלו</span></em>.</span> <span class="expanded">— <span class="heb-inline">ר' צבי אלימלך מדינוב</span>, author of the <em><span class="heb-inline">בני יששכר</span></em> and <em><span class="heb-inline">אגרא דפרקא</span></em>, brings the practice that to wake a sleeping person — child or guest — one calls his Hebrew name, since the <span class="heb-inline">נשמה</span> ascends during sleep and is summoned back through the spiritual identifier. Verify exact aphorism number in <em><span class="heb-inline">אגרא דפרקא</span></em>; the source is widely cited in <span class="heb-inline">חסידי</span> literature on <span class="heb-inline">השכמת הבוקר</span>.</span> <a class="backref" href="#ref22" title="Return to text">↩</a></li>
+  </ol>
+</section>
+
+<footer class="colophon">
+  Reworked from a שיעור delivered by Rabbi Ephrati on 19 October 2025.<br>
+  לעילוי נשמת ר' חיים יהודה בן מאיר ווילינגער ז״ל.<br>
+  Hebrew terminology preserved in Hebrew script throughout, with footnotes and מראה מקומות appended.
+</footer>
+
+</body>
+</html>

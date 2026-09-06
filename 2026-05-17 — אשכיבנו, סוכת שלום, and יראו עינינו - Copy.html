@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>אשכיבנו, סוכת שלום, and יראו עינינו — Rabbi Ephrati</title>
+<style>
+  :root{--blue:#1e3a8a;--blue-soft:#2c5282;--gold:#b8860b;--gold-soft:#d4a017;--ink:#1a1a1a;--paper:#fdfaf3;--rule:#c9a227}
+  *{box-sizing:border-box}
+  body{font-family:"Georgia","Iowan Old Style","Times New Roman",serif;background:var(--paper);color:var(--ink);max-width:820px;margin:40px auto;padding:0 28px 60px 28px;line-height:1.65;font-size:17px}
+  header.title{text-align:center;border-top:3px double var(--rule);border-bottom:3px double var(--rule);padding:22px 10px;margin-bottom:32px}
+  header.title .kicker{font-variant:small-caps;letter-spacing:.18em;color:var(--gold);font-size:.9rem;margin-bottom:8px}
+  header.title h1{font-size:1.7rem;color:var(--blue);margin:.1em 0 .25em 0;line-height:1.25}
+  header.title .subtitle{font-style:italic;color:var(--blue-soft);font-size:1.05rem}
+  header.title .meta{margin-top:14px;font-size:.92rem;color:#5a4b1a}
+  .lead{font-style:italic;color:#3b3b3b;border-left:3px solid var(--gold);padding:6px 16px;margin:0 0 28px 0;background:#fbf4dd55}
+  .dedication{border:1px solid var(--gold-soft);background:#fbf4dd66;padding:10px 18px;margin:0 0 28px 0;font-size:.95rem;color:#3b3b3b}
+  .dedication .label{display:block;font-variant:small-caps;letter-spacing:.12em;color:var(--gold);font-size:.78rem;margin-bottom:6px}
+  h2{font-variant:small-caps;letter-spacing:.06em;color:var(--blue);border-bottom:1.5px solid var(--gold);padding-bottom:4px;margin-top:42px;font-size:1.25rem}
+  h3{color:var(--gold);font-style:italic;font-size:1.08rem;margin-top:28px;margin-bottom:6px}
+  blockquote{border-left:3px solid var(--blue-soft);margin:14px 0;padding:6px 18px;background:#eef2fb55;color:#222}
+  blockquote.heb{border-left:none;border-right:3px solid var(--blue-soft);background:#eef2fb55}
+  .heb{font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;direction:rtl;unicode-bidi:embed;color:var(--blue)}
+  .heb-inline{font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;direction:rtl;unicode-bidi:embed}
+  .callout{background:#fbf4dd;border:1px solid var(--gold-soft);border-radius:6px;padding:14px 18px;margin:22px 0}
+  .callout .label{display:block;font-variant:small-caps;letter-spacing:.12em;color:var(--gold);font-size:.82rem;margin-bottom:6px}
+  .footnote-ref{font-size:.78rem;vertical-align:super;color:var(--gold);text-decoration:none;margin-left:1px}
+  .footnote-ref:hover{text-decoration:underline}
+  section.mareh{margin-top:48px;border-top:2px solid var(--rule);padding-top:18px}
+  section.mareh h2{border-bottom:none;margin-top:0}
+  section.mareh ol{padding-left:22px;color:#2a2a2a;list-style:decimal}
+  section.mareh li{margin:12px 0;padding-left:4px}
+  section.mareh li .short{font-weight:600;color:var(--blue)}
+  section.mareh li .expanded{color:#2a2a2a}
+  section.mareh li .backref{color:var(--gold);text-decoration:none;margin-left:6px;font-size:0.85em}
+  section.mareh .note-academic{border-left:3px solid var(--gold-soft);background:rgba(184,134,11,0.04);padding:8px 12px;margin-top:4px;font-size:0.95em}
+  footer.colophon{margin-top:50px;border-top:3px double var(--rule);padding-top:18px;text-align:center;font-style:italic;color:#5a4b1a;font-size:.92rem}
+  hr.fancy{border:none;text-align:center;margin:30px 0}
+  hr.fancy::before{content:"❦";color:var(--gold);font-size:1.2rem}
+</style>
+</head>
+<body>
+
+<header class="title">
+  <div class="kicker">Rabbi Ephrati · Sunday Morning שיעור on תפילה</div>
+  <h1>אשכיבנו, סוכת שלום, and יראו עינינו</h1>
+  <div class="subtitle">שמירה on the Weekday and on שבת — and the long machloikes over what may stand between גאולה and תפילה</div>
+  <div class="meta">Recorded 17 May 2026 · ב׳ סיון תשפ״ו · Reworked from the original שיעור</div>
+</header>
+
+<div class="dedication">
+  <span class="label">Dedications</span>
+  Today's שיעור and breakfast are sponsored by Reb Shemshun Dovid and his rebbetzin Frish, <span class="heb-inline">לעילוי נשמת</span> his brother <span class="heb-inline">בנימין יוסף בן יעקב משה ע״ה</span>; and by Reb Yanky and Inna Garten, <span class="heb-inline">לעילוי נשמת</span> his grandfather <span class="heb-inline">יעקב בן יוסף ע״ה</span>.
+</div>
+
+<p class="lead">
+  Last week's שיעור closed with the change of <span class="heb-inline">חתימה</span> in <span class="heb-inline">אשכיבנו</span> from weekday to שבת: <span class="heb-inline">שומר עמו ישראל לעד</span> becomes <span class="heb-inline">פורש סוכת שלום עלינו ועל כל עמו ישראל ועל ירושלים</span>, because — as the standard line goes — <em>שבת itself is the שמירה</em>. This week we open three doors that hang off that single shift: why the נוסח still <em>speaks</em> in shemirah-language even on שבת; what <span class="heb-inline">סוכת שלום</span> is doing on a weeknight and how it ties to ציצית; and the major centuries-long machloikes over <span class="heb-inline">ברוך ה' לעולם</span> and <span class="heb-inline">יראו עינינו</span> — the only addition in our weekday מעריב that sits exactly on the seam between גאולה and תפילה, and that the Ramban, the רשב״ש, the גר״א, and Volozhin all decided not to say. The historical backdrop reaches from the First Crusade in 1096 through 1390s Spain and the disputation at Tortosa.
+</p>
+
+<h2>I. Where We Are — Weekday vs. שבת <span class="heb-inline">חתימה</span></h2>
+<p>
+  The ברכה of <span class="heb-inline">אשכיבנו</span> is the long fourth ברכה of מעריב — the one that follows <span class="heb-inline">אמת ואמונה</span> and immediately precedes שמונה עשרה. Its <span class="heb-inline">חתימה</span> on a weekday is <span class="heb-inline">בָּרוּךְ אַתָּה ה' שׁוֹמֵר עַמּוֹ יִשְׂרָאֵל לָעַד</span>. Its <span class="heb-inline">חתימה</span> on Friday night and יום טוב is different — broader, more cosmic: <span class="heb-inline">בָּרוּךְ אַתָּה ה' פּוֹרֵשׂ סֻכַּת שָׁלוֹם עָלֵינוּ וְעַל כָּל עַמּוֹ יִשְׂרָאֵל וְעַל יְרוּשָׁלָיִם</span>.
+</p>
+<p>
+  The classical reason for the change is simple: on שבת there is no need to ask for <span class="heb-inline">שמירה</span>, because שבת itself <em>is</em> the שמירה. The day functions as a sanctuary in time — and the formal liturgical petition for protection drops away in favor of language of canopy and peace.
+</p>
+
+<h2>II. The Question — If שבת Is the שמירה, Why Do We Still <em>Speak</em> in שמירה-Language?</h2>
+<p>
+  But this generates an immediate question. Even in the Shabbos נוסח we still say <span class="heb-inline">פּוֹרֵשׂ סֻכַּת שָׁלוֹם</span> — language of being spread-over and covered, language of protection. Earlier in the ברכה we still say <span class="heb-inline">וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ</span>. If שבת is the built-in שמירה, why does the ברכה <em>read</em> like a request?
+</p>
+
+<h3>A) The בח — נוסח Drift Through the חזנים</h3>
+<p>
+  The <strong>בח</strong><a href="#fn1" id="ref1" class="footnote-ref">[1]</a> takes a sharp position: the Shabbos version that <em>sounds</em> like a request for שמירה is not the original נוסח. Over the generations — through imperfect transmission, often via <span class="heb-inline">חזנים</span> who valued musical flow over textual precision — the wording shifted. In the proper original נוסח, Shabbos would not require <em>any</em> petition for שמירה at all. The drift is real and observable, and the בח's instinct is to read past it: Shabbos doesn't need to ask, because Shabbos itself <em>is</em> the asking-already-answered.
+</p>
+
+<h3>B) Other אחרונים — Shabbos Protects If You Protect שבת</h3>
+<p>
+  Other <span class="heb-inline">אחרונים</span> push back: the language is not a mistake. Shabbos serves as שמירה specifically when it is <em>kept</em>. The protective כח of Shabbos is conditional on our שמירת שבת, and that is exactly why we still ask. The framing comes from a Gemara: <strong>שבת קי״ח ע״ב</strong><a href="#fn2" id="ref2" class="footnote-ref">[2]</a> — <span class="heb-inline">אמר רבי יוחנן: אלמלי שמרו ישראל שתי שבתות כהלכתן, מיד נגאלין</span>. The protective power of Shabbos is bound up with <em>our</em> שמירה of it. We ask because the asking is part of the keeping.
+</p>
+
+<h2>III. <span class="heb-inline">וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ</span> — A Weekday Lens Through ציצית</h2>
+<p>
+  Even on weekdays, every night we say <span class="heb-inline">וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ</span>. What does it mean to ask Hashem to "spread over us a סוכה of peace"? The שיעור opened with a ראשון who locates the imagery somewhere unexpected — in the mitzvah of <span class="heb-inline">ציצית</span>.
+</p>
+
+<h3>A) ציצית as שמירה</h3>
+<p>
+  If you have learned the relevant sugya in <strong>מנחות מ״ג ע״ב</strong><a href="#fn3" id="ref3" class="footnote-ref">[3]</a>, you know the theme: ציצית has a unique כח of <span class="heb-inline">שמירה</span> — it can pull a person back from sin in the very moment. The Torah states it as a structural promise in <strong>במדבר ט״ו:ל״ט</strong><a href="#fn4" id="ref4" class="footnote-ref">[4]</a>:
+</p>
+<blockquote class="heb"><span class="heb">וּרְאִיתֶם אֹתוֹ וּזְכַרְתֶּם אֶת כָּל מִצְוֹת ה' וַעֲשִׂיתֶם אֹתָם, וְלֹא תָתוּרוּ אַחֲרֵי לְבַבְכֶם וְאַחֲרֵי עֵינֵיכֶם אֲשֶׁר אַתֶּם זֹנִים אַחֲרֵיהֶם.</span></blockquote>
+<p>
+  The eyes pull, the heart follows — and ציצית interrupts the drift. The classic story brought in <strong>מנחות מ״ד ע״א</strong><a href="#fn5" id="ref5" class="footnote-ref">[5]</a> dramatizes the point: a man traveling at great expense to a faraway place to do an aveirah is stopped, mid-encounter, by the visible reminder of his ציצית. The woman herself recognizes the moment for what it is. He turns around and is later a בעל תשובה. The Gemara presents the story not as an isolated miracle but as the structural logic of the mitzvah — <em>וּרְאִיתֶם אֹתוֹ</em> is, by design, what stands between a person and the drift.
+</p>
+
+<h3>B) A Practical עצה for the Summer</h3>
+<p>
+  The שיעור closed this thread with a practical עצה that <span class="heb-inline">חשובי</span> אידן quietly use — not as a שגולה in any childish sense, but as a direct application of the pasuk. As the נסיון of <span class="heb-inline">שמירת העיניים</span> intensifies, especially in the summer months and in the streets of the cities where one finds oneself walking past difficulty: hold your ציצית. Literally. <span class="heb-inline">וּרְאִיתֶם אֹתוֹ</span> — make the reminder physical. <span class="heb-inline">ערליכע אידן</span> who walk through Manhattan, who walk through the boroughs, who walk anywhere where the eye is being pulled — they hold the strings in their hand. The strings know the way home.
+</p>
+
+<h3>C) Night — When the Visible Reminder Is Diminished</h3>
+<p>
+  Halachically, <span class="heb-inline">לילה לאו זמן ציצית</span><a href="#fn6" id="ref6" class="footnote-ref">[6]</a> — night is not the time of the mitzvah of ציצית. Many wear ציצית at night anyway, and there is significant <span class="heb-inline">מנהג</span> for doing so. But conceptually, if ציצית functions as an <span class="heb-inline">אור מקיף</span> — a surrounding, encompassing protection — then at night, when the visible reminder is diminished, we ask for something else to do the same work. <span class="heb-inline">וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ</span> can be heard precisely in that key: <em>spread over us, in lieu of the daytime garment of mitzvah, an encompassing canopy of peace</em>. The night-petition is the structural analogue of the day-mitzvah.
+</p>
+
+<h2>IV. An Early Ashkenazic Reversal — On שבת You May Need <em>More</em> שמירה</h2>
+<p>
+  We said the standard idea: שבת is the שמירה, and that is why the formal request is muted. But an early Ashkenazic authority took the opposite view, and the שיעור gave him substantial time — both because his halachic claim is unusual and because his biography is part of the heritage of the week we are in.
+</p>
+
+<h3>רבי שלמה מוורמייזא — Contemporary of Rashi</h3>
+<p>
+  <strong>רבי שלמה מוורמייזא</strong><a href="#fn7" id="ref7" class="footnote-ref">[7]</a> — Rabbi Shlomo of Worms — was a contemporary of רש״י. They learned together by the same רבי, <strong>רבינו יעקב בר יקר</strong> of Mainz (one of the founding figures of Ashkenazic Talmud-learning, and a רבי of רש״י's). The two of them were colleagues; they argued in learning; רש״י cites him several times in the Talmud commentary. Where רש״י, as we now read him, is the great mechadesh — the figure whose דעת reshaped how Ashkenaz reads the Talmud — רבי שלמה מוורמייזא took the opposite posture: <em>I am a traditionalist. I follow the מסורה. The תקנות are not mine to alter.</em> He authored a siddur and a body of הלכה reflecting that conservatism. Today we read רש״י because רש״י's project succeeded; we sometimes forget that in his own days, in 11th-century France, רש״י's positions were innovations that not everyone accepted.
+</p>
+<p>
+  רבי שלמה was the chief Rav of <span class="heb-inline">וורמייזא</span> (Worms) — at that point one of the central קהילות of <span class="heb-inline">יהדות אשכנז</span>, alongside Mainz (<span class="heb-inline">מגנצא</span>) and Speyer (<span class="heb-inline">שפירא</span>). He was recognized not only by the kehillah but by the German government of the day. The official title bestowed on him by the king of Germany — <em>Episcopus Judaeorum</em>, "bishop of the Jews" — was a documented civil-ecclesiastical recognition given to a few of the great Ashkenazic rabbinical figures of the era, marking him as the formal head of the Jewish community in the empire's eyes.
+</p>
+
+<h3>The Yahrzeit — Killed <span class="heb-inline">על קידוש השם</span> in the First Crusade</h3>
+<p>
+  רבי שלמה was killed <span class="heb-inline">על קידוש השם</span>. The shiur framed his yahrzeit as falling in our weeks — late אייר and early סיון — and that is the historical truth of the calendar of those weeks for <span class="heb-inline">יהדות אשכנז</span>. The First Crusade reached the Rhineland communities in the spring of 1096. The massacres of the קהילות of Speyer, Worms, and Mainz unfolded between Rosh Chodesh Iyar and Shavuos, with Worms cut down on <span class="heb-inline">כ״ג אייר</span> and the קהילה of Mainz wiped out on <span class="heb-inline">ג' סיון</span>. Thousands of Yiddin died — many <span class="heb-inline">על קידוש השם</span>, choosing death over forced conversion, slaughtering their own children rather than seeing them taken into the church.
+</p>
+<p>
+  And this is not only ancient history. The shiur drew the line forward: for Hungarian Jewry, the months of <em>May and June</em> are the same time on the calendar — May and June 1944 were the months of the deportations from Hungary to Auschwitz, and the great-grandfathers of many in the room have yahrzeits in these weeks. <span class="heb-inline">השם ינקום דמם</span>. The protective language of אשכיבנו lives, for those who learn it carefully, against the historical memory of nights when שמירה was asked for and denied.
+</p>
+
+<h3>His Claim — Friday Night Needs <em>Added</em> שמירה</h3>
+<p>
+  Against this biography, רבי שלמה מוורמייזא's halachic position takes on a different weight. He held that on Shabbos one needs <em>extra</em> שמירה, and that is precisely why the נוסח grows more expansive — <span class="heb-inline">סוכת שלום</span>. He grounded it in a Gemara in <strong>פסחים קי״ב ע״ב</strong><a href="#fn8" id="ref8" class="footnote-ref">[8]</a> that speaks of particular damaging forces associated with certain nights — specifically <em>Wednesday night and Friday night</em> — under the name <span class="heb-inline">אגרת בת מחלת</span>.
+</p>
+<p>
+  The shiur noted the wider debate without trying to settle it: how to understand <span class="heb-inline">שדים</span> at all is a known dispute across ראשונים and אחרונים, with the Rambam famously skeptical and the גר״א famously sharp on the Rambam for that skepticism. The Vilna Gaon writes in his glosses to שולחן ערוך that the Rambam "studied too much philosophy" on this point. Others have argued that the relevant passage in the גר״א is itself a forgery and not authentically from him — the matter is contested. For the שיעור's purposes the conceptual move is what matters: שבת is not only calm. שבת is also spiritually <em>high voltage</em>, and high voltage requires its own kind of protection. The expanded language of <span class="heb-inline">סוכת שלום</span>, on this reading, is not a relaxation of the weekday petition; it is an intensification of it.
+</p>
+
+<h2>V. <span class="heb-inline">מלפנינו ומאחרינו</span> — The Yetzer's Two-Stage War</h2>
+<p>
+  The nightly request for protection in אשכיבנו is not only about external danger. The phrase <span class="heb-inline">והסר שטן מלפנינו ומאחרינו</span> — "remove the שטן from before us and behind us" — names the internal enemy. The <span class="heb-inline">יצר הרע</span> works with <span class="heb-inline">תחבולות</span>, with strategies, and the strategies come in two stages.
+</p>
+
+<h3>Stage 1 — Before the Mitzvah: Discouragement</h3>
+<p>
+  Before a person does a mitzvah, the יצר says: <em>Don't do it. Be lazy. It's not for you. It doesn't matter. Who cares.</em> The עבודה in that moment is boldness in <span class="heb-inline">קדושה</span>. <span class="heb-inline">הוי עז כנמר</span> — be bold as a leopard to do the will of your Father in Heaven. <em>I can do this. I'm supposed to do this. I will.</em>
+</p>
+
+<h3>Stage 2 — After the Mitzvah: גאוה</h3>
+<p>
+  But the יצר does not retire after the loss. He flips tactics. The man has just done the mitzvah, and the יצר steps in immediately: <em>Look at you. You're the biggest צדיק. You're already at the top. הקדוש ברוך הוא must love you so much right now.</em> That is also the שטן. The שיעור was emphatic on this — the second-stage temptation is harder to spot precisely because it dresses up in the colors of religious success.
+</p>
+<p>
+  The avodah, after the mitzvah, must therefore <em>flip</em>: from boldness to humility. <em>I began. I'm still at the gate. There's much more work to do. Yes, I gave tzedakah — and I should have given more. Yes, I davened — and the next tefillah is what counts.</em> The same energy that drove the boldness now drives the discipline of not stopping.
+</p>
+
+<h3>One Entity, Three Roles</h3>
+<p>
+  The Gemara in <strong>בבא בתרא ט״ז ע״א</strong><a href="#fn9" id="ref9" class="footnote-ref">[9]</a> states the unity of the adversary directly:
+</p>
+<blockquote class="heb"><span class="heb">הוא שטן, הוא יצר הרע, הוא מלאך המות.</span></blockquote>
+<p>
+  One force in three uniforms. He incites the aveirah; he runs upstairs and prosecutes the aveirah he just incited; and at the appointed time he comes as <span class="heb-inline">מלאך המות</span> to collect. The שיעור used this to read the night-petition: as the <span class="heb-inline">נשמה</span> rises during sleep, we ask הקדוש ברוך הוא to remove the very force that pushed us earlier in the day and now waits Above to accuse. <em>Take him from in front of me, take him from behind me; let me sleep clean.</em>
+</p>
+
+<h3>An Aside — The Mossad's פסוק</h3>
+<p>
+  The vocabulary of <span class="heb-inline">תחבולות</span> — strategies, machinations — is biblical. The Mossad's official motto, as it happens, is the pasuk <span class="heb-inline">בְּתַחְבֻּלוֹת תַּעֲשֶׂה לְּךָ מִלְחָמָה</span> from <strong>משלי כ״ד:ו'</strong><a href="#fn10" id="ref10" class="footnote-ref">[10]</a> — "by strategies you shall make war." The שיעור flagged the choice with a slight smile: even Israel's intelligence service takes its slogan from שלמה המלך. The point is not casual. The same word that names the יצר's method names the discipline by which we are supposed to oppose him: <span class="heb-inline">תחבולות</span> against <span class="heb-inline">תחבולות</span>, mind against mind.
+</p>
+
+<h2>VI. <span class="heb-inline">ברוך ה' לעולם</span> and <span class="heb-inline">יראו עינינו</span> — A Controversial ברכה in a Sensitive Spot</h2>
+<p>
+  We turn now to one of the most peculiar, most disputed, and most theologically loaded units in our entire <span class="heb-inline">סדר תפילה</span>: the long section that <span class="heb-inline">בני חוץ לארץ</span> say after אשכיבנו on weekday מעריב, beginning <span class="heb-inline">בָּרוּךְ ה' לְעוֹלָם אָמֵן וְאָמֵן</span> and continuing through <span class="heb-inline">יִרְאוּ עֵינֵינוּ וְיִשְׂמַח לִבֵּנוּ</span>, with eighteen psukim each containing a Name of הקדוש ברוך הוא, concluding with a full ברכה: <span class="heb-inline">בָּרוּךְ אַתָּה ה' הַמֶּלֶךְ בִּכְבוֹדוֹ תָּמִיד יִמְלוֹךְ עָלֵינוּ לְעוֹלָם וָעֶד וְעַל כָּל מַעֲשָׂיו</span>.
+</p>
+<p>
+  We Americans, as <span class="heb-inline">בני חוץ לארץ</span>, take an extra two minutes for it every night. Chabad does not say it. The ספרדים say it. Yeshivas Chaim Berlin does not say it. There are <span class="heb-inline">בעלי מסורה</span> who go specifically to Chaim Berlin on ערב ראש השנה לסליחות, not for the haunting tunes of their שליחי ציבור, but because the מנהג of the yeshiva — going back to its founder, ר' יצחק הוטנר, who was a close Talmud of ר' שלמה היימן and ultimately reflects a Volozhin-via-Lithuania mesorah — is to omit <span class="heb-inline">יראו עינינו</span> entirely. Why?
+</p>
+
+<h2>VII. The Two Core Problems</h2>
+<p>
+  The opposition rests on two structural problems, both serious.
+</p>
+
+<h3>A) A ברכה Not Authored by חז״ל</h3>
+<p>
+  There is a general rule across the siddur: we do not create new fixed ברכות after the era of <span class="heb-inline">חז״ל</span>, except in rare and well-justified cases. The unit of <span class="heb-inline">ברוך ה' לעולם</span> and its concluding ברכה is historically associated with the <span class="heb-inline">סבוראים</span> and the early <span class="heb-inline">גאונים</span> — that is, the generations <em>after</em> the <span class="heb-inline">חתימת התלמוד</span>. The straightforward question is: <span class="heb-inline">מי נתן להם רשות</span>? Who gave the post-Talmudic generations the authority to insert a new ברכה into the fixed liturgy of חז״ל?
+</p>
+
+<h3>B) הפסק Between גאולה and תפילה</h3>
+<p>
+  The second problem is even sharper. The principle of <span class="heb-inline">סמיכת גאולה לתפילה</span><a href="#fn11" id="ref11" class="footnote-ref">[11]</a> demands that no real interruption come between the closing of <span class="heb-inline">גאל ישראל</span> and the opening of שמונה עשרה. At night, אשכיבנו itself is already a problem — and חז״ל had to characterize it as <span class="heb-inline">גאולה אריכתא</span><a href="#fn12" id="ref12" class="footnote-ref">[12]</a>, an "extended גאולה," to defend it as continuous with the geulah of <span class="heb-inline">גאל ישראל</span> rather than as a break. <em>But now we are adding another full unit of פסוקים, plus a concluding ברכה?</em> The הפסק problem multiplies. Even if you grant אשכיבנו as גאולה אריכתא, יראו עינינו looks like a major additional interruption squarely on the seam.
+</p>
+
+<h3>Marker — In Eretz Yisrael, They Do Not Say It</h3>
+<p>
+  One striking practical marker: in <span class="heb-inline">ארץ ישראל</span> the common practice was simply not to accept this enactment. Go to a shul in Yerushalayim, in Bnei Brak, in any standard ארץ ישראל kehillah, and you will not hear <span class="heb-inline">יראו עינינו</span> recited. The takana is a <span class="heb-inline">בבל</span>-and-<span class="heb-inline">חוץ לארץ</span> takana, instituted by the <span class="heb-inline">סבוראים</span> and <span class="heb-inline">גאונים</span> of Bavel for the conditions of the diaspora, and ארץ ישראל never took it on. That fact alone marks it as historically secondary — added under specific local conditions, not part of the original universal siddur.
+</p>
+
+<h2>VIII. The Depth of the Machloikes — Ramban, Rabbeinu Yonah, and the Authority Question</h2>
+<p>
+  People sometimes treat <span class="heb-inline">יראו עינינו</span> like a small <span class="heb-inline">נוסח</span> preference — say it or don't, both are fine, depends on your קהילה. It is not. The disagreement among <span class="heb-inline">ראשונים</span> is substantial, and it touches a nerve: <em>who has authority to reshape fixed תפילה after חז״ל?</em>
+</p>
+
+<h3>The Cousin-Pair — Ramban and Rabbeinu Yonah</h3>
+<p>
+  Two of the great <span class="heb-inline">ראשונים</span> at the heart of this dispute were <strong>first cousins</strong>. <strong>הרמב״ן</strong><a href="#fn13" id="ref13" class="footnote-ref">[13]</a> — ר' משה בן נחמן, 1194–1270, the great Catalonian חכם, רב, doctor, biblical commentator, and disputant of the Disputation of Barcelona — was in Spain. <strong>רבינו יונה</strong><a href="#fn14" id="ref14" class="footnote-ref">[14]</a> — ר' יונה גירונדי, c. 1200–1263, author of <span class="heb-inline">שערי תשובה</span> and a major Talmudic commentator whose pirush on the רי״ף to ברכות is the foundation of our reading of the masechta — was in France. <em>Ramban's mother's brother was Rabbeinu Yonah's father.</em> They were first cousins. They wrote to each other through their lives, and the cousin relationship deepened into a chasunah connection: Ramban's daughter married Rabbeinu Yonah's son. Two of the greatest <span class="heb-inline">ראשונים</span> of the 13th century were related by both blood and <span class="heb-inline">חיתון</span>.
+</p>
+<p>
+  The cousin-pair did not always agree. The most famous historical reflex of their disagreement was the controversy over the Rambam's philosophical writings — the מורה נבוכים and the Sefer HaMaddah. Rabbeinu Yonah's רבי, <strong>ר' שלמה בן אדרת</strong> (the רשב״א's father — actually his older contemporary; the family lines here are intricate), was a leading opponent of the dissemination of the Rambam's philosophy. Rabbeinu Yonah followed his rebbe's lead and was sharply anti-Rambam in the early phase of the controversy — to the point of supporting the burning of the Rambam's books in Montpellier in 1232. When, shortly afterwards, the Christian authorities burned the Talmud in Paris (1242), Rabbeinu Yonah read the inversion as a heavenly rebuke: <em>we burned the Rambam, and now the Talmud itself is in the fire</em>. He spent the rest of his life in active תשובה for the part he had played, and his great work <span class="heb-inline">שערי תשובה</span> bears the marks of that personal teshuvah throughout.
+</p>
+<p>
+  The Ramban took a more nuanced position. He was at first cautious about the Rambam's philosophical writings — concerned about their effect on simple readers — but he was never an outright opponent, and over time he became more openly defensive of the Rambam. His famous letter to the rabbis of France during the controversy works simultaneously to honor the anti-Rambam camp and to plead for the Rambam's halachic and philosophical legacy. The cousin-relationship made the family argument possible; the chasunah made it intimate.
+</p>
+
+<h3>A) The Ramban's Line — <span class="heb-inline">מי נתן להם רשות?</span></h3>
+<p>
+  The Ramban is presented in the shiur as objecting sharply to <span class="heb-inline">יראו עינינו</span>: if <span class="heb-inline">חז״ל</span> did not institute it, <span class="heb-inline">מי נתן להם רשות</span> — who gave later generations permission to insert a new ברכה into the fixed liturgy, <em>especially where it risks הפסק</em>? The objection lives on two grounds at once. It is a halachic objection (the structural seam between גאולה and תפילה is sacred) and a meta-halachic objection (the authority of <span class="heb-inline">חז״ל</span> to fix the liturgy is not for later generations to override). Both arguments converge: do not say it.
+</p>
+
+<h3>B) Rabbeinu Yonah as <span class="heb-inline">מלמד זכות</span></h3>
+<p>
+  Rabbeinu Yonah — together with several other <span class="heb-inline">ראשונים</span> — is described as a <span class="heb-inline">מלמד זכות</span>: he offers <span class="heb-inline">טעמים</span> to defend communities that already had the practice. He does not necessarily endorse it from scratch, but where the מנהג has taken hold, he supplies the reasoning that allows it to stand without violating the structural principle of <span class="heb-inline">סמיכת גאולה לתפילה</span>. The mode is classical: where a כלל ישראל מנהג exists, the תפקיד of a great ראשון is to find the <span class="heb-inline">טעם</span> rather than abolish the מנהג.
+</p>
+
+<h3>C) The בית יוסף Marker — Not Among the 100 ברכות</h3>
+<p>
+  A telling small detail. The <strong>בית יוסף</strong>, when he counts the hundred ברכות a Jew is required to say each day, <em>does not include</em> <span class="heb-inline">יראו עינינו</span> and its concluding ברכה in the count. The implication is unmistakable: the בית יוסף — who wrote in <span class="heb-inline">צפת</span>, in ארץ ישראל, before the modern halachic acceptance of the unit — understood it as non-obligatory, optional, not part of the structural minimum of a Jew's daily ברכות. The exclusion from the count is itself a vote of meda-halachic preference.
+</p>
+
+<h3>D) Rashi's תשובה — The Sharp Word</h3>
+<p>
+  A תשובה attributed to <strong>רש״י</strong> goes further. The שיעור framed Rashi's view as treating it as <span class="heb-inline">אבסורד</span> (the shiur's word) to say any ברכה that <span class="heb-inline">חז״ל</span> did not author — full stop, not just this one. The principle is the wider one: post-talmudic ברכות are categorically disfavored, and <span class="heb-inline">יראו עינינו</span> is the most prominent example.
+</p>
+
+<h2>IX. The רשב״ש — Reports the Lineage, Concludes Not to Say It</h2>
+<p>
+  Six generations after Ramban and Rabbeinu Yonah, the <strong>רשב״ש</strong><a href="#fn15" id="ref15" class="footnote-ref">[15]</a> — ר' שלמה בן שמעון דוראן, c. 1400–c. 1467, chief Rav of Algeria, son of the רשב״ץ — discusses <span class="heb-inline">יראו עינינו</span> explicitly in his שאלות ותשובות. The discussion is one of the most learned and historically rich treatments of the unit in all of שו״ת literature.
+</p>
+
+<h3>His Family — Ramban-and-Rabbeinu-Yonah Together</h3>
+<p>
+  Here the biography matters. The Rashbash was a joint descendant of <em>both</em> Ramban <em>and</em> Rabbeinu Yonah — a great-great-grandchild of both, descending through the chasunah we just described. He carries both family lines in himself. When he writes about the dispute over <span class="heb-inline">יראו עינינו</span>, he writes literally as a grandchild reporting on a debate between his two great-grandfathers. <em>One zayda said say it; the other zayda said not to. My other zayda Rabbeinu Yonah was a מלמד זכות for it. What do I, his grandchild, conclude?</em>
+</p>
+
+<h3>Rashi and Rashbam — The Ashkenazic Side</h3>
+<p>
+  The Rashbash also reports an Ashkenazic line: רש״י did not say <span class="heb-inline">יראו עינינו</span>, and <strong>his grandson the רשב״ם</strong> — ר' שמואל בן מאיר of Ramerupt, of whom the שיעור spoke at length two weeks ago in connection with פשט-commentary and the Karaite question — also did not say it. The combined Ashkenazic mesorah of רש״י-and-רשב״ם, attached to a strong Sefardic precedent that goes back to the Ramban, makes the omission a substantial historical position rather than an idiosyncratic local minhag.
+</p>
+
+<h3>His Conclusion — Sharp</h3>
+<p>
+  Even while acknowledging the <span class="heb-inline">מלמדי זכות</span> who defended the practice, the Rashbash's own conclusion is unequivocal: <em>one should not say it.</em> The <span class="heb-inline">הפסק</span> problem is not adequately answered by the defenses; the authority problem stands. The Rashbash's psak is one of the only places in his Sefer where the <span class="heb-inline">בית יוסף</span> — who otherwise follows the Rashbash repeatedly throughout the שולחן ערוך — does not adopt the conclusion. The בית יוסף, writing in ארץ ישראל where the unit is not said anyway, perhaps did not feel the need to make a halachic ruling against the entrenched chutz-laaretz מנהג.
+</p>
+
+<h2>X. The Historical Backdrop — The Rashbash and the Catastrophe of 1390s Spain</h2>
+<p>
+  To understand why the Rashbash's writings carry the weight they do, the שיעור took time to set the historical scene. Most people associate the destruction of Spanish Jewry with 1492 — the year of the expulsion under Ferdinand and Isabella. That date is the formal end-point. The catastrophe itself <em>began a full century earlier</em>, in 1391, and the Rashbash lived through its early decades.
+</p>
+
+<h3>1391 — The Sevilla Pogrom and the Cross-and-Sefer-Torah Galach</h3>
+<p>
+  In 1391, the so-called <em>Golden Age</em> of Spanish Jewry began to end. The trigger was a campaign by one of the senior galachim of Catholic Spain — preserved in the chronicles by name, Ferrán Martínez, the archdeacon of Écija and Sevilla — who decided that the supreme mitzvah of his church was the conversion of Jews. Over the early summer of 1391, beginning in <strong>Sevilla</strong>, he led mobs from shul to shul. The shiur described the scene precisely as the chronicles record it: in one hand a <span class="heb-inline">ספר תורה</span>, in the other a cross. He would enter a shul, consecrate it with the cross, and turn it into a church on the spot with government complicity.
+</p>
+<p>
+  Jews had two choices: be killed, or convert. The pogroms spread within weeks from Sevilla to Córdoba, Toledo, Valencia, Barcelona, Mallorca, and dozens of smaller communities — by the end of the summer of 1391, thousands of Jews had been murdered and an estimated <strong>twenty-five thousand</strong> had been forced to convert. Many of those conversions remained nominal — <span class="heb-inline">אנוסים</span>, secretly continuing Jewish practice while publicly Christian — and the entire historical phenomenon of the <em>Marranos</em> begins here, a full century before 1492. The Spanish Inquisition itself would not be formally established until 1478, but the <em>conditions</em> the Inquisition would later police were created in 1391.
+</p>
+
+<h3>The Burgos Tragedy — A Rav Who Became a Bishop</h3>
+<p>
+  One of the most painful stories of that decade — the שיעור gave it time, and we will preserve it — is the story of <strong>שלמה הלוי of Burgos</strong>. Burgos was a major city in northern Spain and a major Jewish community. The line of גדולי תורה associated with it included the <strong>יד רמ״ה</strong> — ר' מאיר הלוי אבולעפיה (c. 1170–1244) — whose talmudic novellae are learned to this day.
+</p>
+<p>
+  A later rav of Burgos was Shlomo Halevi (c. 1351–1435) — a major <span class="heb-inline">תלמיד חכם</span>, fluent also in secular sciences, scion of a wealthy banking family connected to the royal government. When the pogroms reached Burgos in 1391, Shlomo Halevi's entire kehillah was burned, many of his congregants were killed, and the survivors were under crushing pressure to convert. <strong>He buckled.</strong> He converted, took the baptismal name <em>Pablo de Santa María</em>, and brought his four children with him. He left his wife behind — she refused to convert.
+</p>
+<p>
+  Fourteen years later, the apostate Rav had ascended the ladder of the Catholic Church. He became Bishop of <strong>Cartagena</strong> first, and then <strong>Bishop of Burgos</strong> — the very city where he had been Rav. Beyond that, he became one of the senior advisors of the antipope Benedict XIII at Avignon. He committed himself publicly to the project of converting the Jews of Spain. Christians today, in fact, know his name better than most Jews do; he is recorded in the Catholic chronicles as <em>Paulus de Sancta Maria, Episcopus Burgensis</em>.
+</p>
+
+<h3>The Talmud Who Followed Him — Yehoshua of Lorca</h3>
+<p>
+  His most prominent <span class="heb-inline">תלמיד</span> before the conversion was <strong>יהושע מלורקה</strong> — Joshua HaLorki, named for the city of Lorca in southeastern Spain. When his רבי converted, the תלמיד's world cracked open. He wrote a famous letter to his former rebbe — preserved in the historical record — pleading: <em>are you out of your mind? Come back. There must be a mistake.</em>
+</p>
+<p>
+  The Rebbe wrote back, defending the conversion as the path of truth. And in time the talmid himself — under the influence of his rebbe's writings and the broader pressure of the decade — also converted. He took the baptismal name <em>Gerónimo de Santa Fe</em>, and became, like his rebbe, one of the most aggressive Christian missionaries to the remaining Jews of Spain.
+</p>
+
+<h3>The Wife of the Bishop — Buried in a Churchyard</h3>
+<p>
+  שלמה הלוי's wife — whose Spanish name was Juana, and who was a granddaughter of the <strong>רשב״א</strong> — refused to convert. She remained Jewish, alone, in Burgos. Spanish law of the period permitted children baptized at a young age to return to Judaism when they came of age, on the principle that an underage child cannot meaningfully consent to a religious commitment. Two of her children availed themselves of that right; she recovered them back to Yiddishkeit. She herself died before her husband. He decided, in spite of her refusal, to bury her in a Catholic churchyard. <em>A rebbetzin of a great kehillah, an einikel of the רשב״א, was buried in a church courtyard.</em>
+</p>
+<p>
+  Her remains lay there until the 1830s, when some of her descendants in Spain — survivors of the centuries of <span class="heb-inline">אנוסים</span> — were able to exhume her and bring her to <span class="heb-inline">קבר ישראל</span>. There is a modern Israeli novel — <em>אשת הרב / אשת הבישוף</em> — that tells a fictionalized version of the story; the factual core, as the shiur stressed, is documented in the contemporary chronicles.
+</p>
+
+<h2>XI. The Disputation of Tortosa — The Rashbash's Father at the Center</h2>
+<p>
+  Twenty-two years after the conversion of שלמה הלוי and Yehoshua mi-Lorca, the two of them — now Pablo de Santa María and Gerónimo de Santa Fe — engineered the most ambitious anti-Jewish disputation of the medieval period: the <strong>Disputation of Tortosa</strong><a href="#fn16" id="ref16" class="footnote-ref">[16]</a>, held from 1413 to 1414 under the auspices of <span class="heb-inline">האנטי-אפיפיור בנדיקטוס הי״ג</span> (Antipope Benedict XIII).
+</p>
+
+<h3>The Setup</h3>
+<p>
+  Benedict XIII convened a council in Tortosa — a city in northeastern Spain, near the mouth of the Ebro — and ordered the major Jewish communities of Aragon, Castile, and Catalonia to send their most learned rabbanim to defend the תלמוד and to defend Judaism itself against the Christian polemic. The other side was led by <strong>Gerónimo de Santa Fe</strong> — Yehoshua mi-Lorca — armed with the Christian-polemical tools his apostate rebbe had taught him. The Jewish side included some of the greatest <span class="heb-inline">ראשונים</span> of the era: <strong>הרשב״ץ</strong><a href="#fn17" id="ref17" class="footnote-ref">[17]</a> — the father of our Rashbash — and <strong>ר' יוסף אלבו</strong>, the author of <span class="heb-inline">ספר העיקרים</span>, were both there. The Re'em (ר' מתתיהו הצרפתי) participated as well.
+</p>
+
+<h3>What Happened</h3>
+<p>
+  The disputation lasted nearly two years, across <strong>sixty-nine sessions</strong>. The Jewish side, as in every medieval disputation, "lost" by the formal rules — the Pope declared Christianity victorious. The actual cost of the disputation was severe: Benedict XIII used the proceedings as justification for a series of anti-Jewish bulls; thousands more Spanish Jews were forced into conversion in the wake of the disputation; and the morale of Spanish Jewry was further crushed.
+</p>
+<p>
+  But the Jewish side did produce documents of lasting weight. The <strong>הרשב״ץ</strong> wrote his great polemical-philosophical work <strong>מלחמת מצוה</strong> partly out of the materials of the disputation — and the Sefer remains a classic Jewish answer to Christian polemic. The disputation became one of the formative experiences of his life and shaped the שאלות ותשובות that he and his son the רשב״ש would produce in Algeria over the next four decades.
+</p>
+
+<h3>The Rashbash's Algiers</h3>
+<p>
+  By the time the Rashbash himself was writing — he was born around 1400, so he was a young boy during Tortosa and a young man as the catastrophe of Spanish Jewry deepened — his family had moved to Algiers. Algiers became the major refuge for the wave of Spanish exiles fleeing the persecutions of the 1390s and onward. The Rashbash's father, the Rashbatz, served as chief rabbi of Algeria; the Rashbash took over from him; their שאלות ותשובות came from communities across the Mediterranean: from Spain, from Italy, from Ashkenaz, from Sardinia. The <span class="heb-inline">בית יוסף</span> would later cite them by the hundreds. When the Rashbash writes about <span class="heb-inline">יראו עינינו</span>, he writes from a desk that has just survived the destruction of an entire civilization of Spanish Jewry — and the question of who has authority to add ברכות to a fixed siddur, against the structural integrity of the liturgy, is not for him an abstract halachic puzzle.
+</p>
+
+<h2>XII. Standing or Not Standing — Rema vs. Mishnah Berurah</h2>
+<p>
+  The structure of the unit itself — <strong>eighteen פסוקים</strong>, each containing a Name of הקדוש ברוך הוא, ending in a ברכה — has the flavor of a <em>mini-Shemoneh Esrei</em>. The eighteen names mirror the eighteen ברכות of the original Shemoneh Esrei (before the addition of <span class="heb-inline">ברכת המינים</span>). That structural resemblance generates an immediate practical question: <em>should one stand for it?</em>
+</p>
+
+<h3>The רמ״א — Stand</h3>
+<p>
+  The <strong>רמ״א</strong><a href="#fn18" id="ref18" class="footnote-ref">[18]</a> records a מנהג to recite <span class="heb-inline">ברוך ה' לעולם</span> and <span class="heb-inline">יראו עינינו</span> <em>standing</em>, on the basis of the resemblance to Shemoneh Esrei. In several traditional siddurim the instruction is printed — "stand up here." For those who follow the Rema's psak, the standing is a kavod for the eighteen-fold structure that mirrors the central tefillah.
+</p>
+
+<h3>The משנה ברורה — Do Not Stand</h3>
+<p>
+  The <strong>משנה ברורה</strong><a href="#fn19" id="ref19" class="footnote-ref">[19]</a> argues against standing for a specific reason. If one stands for <span class="heb-inline">יראו עינינו</span>, one signals halachic status: <em>this is like Shemoneh Esrei</em>. But if it is <em>like</em> Shemoneh Esrei, why proceed immediately afterwards into the actual Shemoneh Esrei? The standing implicitly suggests one has already davened, which then either undermines the actual Shemoneh Esrei or overstates the status of the unit. The Mishnah Berurah's psak — not to stand — is the position adopted by most ישיבות and most contemporary American Ashkenazic shuls.
+</p>
+
+<h2>XIII. Why Was It Instituted? — Several Explanations</h2>
+<p>
+  If the original opposition is so substantial, what was the original justification? The <span class="heb-inline">ראשונים</span> and the <span class="heb-inline">גאונים</span> offer multiple reasons — none of which the Ramban accepts as adequate, but each of which has independent weight.
+</p>
+
+<h3>A) Sensitivity to Latecomers</h3>
+<p>
+  One major explanation is communal: people in the medieval kehillot came to מעריב from work, out of breath, late. <span class="heb-inline">תפילה בציבור</span> requires beginning Shemoneh Esrei together with the kehillah. The תקנה of <span class="heb-inline">ברוך ה' לעולם</span> functioned as a deliberate <em>stall</em> — lengthening the segment immediately before Shemoneh Esrei so that latecomers could catch up and start the עמידה with everyone else. The שיעור marked this as a striking value-statement: <em>the entire liturgical structure was deliberately reshaped to include the late and the weary</em>. The modern shul, the שיעור observed pointedly, often does the opposite — racing through, leaving the latecomer behind. The medieval kehillah built its מנהג around inclusion.
+</p>
+
+<h3>B) The אבודרהם — A Decree Against Maariv Shemoneh Esrei</h3>
+<p>
+  The <strong>אבודרהם</strong><a href="#fn20" id="ref20" class="footnote-ref">[20]</a> records a historical reason: at some point, a non-Jewish decree (גזירה) forbade Jews from davening a full Shemoneh Esrei at night. To circumvent the decree, the kehillot devised an alternative structure — built from פסוקים — that contained the same eighteen invocations of הקדוש ברוך הוא that Shemoneh Esrei contains, but technically did not <em>look</em> like Shemoneh Esrei from outside. This served as a stand-in מעריב when the full tefillah could not be said openly. When the גזירה lifted, the substitute structure was already embedded in the siddur and remained.
+</p>
+
+<h3>C) The רא״ש — People Came Home Exhausted</h3>
+<p>
+  Another explanation, in the name of the <strong>רא״ש</strong><a href="#fn21" id="ref21" class="footnote-ref">[21]</a>: working people came home in the evening exhausted. There was a real fear that if you demanded too much of them, they would skip Shemoneh Esrei entirely and go to sleep. So the תקנה was a structured <em>conclusion to ברכת קריאת שמע</em> — saying <span class="heb-inline">ברוך ה' לעולם</span> followed by <span class="heb-inline">קדיש</span> — that could function as a halachically meaningful closing point for someone who would otherwise have skipped מעריב entirely. The Rosh's framing is striking: <em>better that a Jew daven a halachically defensible abbreviated מעריב than skip מעריב entirely</em>. The takana was a concession to human fatigue.
+</p>
+
+<h3>D) Safety — Finishing Together at Night</h3>
+<p>
+  A further reason attributed to the <span class="heb-inline">גאונים</span>: in many small towns, the shul was located outside the residential center, and walking home alone at night was dangerous — both for ordinary safety reasons (robbers, beasts) and for the metaphysical reason that the night was the time of <span class="heb-inline">מזיקין</span>. Adding the unit lengthened the davening just enough that the kehillah would <em>finish together</em> and walk home as a group. The communal-protection rationale and the latecomers-inclusion rationale converge: the takana keeps the kehillah together at the most vulnerable hour.
+</p>
+
+<h3>E) Once It Is Fixed, It Stays</h3>
+<p>
+  Even after the original reasons no longer apply — <span class="heb-inline">בטל טעם</span> — the תקנה generally remains embedded in the siddur. The principle is structural: a takana fixed by responsible authorities and accepted by כלל ישראל does not automatically dissolve when the original conditions change. The defenders of <span class="heb-inline">יראו עינינו</span> therefore can argue: <em>the original reasons may no longer apply, but the תקנה stands as a takana</em>.
+</p>
+
+<h3>F) The Ramban's Objection Returns — הפסק is הפסק</h3>
+<p>
+  But none of these reasons satisfies the structural problem. The Ramban's response stands: <em>regardless of the rationales, it is a הפסק between גאולה and תפילה. Each rationale may justify some addition to the davening — but not in this exact spot, on this exact seam, where Chazal explicitly demanded continuity.</em>
+</p>
+<p>
+  To defend the practice, one must argue that <span class="heb-inline">ברוך ה' לעולם</span> is itself a <em>continuation of the geulah theme</em> — analogous to אשכיבנו as גאולה אריכתא. The 18 פסוקים do speak of הקדוש ברוך הוא's redemptive sovereignty (<span class="heb-inline">ה' מלך ה' מלך ה' ימלוך לעולם ועד</span>); the closing ברכה speaks of his eternal kingship. The defenders read this as another extension of גאולה. But the difficulty remains, especially given that the concluding ברכה was composed after <span class="heb-inline">חתימת התלמוד</span>. The integrity of the seam is real, and the Ramban's caution is structurally serious.
+</p>
+
+<h3>G) מנהג הגר״א / Volozhin</h3>
+<p>
+  Because of the Ramban's reasoning, the <strong>גר״א</strong> adopted the practice <em>not to say</em> <span class="heb-inline">ברוך ה' לעולם</span> and <span class="heb-inline">יראו עינינו</span>. The Volozhin tradition followed the Gra's lead, and from Volozhin the omission passed into the major Lithuanian Yeshivos — Slabodka, Mir, Telshe, and (through ר' יצחק הוטנר's lineage) Chaim Berlin in America. When you walk into Chaim Berlin and find the kehillah skipping straight from <span class="heb-inline">השכיבנו</span> into <span class="heb-inline">חצי קדיש</span> and Shemoneh Esrei, you are seeing a direct mesorah line back to the Gra and back through him to the Ramban.
+</p>
+
+<h2>XIV. An Aside — The Alter Rebbe and the Berditchever on <span class="heb-inline">ושמרו</span></h2>
+<p>
+  The shiur paused mid-discussion to tell a famous chassidishe מעשה<a href="#fn22" id="ref22" class="footnote-ref">[22]</a> that bears directly on the underlying principle. The <strong>אלטער רעבע</strong> — ר' שניאור זלמן of Liadi, the Baal HaTanya — was a close friend and <span class="heb-inline">מחותן</span> of the <strong>לעווי יצחק of Berditchev</strong>. The two had completely different worlds in <span class="heb-inline">חסידות</span>, but the friendship was deep and the family connection real.
+</p>
+
+<h3>The שיטות</h3>
+<p>
+  The Alter Rebbe held — and he writes this explicitly in <span class="heb-inline">שולחן ערוך הרב</span> — that you are not allowed to say <span class="heb-inline">ושמרו</span> on Friday night between <span class="heb-inline">השכיבנו</span> and שמונה עשרה, because it constitutes a הפסק. The same principle that animates the Gra's omission of <span class="heb-inline">יראו עינינו</span> animates the Alter Rebbe's omission of ושמרו: <em>nothing should stand between גאולה and תפילה</em>.
+</p>
+<p>
+  The Berditchever held the opposite. <em>It is a קושע ענין to begin Shemoneh Esrei with words about שמירת שבת — <span class="heb-inline">ושמרו בני ישראל את השבת</span>. The continuity is thematic; the words flow into the תפילה rather than interrupting it.</em>
+</p>
+
+<h3>The Yarid in Shomayim</h3>
+<p>
+  Once the two of them met and davened in the same minyan on Friday night. The Alter Rebbe — true to his psak — did not say ושמרו. After davening, the Berditchever was upset: <em>do you know what kind of <span class="heb-inline">יריד</span> there is in shomayim when a Yid says ושמרו between Hashkiveinu and Shemoneh Esrei?</em> A <em>yarid</em>, in the language of the time, was the great periodic fair — the big-city marketplace that came once a month and was the most exciting day of the season. The Berditchever was saying: <em>when a Yid says ושמרו here, in this seam, the joy in shomayim is the joy of the yarid — the greatest joy the human imagination has a word for.</em>
+</p>
+<p>
+  The Alter Rebbe answered: <em>You know what kind of yarid there is in shomayim when a Yid does <strong>not</strong> say ושמרו here, because he is being careful about הפסק according to Halacha? You know what excitement there is in heaven when Klal Yisrael keeps Shulchan Aruch?</em>
+</p>
+<p>
+  The maase has been retold for two centuries as the perfect frame for the larger question: both positions live within love of Hashem; the difference is whether the emotional logic of the moment overrules the structural logic of the halachic seam, or the reverse. The Alter Rebbe — for whom the structure of the שולחן ערוך <em>is</em> the emotional logic — says <em>halacha</em>. The Berditchever — for whom the moment of <span class="heb-inline">דביקות</span> is the structural ground — says <em>moment</em>. Each shouts the other down in heavenly excitement. The שיעור left both in the room.
+</p>
+
+<h3>An Aside on Names</h3>
+<p>
+  As the שיעור recounted, the Alter Rebbe was actually called <em>"der Litvak"</em> — the Lithuanian — by the early Chabad chassidim. He had come from <span class="heb-inline">ליאדי</span>, and the early <span class="heb-inline">תלמידי המגיד ממזריטש</span> nicknamed him for it. Today the Litvakishe world calls Chabad and similar groups "מתנגדים" or, colloquially, the chassidim call them "snags" — but in the earliest generations of Chabad, the original Rebbe carried the Litvak title himself. A small reminder that the labels we use today are themselves recent.
+</p>
+
+<h2>XV. Closing Thread — Night, Vulnerability, and Becoming a כלי for שמירה</h2>
+<p>
+  We return, after all of this, to the central question. After we have just proclaimed in <span class="heb-inline">אמת ואמונה</span> that הקדוש ברוך הוא redeemed us from מצרים and will redeem us again — why do we immediately pivot into petitions for guarding, for protection, for being spread-over with a canopy of peace? If the geulah has just been declared, why does the language of vulnerability follow at once?
+</p>
+<p>
+  Because the night represents vulnerability. <span class="heb-inline">בטחון</span> does not remove the need for תפילה; it deepens it. We ask for <span class="heb-inline">שמירה</span> because asking itself is the way a person becomes a <span class="heb-inline">כלי</span> — a vessel — to receive the שמירה that הקדוש ברוך הוא is always extending. The petition is not an attempt to <em>cause</em> the shemirah from the outside; it is the act by which the person opens himself to receive it. <em>וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ</em> is not us asking Hashem to start spreading the canopy. It is us asking to be made into the kind of person under whom the canopy can settle.
+</p>
+<p>
+  And that frame holds everything together. External danger, internal danger (the יצר and his two-stage war), spiritual "high voltage" (שבת as both shemirah and intensified exposure), the discipline of halachic structure (the integrity of the seam between גאולה and תפילה), and the history of the kehillot that lived through real nights of literal danger — all of it lives inside the nightly עבודה of מעריב. The ברכה of אשכיבנו is the place where a Jew, at the end of the day, asks to be made fit to receive the שמירה that the day's avodah has earned.
+</p>
+
+<hr class="fancy">
+
+<p>
+  The arc of the שיעור: the shift of <span class="heb-inline">חתימה</span> from weekday to שבת in אשכיבנו opens onto three threads that converge on the same point. שבת is the שמירה — but only because שבת itself is kept; the asking is part of the keeping. The weekday request for <span class="heb-inline">סוכת שלום</span> echoes the ציצית-protection of the day, asking that the encompassing <span class="heb-inline">אור מקיף</span> of mitzvah extend itself into the unguarded hours of sleep. And the late takana of <span class="heb-inline">ברוך ה' לעולם</span> / <span class="heb-inline">יראו עינינו</span> — added after חז״ל, in Bavel, for the latecomer and the weary worker and the dangerous walk home — has stood at the center of the longest single liturgical machloikes in the siddur, with the Ramban and the Rashbash and the Gra on one side and the Rema and the broader chutz-laaretz מנהג on the other. To say מעריב with awareness of all three threads is to enter the seam between גאולה and תפילה with the full weight of what the seam is carrying.
+</p>
+
+<section class="mareh">
+<h2>מראה מקומות</h2>
+<ol>
+  <li id="fn1"><span class="short"><em>בית חדש (בח), אורח חיים סימן רס״ז</em>.</span> <span class="expanded">— ר' יואל סירקיש (1561–1640), in his commentary on the טור, takes a sharp position on the Friday-night נוסח of אשכיבנו: the language that <em>sounds</em> like a request for שמירה on שבת is not the original נוסח; it drifted into the liturgy through transmission via <span class="heb-inline">חזנים</span>. The proper Shabbos נוסח, on his reading, should not contain petition-language at all, because שבת itself is the שמירה. The position is the strict reading of the structural principle.</span> <a class="backref" href="#ref1" title="Return to text">↩</a></li>
+
+  <li id="fn2"><span class="short"><em>שבת קי״ח ע״ב</em> — <span class="heb-inline">אלמלי שמרו ישראל שתי שבתות כהלכתן מיד נגאלין</span>.</span> <span class="expanded">— The famous teaching of ר' יוחנן grounds the protective power of שבת in its proper keeping: were כלל ישראל to observe even two Shabbosos in full halachic integrity, the redemption would come immediately. The petition for שמירה in the Friday-night אשכיבנו, on this reading, is not in tension with שבת's intrinsic protection — it is the active language of the keeping that <em>activates</em> the protection.</span> <a class="backref" href="#ref2" title="Return to text">↩</a></li>
+
+  <li id="fn3"><span class="short"><em>מנחות מ״ג ע״ב</em>; <em>מנחות מ״ד ע״א</em>.</span> <span class="expanded">— The sugya develops ציצית as <span class="heb-inline">שקול כנגד כל המצוות</span> and as a structural protection against drift toward aveirah. The verb <span class="heb-inline">וראיתם אותו וזכרתם</span> from במדבר ט״ו is the textual anchor: the visible reminder interrupts the path from eye to heart to action.</span> <a class="backref" href="#ref3" title="Return to text">↩</a></li>
+
+  <li id="fn4"><span class="short"><em>במדבר פרק ט״ו פסוק ל״ט</em>.</span> <span class="expanded">— <span class="heb-inline">וְהָיָה לָכֶם לְצִיצִת וּרְאִיתֶם אֹתוֹ וּזְכַרְתֶּם אֶת כָּל מִצְוֹת ה' וַעֲשִׂיתֶם אֹתָם וְלֹא תָתוּרוּ אַחֲרֵי לְבַבְכֶם וְאַחֲרֵי עֵינֵיכֶם אֲשֶׁר אַתֶּם זֹנִים אַחֲרֵיהֶם</span>. The pasuk is the locus of the entire eye-heart-action chain that ציצית is designed to interrupt. The שיעור's practical eitzah — to physically hold ציצית in moments of difficulty — is the operationalization of <span class="heb-inline">וּרְאִיתֶם אֹתוֹ</span>.</span> <a class="backref" href="#ref4" title="Return to text">↩</a></li>
+
+  <li id="fn5"><span class="short"><em>מנחות מ״ד ע״א</em> — story of the man who was saved by his ציצית.</span> <span class="expanded">— The Gemara recounts a man who traveled at great expense to a faraway destination intending an aveirah. As he prepared, the four-corner ציצית garment that had been placed on him struck him — the woman herself noted the strikes as supernatural — and he turned around. The Gemara presents it not as anecdote but as the structural promise of <span class="heb-inline">וּרְאִיתֶם אֹתוֹ</span> made visible.</span> <a class="backref" href="#ref5" title="Return to text">↩</a></li>
+
+  <li id="fn6"><span class="short">Principle of <span class="heb-inline">לילה לאו זמן ציצית</span>; <em>מנחות מ״ג ע״א</em>; <em>שו״ע אורח חיים סימן י״ח</em>.</span> <span class="expanded">— The halachic baseline: night is not the time of the mitzvah of ציצית on the level of דאורייתא. The pasuk <span class="heb-inline">וראיתם אותו</span> requires sight; sight is a function of light. Significant minhagim wear ציצית at night anyway as <span class="heb-inline">חסידות</span> or in case of <span class="heb-inline">ספק</span>, but the daytime-only structure is the underlying din. The שיעור's reading of <span class="heb-inline">סוכת שלום</span> as the night-analogue of the day-mitzvah depends on this baseline.</span> <a class="backref" href="#ref6" title="Return to text">↩</a></li>
+
+  <li id="fn7"><span class="short"><em>רבי שלמה מוורמייזא</em> — siddur and halachic writings, late 11th c.</span> <span class="expanded">— Rabbi Shlomo of Worms (sometimes called R' Shlomo b. Shimshon or by his Latin civil title <em>Episcopus Judaeorum</em>) was a leading contemporary of רש״י, trained alongside him under <span class="heb-inline">רבינו יעקב בר יקר</span> of Mainz. He served as chief Rav of Worms and was recognized civilly by the German imperial authorities of the era. רש״י cites him by name in the Talmud commentary in several places. His siddur and halachic writings survived in part, and his position on the expanded Shabbos נוסח of אשכיבנו — that <span class="heb-inline">סוכת שלום</span> reflects שבת's <em>added</em> need for שמירה, grounded in פסחים קי״ב ע״ב — is preserved through citation in later <span class="heb-inline">ראשונים</span> and in the <span class="heb-inline">אבודרהם</span>.</span> <a class="backref" href="#ref7" title="Return to text">↩</a><div class="note-academic">The exact identity of "Rabbi Shlomo of Worms" in the medieval Ashkenazic record is somewhat contested; the most widely cited candidate is R' Shlomo b. Shimshon of Mainz/Worms, who was killed in the First Crusade massacres in 1096. The civil title <em>Episcopus Judaeorum</em> ("bishop of the Jews") was conferred on the heads of certain major German kehillot in this era. The shiur's reference to Heinrich (III or IV) reflects the imperial reign of Heinrich IV (1056–1106), who was emperor during the First Crusade. Verify the specific German emperor and the exact siddur citation before citing as halachah.</div></li>
+
+  <li id="fn8"><span class="short"><em>פסחים קי״ב ע״ב</em> — <span class="heb-inline">אגרת בת מחלת</span> and the dangerous nights.</span> <span class="expanded">— The Gemara's aggadic passage on the queen of the demons and the particular nights — Wednesday night and Friday night — on which she and her hosts are abroad. The girsaos vary across מנוסחאות. רבי שלמה מוורמייזא reads the passage as halachically operative, requiring added שמירה on Friday night and grounding the expanded נוסח of <span class="heb-inline">סוכת שלום</span>. The wider debate about <span class="heb-inline">שדים</span> across <span class="heb-inline">ראשונים</span> and <span class="heb-inline">אחרונים</span> — with the Rambam famously skeptical and the גר״א famously sharp on the Rambam — is the meta-debate within which his position sits.</span> <a class="backref" href="#ref8" title="Return to text">↩</a></li>
+
+  <li id="fn9"><span class="short"><em>בבא בתרא ט״ז ע״א</em> — <span class="heb-inline">הוא שטן הוא יצר הרע הוא מלאך המות</span>.</span> <span class="expanded">— The Gemara's statement of the unity of the adversary: one force, three roles. The שטן incites the aveirah, the יצר הרע executes it, and the מלאך המות eventually collects. The שיעור's reading of <span class="heb-inline">והסר שטן מלפנינו ומאחרינו</span> in אשכיבנו — as a request to remove the very force that incited us earlier in the day and now waits Above as accuser at the moment the נשמה rises in sleep — is grounded here.</span> <a class="backref" href="#ref9" title="Return to text">↩</a></li>
+
+  <li id="fn10"><span class="short"><em>משלי כ״ד פסוק ו'</em> — <span class="heb-inline">בְּתַחְבֻּלוֹת תַּעֲשֶׂה לְּךָ מִלְחָמָה</span>.</span> <span class="expanded">— The pasuk is the textual anchor for the language of <span class="heb-inline">תחבולות</span> in the נוסח of אשכיבנו (<span class="heb-inline">תחבולותיהם</span> in some נוסחאות). The same word names the strategy of the יצר and the discipline of the עובד ה' who resists him. The שיעור's aside on the Mossad's adoption of the pasuk as official motto is historically accurate; the Israeli intelligence service uses the verse on its seal.</span> <a class="backref" href="#ref10" title="Return to text">↩</a></li>
+
+  <li id="fn11"><span class="short"><em>ברכות דף ד' ע״ב</em> — דין סומך גאולה לתפילה.</span> <span class="expanded">— The principle: <span class="heb-inline">כל הסומך גאולה לתפילה אינו ניזוק כל היום כולו</span>. The closing of <span class="heb-inline">גאל ישראל</span> must be followed by Shemoneh Esrei without halachic interruption. The principle is codified for both שחרית and מעריב and is the structural reason that interruptions in this exact seam — אשכיבנו, ושמרו, <span class="heb-inline">יראו עינינו</span> — generate the long machloikes the שיעור explored.</span> <a class="backref" href="#ref11" title="Return to text">↩</a></li>
+
+  <li id="fn12"><span class="short"><em>ברכות דף ט' ע״ב</em>; principle of <span class="heb-inline">גאולה אריכתא</span>.</span> <span class="expanded">— The Gemara's framing of אשכיבנו as an <em>extension</em> of גאולה rather than as a separate ברכה interrupting it. The same conceptual move that defends אשכיבנו is the only available conceptual move for defending <span class="heb-inline">יראו עינינו</span> — if it is a continuation of the geulah theme, it is not הפסק. Whether the move works for <span class="heb-inline">יראו עינינו</span> is the central question.</span> <a class="backref" href="#ref12" title="Return to text">↩</a></li>
+
+  <li id="fn13"><span class="short"><em>הרמב״ן</em> — ר' משה בן נחמן (גירונדי), 1194–1270.</span> <span class="expanded">— The Catalonian Rishon — biblical commentator, talmudist, kabbalist, physician, and the Jewish disputant at the Disputation of Barcelona in 1263. His objection to <span class="heb-inline">יראו עינינו</span> is the touchstone of the omission tradition: the unit is a post-talmudic insertion in a halachically sensitive seam, and no later authority has standing to override the principle of <span class="heb-inline">סמיכת גאולה לתפילה</span>. The exact citation in the Ramban's writings on this question lives in his commentary on tractate Berachot and is discussed by the בית יוסף and the רשב״ש.</span> <a class="backref" href="#ref13" title="Return to text">↩</a><div class="note-academic">The Ramban's position is reported in multiple ראשונים — notably the רשב״ש שו״ת and the בית יוסף — but the exact passage in his own writings cited by Rabbi Ephrati was not specified in the shiur. The most likely sources are the <em>חידושי הרמב״ן על ברכות</em> or his lost siddur. Verify the specific citation before relying on it as the Ramban's own formulation.</div></li>
+
+  <li id="fn14"><span class="short"><em>רבינו יונה</em> — ר' יונה גירונדי, c. 1200–1263.</span> <span class="expanded">— French/Spanish Rishon, author of <span class="heb-inline">שערי תשובה</span>, <span class="heb-inline">ספר היראה</span>, and the foundational commentary on the רי״ף to ברכות. First cousin of the Ramban (their mothers were sisters; Ramban's daughter married Rabbeinu Yonah's son). Famous for his role in the early phase of the anti-Rambam controversy — supporting the burning of the מורה נבוכים in Montpellier in 1232 — and for his subsequent lifelong תשובה after the Christian burning of the Talmud in Paris in 1242. On <span class="heb-inline">יראו עינינו</span>, his position as <span class="heb-inline">מלמד זכות</span> for the existing מנהג is reported in the Rashbash and elsewhere.</span> <a class="backref" href="#ref14" title="Return to text">↩</a></li>
+
+  <li id="fn15"><span class="short"><em>שו״ת הרשב״ש</em>.</span> <span class="expanded">— ר' שלמה בן שמעון דוראן (the Rashbash, c. 1400–c. 1467), chief Rav of Algeria, son of the רשב״ץ. Joint great-great-grandchild of the Ramban and Rabbeinu Yonah through the family chasunah between them. His Shu״t is one of the major halachic codes of the post-1391 Sefardic diaspora. The בית יוסף cites him by the hundreds and typically follows his psak; the unit of <span class="heb-inline">יראו עינינו</span> is one of the few cases where the בית יוסף diverges, presumably because the chutz-laaretz מנהג was already entrenched. The Rashbash's own psak — not to say <span class="heb-inline">יראו עינינו</span> — is among the strongest historical anchors of the omission tradition.</span> <a class="backref" href="#ref15" title="Return to text">↩</a></li>
+
+  <li id="fn16"><span class="short">The Disputation of Tortosa, 1413–1414, under Antipope Benedict XIII.</span> <span class="expanded">— A formal public theological disputation forced on Spanish Jewry by Benedict XIII, held at Tortosa in northeastern Spain over sixty-nine sessions across nearly two years. The Christian side was led by Gerónimo de Santa Fe — the former Yehoshua mi-Lorca, talmid of the apostate former Rav of Burgos. The Jewish side included the רשב״ץ (Rashbatz), ר' יוסף אלבו (author of ספר העיקרים), and other major Rishonim. The disputation resulted in additional anti-Jewish bulls and accelerated the catastrophe of Spanish Jewry, but also produced lasting Jewish polemical works including the Rashbatz's <span class="heb-inline">מלחמת מצוה</span>.</span> <a class="backref" href="#ref16" title="Return to text">↩</a></li>
+
+  <li id="fn17"><span class="short"><em>הרשב״ץ / ספר מגן אבות, מלחמת מצוה</em>.</span> <span class="expanded">— ר' שמעון בן צמח דוראן (the Rashbatz, 1361–1444), father of the Rashbash, chief Rav of Algiers, native of Mallorca who fled to North Africa after the 1391 pogroms. Major halachic and philosophical writer; participant in the Disputation of Tortosa on behalf of the Jews. His <span class="heb-inline">מגן אבות</span> is a major work on פרקי אבות; his <span class="heb-inline">מלחמת מצוה</span> is the polemical answer to Christian arguments that emerged from the Tortosa disputation and remained influential for centuries.</span> <a class="backref" href="#ref17" title="Return to text">↩</a></li>
+
+  <li id="fn18"><span class="short"><em>רמ״א, אורח חיים סימן רל״ו</em>.</span> <span class="expanded">— The Rema (ר' משה איסרליס, 1530–1572) records the מנהג to recite <span class="heb-inline">ברוך ה' לעולם</span> and <span class="heb-inline">יראו עינינו</span> standing, on the basis of structural resemblance to Shemoneh Esrei (eighteen פסוקים, eighteen Names). The instruction is printed in many traditional Ashkenazic siddurim. The position represents the practical defense of the takana: if you accept that the unit is fixed in the liturgy, treat it with the kavod that its structure suggests.</span> <a class="backref" href="#ref18" title="Return to text">↩</a></li>
+
+  <li id="fn19"><span class="short"><em>משנה ברורה, אורח חיים סימן רל״ו</em>.</span> <span class="expanded">— The חפץ חיים argues against standing for <span class="heb-inline">יראו עינינו</span>: standing signals that the unit has the halachic status of Shemoneh Esrei, which then either undermines the immediately-following actual Shemoneh Esrei or overstates the takana's status. The Mishnah Berurah's psak is the position adopted by most ישיבות and most American Ashkenazic shuls today.</span> <a class="backref" href="#ref19" title="Return to text">↩</a></li>
+
+  <li id="fn20"><span class="short"><em>אבודרהם</em> — historical explanation of <span class="heb-inline">ברוך ה' לעולם</span>.</span> <span class="expanded">— ר' דוד אבודרהם (14th century Sevilla) records a historical reason for the institution of <span class="heb-inline">ברוך ה' לעולם</span>: a non-Jewish גזירה at some point forbade Jews from davening a full Shemoneh Esrei at night, and the takana of <span class="heb-inline">ברוך ה' לעולם</span> with its eighteen invocations of the Name was instituted as a stand-in. When the gezeira lifted, the substitute structure remained in place. The historical specifics — which government, which period — are not securely identified in the modern scholarly literature; the report stands as one of several explanations.</span> <a class="backref" href="#ref20" title="Return to text">↩</a></li>
+
+  <li id="fn21"><span class="short"><em>הרא״ש על ברכות פרק ד'</em>.</span> <span class="expanded">— ר' אשר בן יחיאל (the Rosh, c. 1250–1327) explains the takana of <span class="heb-inline">ברוך ה' לעולם</span> as a concession to working people who came home exhausted and might otherwise have skipped מעריב entirely. The structured conclusion with <span class="heb-inline">ברוך ה' לעולם</span> followed by <span class="heb-inline">קדיש</span> provided a halachically meaningful endpoint for those who could not summon the energy for full Shemoneh Esrei. The framing is striking for its compassion — better an abbreviated halachically-defensible מעריב than no מעריב at all.</span> <a class="backref" href="#ref21" title="Return to text">↩</a></li>
+
+  <li id="fn22"><span class="short">Story of the Alter Rebbe and the Berditchever on ושמרו.</span> <span class="expanded">— The famous chassidishe מעשה of ר' שניאור זלמן of Liadi (the Baal HaTanya, 1745–1812) and ר' לוי יצחק of Berditchev (c. 1740–1809) disagreeing over the recitation of <span class="heb-inline">ושמרו</span> between אשכיבנו and Shemoneh Esrei on Friday night. The Alter Rebbe held הפסק; the Berditchever held the thematic continuity outweighed the structural concern. The "yarid in shomayim" exchange is preserved in multiple Chabad and Berditchever oral traditions. The story has functioned for two centuries as a frame for the larger machloikes between structural-halachic priority (the Alter Rebbe / Volozhin / Gra / Ramban line) and thematic-emotional priority (the Berditchever / Rema's defending line).</span> <a class="backref" href="#ref22" title="Return to text">↩</a><div class="note-academic">The exact written source for this story has not been pinned down to a specific published volume; it circulates as oral tradition in both Chabad and Berditchever communities. The shiur presented it as such. Verify the specific source before citing in a written halachic context.</div></li>
+</ol>
+</section>
+
+<footer class="colophon">
+  Reworked from the original שיעור delivered Sunday morning, 17 May 2026 · ב׳ סיון תשפ״ו.<br>
+  Mareh Mekomos prepared with dual-layer citations; uncertain attributions flagged for verification.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>תחנון, נפילת אפים, and the Origins of והוא רחום — Rabbi Ephrati</title>
+<style>
+  :root{
+    --blue:#1e3a8a;
+    --blue-soft:#2c5282;
+    --gold:#b8860b;
+    --gold-soft:#d4a017;
+    --ink:#1a1a1a;
+    --paper:#fdfaf3;
+    --rule:#c9a227;
+  }
+  *{box-sizing:border-box}
+  body{
+    font-family:"Georgia","Iowan Old Style","Times New Roman",serif;
+    background:var(--paper);
+    color:var(--ink);
+    max-width:820px;
+    margin:40px auto;
+    padding:0 28px 60px 28px;
+    line-height:1.65;
+    font-size:17px;
+  }
+  header.title{
+    text-align:center;
+    border-top:3px double var(--rule);
+    border-bottom:3px double var(--rule);
+    padding:22px 10px;
+    margin-bottom:32px;
+  }
+  header.title .kicker{
+    font-variant:small-caps;
+    letter-spacing:.18em;
+    color:var(--gold);
+    font-size:.9rem;
+    margin-bottom:8px;
+  }
+  header.title h1{
+    font-size:1.7rem;
+    color:var(--blue);
+    margin:.1em 0 .25em 0;
+    line-height:1.25;
+  }
+  header.title .subtitle{
+    font-style:italic;
+    color:var(--blue-soft);
+    font-size:1.05rem;
+  }
+  header.title .meta{
+    margin-top:14px;
+    font-size:.92rem;
+    color:#5a4b1a;
+  }
+  .lead{
+    font-style:italic;
+    color:#3b3b3b;
+    border-left:3px solid var(--gold);
+    padding:6px 16px;
+    margin:0 0 28px 0;
+    background:#fbf4dd55;
+  }
+  .dedication{
+    text-align:center;
+    font-size:.95rem;
+    color:#5a4b1a;
+    border-top:1px solid var(--gold-soft);
+    border-bottom:1px solid var(--gold-soft);
+    padding:10px 8px;
+    margin:0 0 26px 0;
+  }
+  h2{
+    font-variant:small-caps;
+    letter-spacing:.06em;
+    color:var(--blue);
+    border-bottom:1.5px solid var(--gold);
+    padding-bottom:4px;
+    margin-top:42px;
+    font-size:1.25rem;
+  }
+  h3{
+    color:var(--gold);
+    font-style:italic;
+    font-size:1.08rem;
+    margin-top:28px;
+    margin-bottom:6px;
+  }
+  blockquote{
+    border-left:3px solid var(--blue-soft);
+    margin:14px 0;
+    padding:6px 18px;
+    background:#eef2fb55;
+    color:#222;
+  }
+  blockquote.heb{
+    border-left:none;
+    border-right:3px solid var(--blue-soft);
+    background:#eef2fb55;
+  }
+  .heb{
+    font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;
+    direction:rtl;
+    unicode-bidi:embed;
+    color:var(--blue);
+  }
+  .heb-inline{
+    font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;
+    direction:rtl;
+    unicode-bidi:embed;
+  }
+  .callout{
+    background:#fbf4dd;
+    border:1px solid var(--gold-soft);
+    border-radius:6px;
+    padding:14px 18px;
+    margin:22px 0;
+  }
+  .callout .label{
+    display:block;
+    font-variant:small-caps;
+    letter-spacing:.12em;
+    color:var(--gold);
+    font-size:.82rem;
+    margin-bottom:6px;
+  }
+  .footnote-ref{
+    font-size:.78rem;
+    vertical-align:super;
+    color:var(--gold);
+    text-decoration:none;
+    margin-left:1px;
+  }
+  .footnote-ref:hover{text-decoration:underline}
+  section.mareh{
+    margin-top:48px;
+    border-top:2px solid var(--rule);
+    padding-top:18px;
+  }
+  section.mareh h2{
+    border-bottom:none;
+    margin-top:0;
+  }
+  section.mareh ol{
+    padding-left:22px;
+    color:#2a2a2a;
+    list-style:decimal;
+  }
+  section.mareh li{margin:12px 0;padding-left:4px}
+  section.mareh li .short{font-weight:600;color:var(--blue)}
+  section.mareh li .expanded{color:#2a2a2a}
+  section.mareh li .backref{color:var(--gold);text-decoration:none;margin-left:6px;font-size:0.85em}
+  section.mareh .note-academic{border-left:3px solid var(--gold-soft);background:rgba(184,134,11,0.04);padding:8px 12px;margin-top:4px;font-size:0.95em}
+  footer.colophon{
+    margin-top:50px;
+    border-top:3px double var(--rule);
+    padding-top:18px;
+    text-align:center;
+    font-style:italic;
+    color:#5a4b1a;
+    font-size:.92rem;
+  }
+  hr.fancy{
+    border:none;
+    text-align:center;
+    margin:30px 0;
+  }
+  hr.fancy::before{
+    content:"❦";
+    color:var(--gold);
+    font-size:1.2rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="title">
+  <div class="kicker">Rabbi Ephrati · שיעור on תפילה</div>
+  <h1>תחנון, נפילת אפים, and the Origins of והוא רחום</h1>
+  <div class="subtitle">From the קיצור של״ה, the Mediterranean Exiles, and the תפילה of חזקיהו המלך</div>
+  <div class="meta">Recorded י״א חשון תשפ״ו · 10 November 2025 · Reworked from the original שיעור</div>
+</header>
+
+<div class="dedication">
+  לעילוי נשמת הרב חיים זצ״ל ביום היארצייט שלו<br>
+  ולעילוי נשמת כל נשמות עם ישראל
+</div>
+
+<p class="lead">
+  Last week we began discussing תחנון. This week we go deeper. We need to be clear about its different components — וידוי and שלש עשרה מידות, נפילת אפים itself, and the long Monday-and-Thursday addition of <span class="heb-inline">והוא רחום</span>. Each piece has a separate origin story, and the origin stories are unusually rich.
+</p>
+
+<h2>I. Structure — וידוי, שלש עשרה מידות, then נפילת אפים</h2>
+
+<h3>וידוי and the Thirteen Attributes After שמונה עשרה</h3>
+<p>
+  As we explained, the וידוי and the שלש עשרה מידות we recite before נפילת אפים constitute a separate section from נפילת אפים itself. In נוסח ספרד we first say the שלש עשרה מידות, though we still begin with the וידוי. The זוהר הקדוש<a href="#fn1" id="ref1" class="footnote-ref">[1]</a> teaches that immediately after שמונה עשרה — to prevent the מקטרגים from blocking our תפילה from ascending to כסא הכבוד — we recite וידוי. Then we say <span class="heb-inline">קל ארך אפים</span>, an ancient פיוט that has always served as the introduction to the שלש עשרה מידות in סליחות and on יום כיפור. Following that, the שלש עשרה מידות של רחמים themselves.
+</p>
+<p>
+  It is crucial to grasp: this whole institution of וידוי and שלש עשרה מידות has no source in גמרא or in basic הלכה. It exists because the זוהר הקדוש instructs it, and the האריז״ל was extremely meticulous about it. He insisted that one say וידוי and the שלש עשרה מידות immediately after שמונה עשרה, and that the immediacy is essential.
+</p>
+
+<h2>II. The Source of the שלש עשרה מידות</h2>
+
+<h3>The גמרא in ראש השנה</h3>
+<p>
+  The שלש עשרה מידות are well known from סליחות. The famous גמרא in <strong>ראש השנה דף י״ז</strong><a href="#fn2" id="ref2" class="footnote-ref">[2]</a> states: after מעשה העגל, הקדוש ברוך הוא told משה רבינו, <em>in order that I may forgive כלל ישראל, I will teach you what to say</em>. הקדוש ברוך הוא wrapped Himself in a טלית. The גמרא says it explicitly, and adds: were it not for the fact that the גמרא states this, we would not be permitted to say so — that הקדוש ברוך הוא, כביכול, wrapped Himself in a טלית and showed משה: "This is what you should say."
+</p>
+
+<h3>The מהרש״א — A White אור</h3>
+<p>
+  The מהרש״א<a href="#fn3" id="ref3" class="footnote-ref">[3]</a> asks the obvious question: who wore a טלית? What does it mean that הקדוש ברוך הוא wraps Himself in a טלית? He explains based on the פסוק we recite before donning our own טלית in the morning — <span class="heb-inline">עוטה אור כשלמה</span>. הקדוש ברוך הוא wraps Himself in light as in a garment. The מהרש״א says הקדוש ברוך הוא did not literally wear a physical טלית; rather there was a kind of אור, an aura, surrounding the שכינה — and within that אור He recited the שלש עשרה מידות.
+</p>
+<p>
+  The מהרש״א adds something interesting: this אור is white. I confess I do not know what "white spiritual אור" means — but I suspect this may be the source of our being so meticulous about white טליתות, careful that they are not soiled or dirty. הקדוש ברוך הוא's טלית, כביכול, is white; perhaps that is the source.
+</p>
+
+<h2>III. נפילת אפים — What Is It, Really?</h2>
+
+<h3>Originally a רשות</h3>
+<p>
+  Now to נפילת אפים itself. Last week we mentioned that many חסידים are not particular about נפילת אפים — they do not say תחנון whenever there is a יארצייט — and we discussed the dispute extensively. We must understand that the entire institution of נפילת אפים is not, in its origin, an obligation. It was originally only <strong>רשות</strong>.
+</p>
+<p>
+  Look through the entire ש״ס. You will find no source obligating נפילת אפים. The רמב״ש in his תשובות<a href="#fn4" id="ref4" class="footnote-ref">[4]</a> writes outright that it is only רשות. This is the source for why many people — not only חסידים — cancel תחנון when they have a sufficient excuse. (Just how good the excuse must be is itself a wide-ranging dispute.)
+</p>
+<p>
+  Rav Heschel notes a useful parallel: תפילת ערבית was also originally רשות. Yet כלל ישראל accepted it upon themselves as חיוב. The שלחן ערוך writes that ultimately כלל ישראל accepted נפילת אפים as a חיוב too — and that is why one is obligated to say it on appropriate days. (Clearly not on ראש חודש, and not on the various other days specified in שלחן ערוך — and if you are חסיד, then never, by your מנהג.)
+</p>
+
+<h2>IV. A רמז in the Torah — "ואת מעכה"</h2>
+<p>
+  I forgot to mention this last week, and it ties into what we read at the end of the עקדה. How does פרשת וירא conclude? When we read the עקדה on ראש השנה we add the final section. What is its connection to ראש השנה? Why not place it on the fourth day of the week? Why include it in the קריאה of ראש השנה?
+</p>
+<p>
+  The בעל שם טוב<a href="#fn5" id="ref5" class="footnote-ref">[5]</a> teaches: every name in the תורה contains hints. The words <span class="heb-inline">ואת מעכה</span>, says the בעל שם טוב, are ראשי תיבות:
+</p>
+<blockquote class="heb">
+  <span class="heb">ו</span>ידוי <span class="heb">א</span>חר <span class="heb">ת</span>פילה <span class="heb">מ</span>גיע <span class="heb">ע</span>ד <span class="heb">כ</span>סא <span class="heb">ה</span>כבוד.
+</blockquote>
+<p>
+  Worth remembering. There are hints in the תורה, as the זוהר already taught, that when you recite וידוי <em>after</em> שמונה עשרה, you plead before הקדוש ברוך הוא — and then you nullify yourself, you fall and say "I am unworthy of anything," you cry <span class="heb-inline">חטאתי, עויתי, פשעתי</span> — and then הקדוש ברוך הוא accepts the תפילה.
+</p>
+
+<h2>V. The History of the Words of נפילת אפים</h2>
+
+<h3>The Old נוסח</h3>
+<p>
+  The original נפילת אפים had no uniform נוסח. Today we recite <span class="heb-inline">רחום וחנון חטאתי לפניך</span> and then <span class="heb-inline">ה' אל באפך תוכיחני</span> — קפיטל ו' in תהלים. But in those days, things were different. The לבוש<a href="#fn6" id="ref6" class="footnote-ref">[6]</a> mentions a different קפיטל from תהלים altogether.
+</p>
+<p>
+  The זוהר הקדוש in fact instructs that one should recite during נפילת אפים <strong>קפיטל כ״ה</strong> in תהלים<a href="#fn7" id="ref7" class="footnote-ref">[7]</a>, where דוד surrenders himself to הקדוש ברוך הוא: <span class="heb-inline">לדוד אליך ה' נפשי אשא</span> — "I am going to surrender my נפש to You."
+</p>
+
+<h3>The Danger</h3>
+<p>
+  The זוהר warns: you may say this only with the proper כוונה. Without correct כוונה it is dangerous — dangerous that, חס ושלום, הקדוש ברוך הוא will take a person before his time, without אריכות ימים. Consequently many people, seeing this in the זוהר, said: "I will not even open this קפיטל. I will not begin." Despite its being the original source of נפילת אפים, the danger is too great. To say <span class="heb-inline">אליך ה' נפשי אשא</span> without כוונה is to tell הקדוש ברוך הוא, "Take my נפש." It is supposed to be מסירת נפש; but מסירת נפש without כוונה turns into an open door.
+</p>
+
+<h3>What the ספרדים and the אשכנזים Did</h3>
+<p>
+  The ספרדים do say קפיטל כ״ה — but without performing נפילת אפים at all. They recite the קפיטל and call it לדוד; they do not fall, because to combine the falling with that קפיטל without כוונה is regarded as too dangerous.
+</p>
+<p>
+  Among the אשכנזים, over the years, the printed סידור substituted <strong>קפיטל ו'</strong> — <span class="heb-inline">ה' אל באפך תוכיחני</span> — a kind of וידוי, beseeching הקדוש ברוך הוא; you all know what קפיטל ו' says. The shift from קפיטל כ״ה to קפיטל ו' was driven precisely by this concern.
+</p>
+
+<h2>VI. Why No תחנון at מנחה?</h2>
+<p>
+  An interesting question — why does כלל ישראל essentially not say תחנון at מנחה? Last week we mentioned the סמ״ע's sharp criticism of those who skip תחנון for every יארצייט. But at מנחה, indeed, the מנהג developed not to say it. Why?
+</p>
+<p>
+  Because it is dangerous to say תחנון at <em>night</em>. If you recite these things at night, the כחות הטומאה are aroused. (The ראשונים use the term <span class="heb-inline">מקצת בנטיעת</span> for someone who does what he should not do at the wrong time.) Many people daven מנחה late, and by the time they finish שמונה עשרה it is already after שקיעה — at which point it is forbidden to say תחנון. Therefore the קהל simply canceled תחנון at מנחה in general; even those who daven מנחה in the middle of the day, far from שקיעה, refrain. The danger of נפילת אפים without proper כוונה is real. נפילת אפים done with proper כוונה is געוואלדיג. Done without it, dangerous.
+</p>
+
+<h2>VII. ויאמר דוד אל גד — A Strange פסוק</h2>
+
+<h3>Has Anyone Wondered?</h3>
+<p>
+  Has anyone among you, while saying תחנון in the morning, ever been startled by the פסוק <span class="heb-inline">ויאמר דוד אל גד</span>? You say it. What is this פסוק doing here? I understand <span class="heb-inline">נפלה נא ביד ה'</span> — falling. But by the way, that phrase says something different from what we are doing: <span class="heb-inline">נפלה נא ביד ה'</span> means "let us fall <em>into</em> the hand of ה'", not "fall <em>before</em> ה'." We are falling before Him, not into His hand. So what is this פסוק doing in our תחנון?
+</p>
+
+<h3>The Source — שמואל ב'</h3>
+<p>
+  The פסוק comes from the very last chapters of ספר שמואל, in <strong>שמואל ב' פרק כ״ד</strong><a href="#fn8" id="ref8" class="footnote-ref">[8]</a>. דוד המלך sent יואב, his general, to count כלל ישראל from north to south — a census. We do not count Jews. (I will not enter into why; it is a sugya unto itself, and a serious one. We do not count Jews.) דוד erred by counting them, and גד — the נביא in דוד's days, גד החוזה — came to him and said, "You have done a terrible thing. ה' is offering three options. Choose your punishment."
+</p>
+<p>
+  The three options:
+</p>
+<ol>
+  <li>Seven years of רעב in ארץ ישראל.</li>
+  <li>Three months of an enemy in pursuit, with terrible troubles, פוגרומען or whatever it might be.</li>
+  <li>Three days of דבר — a plague.</li>
+</ol>
+<p>
+  דוד answered (this is our פסוק): each of the punishments is very difficult — but I prefer to fall <em>into the hand of ה'</em>, not into the hand of man. If I choose רעב, I will be in the hand of man — the wealthy will corner the market and squeeze. If I choose three months of an enemy, that too is in the hand of man. I prefer to be punished by ה'. Let there be a דבר in כלל ישראל. And indeed, seventy thousand Jews died in those three days. We think Corona was terrible? Three days, seventy thousand. That is what the פסוק says.
+</p>
+
+<h3>What Is It Doing in תחנון?</h3>
+<p>
+  But what is this פסוק doing in תחנון? Who placed it in our סידורים?
+</p>
+<p>
+  This is precisely where it becomes important to research the source of every תפילה. There is a serious possibility that this passage is a <strong>Sabbatean addition</strong>. I do not want to alarm you; do not stop saying it if you say it. But the trail leads, perhaps, somewhere we should be aware of.
+</p>
+
+<h2>VIII. The קיצור של״ה — A Hidden גמטריא</h2>
+
+<h3>Who יחיאל מיכל עפשטיין Was</h3>
+<p>
+  There was a yid named <strong>יחיאל מיכל עפשטיין</strong>. (Not the famous מיכל עפשטיין of the ערוך השלחן — there are many מיכל עפשטיינס in Jewish history.) This particular יחיאל מיכל עפשטיין lived in the early seventeenth century. He wrote a ספר called <strong>קיצור של״ה</strong><a href="#fn9" id="ref9" class="footnote-ref">[9]</a>.
+</p>
+<p>
+  You all know the של״ה — <em>שני לוחות הברית</em> by רבי ישעיה הלוי הורוויץ, one of the most important ספרים on the Jewish bookshelf. Coming fifty to seventy years after the שלחן ערוך, this yid wrote an abridged version. The של״ה הקדוש is beautiful but very long; an abbreviated version was a useful thing to have.
+</p>
+<p>
+  Open the קיצור של״ה carefully, however, and you find many things the original של״ה does not even mention. That anomaly did not escape the eye of one of Jewish history's most relentless defenders of orthodoxy.
+</p>
+
+<h3>רבי יעקב עמדן and תורת הקנאות</h3>
+<p>
+  <strong>רבי יעקב עמדן</strong><a href="#fn10" id="ref10" class="footnote-ref">[10]</a> — the great warrior against the surviving Sabbateans, the followers of שבתי צבי in the seventeenth century — wrote an entire ספר called <em>תורת הקנאות</em> documenting שבתי צבי and his תלמידים, demonstrating how their influence persisted in כלל ישראל decades after his apostasy. רבי יעקב עמדן had eyes like a hawk. Whenever any new ספר was published he immediately examined the הקדמה and the הסכמות. If he detected even a faint whiff of שבתאות he responded with great קנאות, writing sharply and fearlessly.
+</p>
+
+<h3>The Discovery</h3>
+<p>
+  When the קיצור של״ה was published, רבי יעקב עמדן obtained a copy. He opened it and immediately issued a קול קורא: no one is permitted to bring this ספר into his home. The מחבר is a Sabbatean — a כופר who believes himself bound to the false משיח. His proof? In the הקדמה, the author makes reference to שבתי צבי.
+</p>
+<p>
+  Open the הקדמה of קיצור של״ה and you will find no <em>explicit</em> mention of שבתי צבי anywhere. So what was רבי יעקב עמדן seeing?
+</p>
+
+<h3>The Hidden גמטריא</h3>
+<p>
+  The answer requires extreme attention — you have to be a יעקב עמדן yourself to catch it. In the brief הקדמה, ר' ישראל מיכל עפשטיין concludes:
+</p>
+<blockquote>
+  "And I daven, and I write down for myself to remember, and I am מתפלל that ה' should help כלל ישראל to be זוכה to משיח. By learning this ספר may they merit to see <strong>משיח האמיתי</strong>, and may they merit <strong>ימות המשיח</strong>."
+</blockquote>
+<p>
+  On the surface — perfectly fine. But there were two סימנים, two apostrophes, placed over those four words: <span class="heb-inline">משיח האמיתי</span> and <span class="heb-inline">ימות המשיח</span>. Whenever you see such an apostrophe, it is a סימן for the serious reader to analyze the word — to calculate its גמטריא, or to look at the ראשי תיבות.
+</p>
+<p>
+  The numerical value of <span class="heb-inline">משיח האמיתי ימות המשיח</span> is exactly <strong>814</strong>. That is precisely the גמטריא of <strong>שבתי צבי</strong><a href="#fn11" id="ref11" class="footnote-ref">[11]</a>. רבי יעקב עמדן caught it instantly: "I am convinced — this is Sabbatean. Get this ספר out of my home. No one should buy it."
+</p>
+
+<h3>The Impact on Our תפילה — ויהי נועם</h3>
+<p>
+  The פסוק <span class="heb-inline">ויהי נועם ה' אלקינו עלינו</span> that is recited before תחנון — specifically because it contains the words <span class="heb-inline">כי פלא פעל ה'</span> — originates from that very ספר, the קיצור של״ה. Therefore the הגאון מווילנא and the משנה ברורה<a href="#fn12" id="ref12" class="footnote-ref">[12]</a> write that one should not recite it. Many פוסקים concur. This is why in some Ashkenazic סידורים the passage appears in small print or in parentheses — not everyone says it.
+</p>
+<p>
+  I myself used to say it as a child, because I would say everything printed in the סידור. Later I left it off. The וועלט still says it, and many קהילות maintain the מנהג. The fact that the source may be Sabbatean does not necessarily invalidate the words themselves. The הגאון מווילנא offered an additional reason for omitting it: it speaks of פורענות — of plagues and calamities — and we prefer not to invoke such matters before תחנון. The סדור בני יששכר, a famous ספר from an Italian מקובל, also omits it. The practice varies. In most printed סידורים it appears, and if you wish to recite it, there is a מקור — though that מקור is questionable.
+</p>
+
+<h2>IX. נתן נטע הנובר and ספר שערי ציון</h2>
+<p>
+  There was a yid by the name of <strong>נתן נטע הנובר</strong><a href="#fn13" id="ref13" class="footnote-ref">[13]</a>. He is best known for one major work — <em>ספר יוון מצולה</em>. He lived through the תח״ת — the gezeiros of Bogdan Chmielnicki of 1648–1649, when the Cossacks swept through Poland and killed between twenty and fifty thousand Jews. Many fled, and he was among them. He was a חשוב רב from western Ukraine. As an Ashkenazic yid he made his way to Italy, to ויניציה, where he met a מקובל who was a תלמיד of רב חיים ויטאל — the chief תלמיד of the האריז״ל. The מקובל took such a liking to him that נתן נטע became his תלמיד and himself a מקובל.
+</p>
+<p>
+  ספר יוון מצולה is the most important historical source on the events of תח״ת. (The ש״ך, who was also there, wrote his own — <em>מגילת איפה</em>.) But נתן נטע wrote another ספר as well — <strong>שערי ציון</strong><a href="#fn14" id="ref14" class="footnote-ref">[14]</a>. In it he records that many of the תפילות he transmits were מקובל from his רב, ר' חיים הכהן from חלב in Syria. נתן נטע writes that he is recording these תפילות so that כלל ישראל should say them.
+</p>
+<p>
+  Remarkably, every single סידור today contains these תפילות, though we do not know exactly how they spread so universally. Which תפילות? The תפילות we say when we open the ארון on שבת, on יום טוב, on ראש השנה, and on יום כיפור — all from שערי ציון. Everyone says them with reverence. People pay substantial sums for the זכות of opening the ארון. Yet none of these תפילות existed in כלל ישראל before the תלמיד of the תלמיד of the האריז״ל decided to teach them. He recorded them in his ספר; somehow they spread like wildfire. Every סידור now includes them — including the תפילה you say before entering the סוכה, the תפילה before taking the לולב, and many others. Some come instead from the קיצור של״ה, which preceded שערי ציון slightly — which is why a few people specifically do not say a few of these תפילות.
+</p>
+
+<h2>X. והוא רחום — The תפילה of שני וחמישי</h2>
+
+<h3>Why Monday and Thursday at All?</h3>
+<p>
+  On Monday and Thursday, in shul, we say <span class="heb-inline">והוא רחום יכפר עון</span> followed by a long תפילה running all the way to קריאת שמע. Why on these two days? What is so special about שני וחמישי? When we fast, we fast on Monday and Thursday. We read the תורה on Monday and Thursday. The גמרא in <strong>בבא קמא דף פ״ב ע״ב</strong><a href="#fn15" id="ref15" class="footnote-ref">[15]</a> says it was a תקנת עזרא to read the תורה on these two days.
+</p>
+<p>
+  The ראשונים give two opposite reasons — and they truly oppose each other.
+</p>
+
+<h3>The First שיטה — Days of רחמים</h3>
+<p>
+  Some ראשונים hold that Monday and Thursday are days of רחמים. משה רבינו ascended הר סיני to receive the second לוחות on a Thursday, and he descended forty days later on a Monday — that day was יום כיפור. Therefore Monday and Thursday became days of רחמים forever. If they are days of רחמים, you ask for more — you add תפילות in your שחרית. You stay an extra five minutes for והוא רחום.
+</p>
+
+<h3>The Second שיטה — Days of דין</h3>
+<p>
+  Other ראשונים say פונקט פערקערט — exactly the opposite. Monday and Thursday are days of <em>דין</em>, because one of the תקנות עזרא was that every city must have a בית דין sitting on Monday and Thursday. Anyone who learns כתובות knows this from the very first משנה<a href="#fn16" id="ref16" class="footnote-ref">[16]</a>. When there is דין below, there is דין above — so the זוהר teaches. The גמרא says you may not do הקזת דם — bloodletting — on Monday and Thursday, because they are days of דין. When there is דין here, there is דין there. And precisely because there is דין above, we have to ask for more רחמים — and that is why we add the extra תחנונים.
+</p>
+<p>
+  A curious מחלוקת — either days of רחמים or days of דין. But where did this specific תפילה come from?
+</p>
+
+<h2>XI. The Story Behind והוא רחום</h2>
+
+<h3>An Ancient תפילה from the Times of the תנאים</h3>
+<p>
+  This story has several versions and is brought in many ראשונים — the <strong>כל בו</strong>, the <strong>רוקח</strong><a href="#fn17" id="ref17" class="footnote-ref">[17]</a>, and others. This is one of the most ancient תפילות in our סידור, and most people say it twice a week without knowing where it came from.
+</p>
+
+<h3>The Three Ships</h3>
+<p>
+  After Titus destroyed the בית המקדש השני, many yidden were exiled. According to one account, Titus sent three ships out into the Mediterranean without sailors, without navigation — only sails. <span class="heb-inline">לכל רוח</span> — wherever the wind would take them. Three full ships of men and women adrift in the Mediterranean. One ended up in פורטוגל, another in איטליה, another in אפריקה. (The versions disagree on exact locations.)
+</p>
+
+<h3>The King's Test</h3>
+<p>
+  The ship that ended up — let us say in פורטוגל — disembarked, and the king of פורטוגל greeted them. "Where are you coming from?" "We are Jews." "What are Jews?" "We are descendants of אברהם אבינו." Hundreds of yidden, men and women, strangers from a foreign land. "What are you doing here?" "We were exiled when Titus destroyed the בית המקדש."
+</p>
+<p>
+  These were תנאים — yidden from two thousand years ago.
+</p>
+<p>
+  The king said, "You are children of אברהם אבינו? I know a little of the Bible. We just read about אברהם אבינו thrown into אור כשדים and emerging unscathed. Let us see if you can pull that off. If I throw you into a fire and you come out like אברהם אבינו, like your forefather, then you are indeed his descendants. You will be welcome in my land — homes, real estate, vineyards, fields, farms — whatever you want. But if not, I will send you straight back on the ship."
+</p>
+
+<h3>Three Days of Tefillah and Taanis</h3>
+<p>
+  The three biggest, most חשוב תנאים on that ship gathered. "What are we going to do? We are not אברהם אבינו. This does not happen every day." They sat and davened and davened. They fasted three days. During those three days the three חכמים composed והוא רחום:
+</p>
+<ol>
+  <li>One of them wrote from <span class="heb-inline">והוא רחום</span> until <span class="heb-inline">אין כמוך לחנון ורחום</span>.</li>
+  <li>The second wrote from <span class="heb-inline">אין כמוך</span> until <span class="heb-inline">ה' אלוקי ישראל שומע תרועת עמך</span>.</li>
+  <li>The third wrote the third section to the end.</li>
+</ol>
+<p>
+  They davened it over and over and over.
+</p>
+
+<h3>The Dream of the ירושלמי</h3>
+<p>
+  On the third day the king demanded one of them be thrown into the fire. They turned to one another: "What did each of you dream the past three nights?" The first two had nothing of significance to report. The third one — the כל בו writes — was a great ירושלמי, but he was not really a תלמיד חכם in the strict sense; he did not know תנ״ך extensively. (Someone who does not know תנ״ך is not called a תלמיד חכם.) "What did you dream?" "I dreamt a פסוק." "What פסוק?" "I cannot remember the פסוק. All I remember is that there were two times the word <span class="heb-inline">כי</span> and three times the word <span class="heb-inline">לא</span>."
+</p>
+<p>
+  Today, with Google or ChatGPT, you would find it in seconds. But the תלמידי חכמים among them said immediately: "I have it!" Right on the spot. The פסוק is in <strong>ישעיהו פרק מ״ג</strong><a href="#fn18" id="ref18" class="footnote-ref">[18]</a>:
+</p>
+<blockquote class="heb">
+  <span class="heb">כי תעבור במים אתך אני ובנהרות לא ישטפוך, כי תלך במו אש לא תכוה ולהבה לא תבער בך.</span>
+</blockquote>
+<p>
+  Two times <span class="heb-inline">כי</span>, three times <span class="heb-inline">לא</span>. (This is also the famous niggun — the words of that beautiful melody.) They said to him: "<em>You</em> are the one we are choosing to throw into the fire, because <em>you</em> had the dream. As ישעיהו promises: you will be cast into fire and you will not burn." He answered: "All right, no problem."
+</p>
+
+<h3>The נס</h3>
+<p>
+  They brought him before the king. They threw him into the fire. The fire split. He walked in. He walked out. Unharmed. The king declared, "Wow! You are indeed children of אברהם אבינו!"
+</p>
+
+<h3>The תקנה</h3>
+<p>
+  The king accepted them. He gave them a place to live, money, real estate. They settled there, and Yiddishkeit flourished — whether פורטוגל or אפריקה, we are not entirely certain. After the מעשה, they sent letters to all the קהילות in כלל ישראל: "We did this. We were מתקן this תפילה והוא רחום, we said it over and over, it helped us; the king accepted us and the man was saved. Therefore we ask all of כלל ישראל to say it." All the קהילות accepted upon themselves to say it. That is why we say והוא רחום twice every week, asking הקדוש ברוך הוא to save us from גלות and have רחמים. It is a beautiful, very moving, crystal-clear תפילה. It is so important that one may not be מפסיק during it. The whole thing comes from before the ראשונים, from the תנאים themselves. We even have the names of the three תנאים, though there are different versions.
+</p>
+
+<h2>XII. The Insertion of רבי עזריאל</h2>
+<p>
+  As you look through והוא רחום you will notice one piece that is not from those three תנאים. It is the line <span class="heb-inline">ה' אלוקי ישראל שומע תרועת עמך ורחם על עדת עמך</span> — that beautiful refrain at the end of each stanza.
+</p>
+<p>
+  Who wrote it? <strong>רבי עזריאל</strong> — and you can see his name in it. Look at the words <span class="heb-inline">עוזרנו אלוקי ישענו על דבר כבוד שמך</span>. <span class="heb-inline">עוזרנו</span> spells ע-ז-ר-נ-ו; the יוד of <span class="heb-inline">ישענו</span> completes it: <span class="heb-inline">עזריאל</span>. There was a yid by that name, one of the ראשונים. He composed this addition, and one tradition holds that this is how it became part of והוא רחום.
+</p>
+
+<h2>XIII. The תפילה of חזקיהו המלך</h2>
+<p>
+  There is, however, another שיטה for where the body of the תפילה comes from. We know the story of סנחריב. The ראשונים say that in the days of סנחריב מלך אשור, when he laid siege to ירושלים, חזקיהו המלך woke up in the middle of the night, went to the בית המקדש, and davened for two hours straight<a href="#fn19" id="ref19" class="footnote-ref">[19]</a>. He davened and davened. The entire army — one hundred and eighty-five thousand soldiers — fell.
+</p>
+<p>
+  The question everyone wants to know: <em>what did חזקיהו say</em> that could fell one hundred and eighty-five thousand אשורים?
+</p>
+<p>
+  The answer is in the ראשי תיבות. One stanza spells out <strong>חזקיהו</strong>:
+</p>
+<blockquote class="heb">
+  <span class="heb">ח</span>שוב ציון · <span class="heb">ז</span>כור ה' · <span class="heb">ק</span>ום ה' · <span class="heb">י</span>־<span class="heb">ה</span>־<span class="heb">ו</span>...
+</blockquote>
+<p>
+  חזקיהו המלך said this תפילה. When we say it every Monday and Thursday we are commemorating his תפילה — and asking הקדוש ברוך הוא that all the enemies of כלל ישראל should fall as the army of סנחריב fell.
+</p>
+
+<hr class="fancy">
+
+<h2>סיכום</h2>
+<p>
+  Three braided strands run through this שיעור. The וידוי and שלש עשרה מידות before נפילת אפים — קבלי, instituted by the האריז״ל, our defense against the מקטרגים. נפילת אפים itself — originally רשות, taken on by כלל ישראל as חיוב, accompanied by genuine danger when said without כוונה, and accompanied by tremendous power when said with it. And the long Monday-and-Thursday addition of <span class="heb-inline">והוא רחום</span> — composed in three pieces by three תנאים adrift on a ship in the Mediterranean, completed by רבי עזריאל's signature, and tied by another tradition all the way back to the תפילה of חזקיהו that broke the army of סנחריב. Every word in our סידור has a story. הלוואי we should say each of them with the כוונה it deserves.
+</p>
+
+<section class="mareh">
+  <h2>מראה מקומות &nbsp;·&nbsp; Mareh Mekomos</h2>
+  <ol>
+    <li id="fn1"><span class="short"><em><span class="heb-inline">זוהר חלק ג', פרשת בלק רכ"ב ע"א</span></em>; <em><span class="heb-inline">שער הכוונות, דרושי נפילת אפים</span></em>.</span> <span class="expanded">— The <span class="heb-inline">זוהר</span> instructs that immediately after <span class="heb-inline">שמונה עשרה</span> the <span class="heb-inline">קהל</span> should recite <em><span class="heb-inline">וידוי</span></em> followed by the <span class="heb-inline">י"ג מידות</span> as a defense against the <span class="heb-inline">מקטרגים</span> seeking to block the <span class="heb-inline">תפילה</span> from ascending. The <span class="heb-inline">אריז"ל</span>, in <em><span class="heb-inline">שער הכוונות</span></em>, codifies this for daily <span class="heb-inline">תפילה</span> — the source of universal <span class="heb-inline">נוסח ספרד</span> practice and partial <span class="heb-inline">נוסח אשכנז</span> practice.</span> <a class="backref" href="#ref1" title="Return to text">↩</a></li>
+
+    <li id="fn2"><span class="short"><em><span class="heb-inline">ראש השנה י"ז ע"ב</span></em> — origin of the <span class="heb-inline">שלש עשרה מידות</span>.</span> <span class="expanded">— <em><span class="heb-inline">"אמר רבי יוחנן: אלמלא מקרא כתוב אי אפשר לאמרו — מלמד שנתעטף הקדוש ברוך הוא כשליח צבור והראה לו למשה סדר תפילה, אמר לו: כל זמן שישראל חוטאין יעשו לפני כסדר הזה ואני מוחל להם"</span></em>. The <span class="heb-inline">גמרא</span> after <span class="heb-inline">חטא העגל</span> derives the standard text of the <span class="heb-inline">י"ג מידות</span> (<span class="heb-inline">שמות ל"ד:ו'-ז'</span>) and its central role in <span class="heb-inline">תפילת הציבור</span> in <span class="heb-inline">סליחות</span>, <span class="heb-inline">תחנון</span>, and <span class="heb-inline">יום הכפורים</span>.</span> <a class="backref" href="#ref2" title="Return to text">↩</a></li>
+
+    <li id="fn3"><span class="short"><em><span class="heb-inline">חידושי אגדות מהרש"א, ראש השנה י"ז ע"ב</span></em>.</span> <span class="expanded">— The <span class="heb-inline">מהרש"א</span> (<span class="heb-inline">ר' שמואל אליעזר אידלס</span>, 1555–1631) on the <span class="heb-inline">גמרא</span>'s description of <span class="heb-inline">הקב"ה</span>, <span class="heb-inline">כביכול</span>, wrapping Himself in a <span class="heb-inline">טלית</span>: this is not literal but a kind of <span class="heb-inline">אור</span> surrounding the <span class="heb-inline">שכינה</span>, in keeping with <em><span class="heb-inline">עוטה אור כשלמה</span></em> (<span class="heb-inline">תהלים ק"ד:ב'</span>). The שיעור reads the <span class="heb-inline">מהרש"א</span>'s description of "white" <span class="heb-inline">אור</span> as a possible source for the <span class="heb-inline">מנהג</span> to wear white <span class="heb-inline">טליתות</span>; verify by reading the <span class="heb-inline">מהרש"א</span> directly.</span> <a class="backref" href="#ref3" title="Return to text">↩</a></li>
+
+    <li id="fn4"><span class="short"><em><span class="heb-inline">שו"ת הרשב"ש</span></em>, <span class="heb-inline">ר' שלמה בן שמעון בן צמח דוראן</span> (Algiers, 1400–1467); cf. <em><span class="heb-inline">שו"ת תשב"ץ</span></em>.</span> <div class="note-academic"><strong>Note:</strong> The שיעור references "<span class="heb-inline">רמב"ש</span>" — likely the <em><span class="heb-inline">רשב"ש</span></em>, son of the <em><span class="heb-inline">תשב"ץ</span></em>. The principle that <span class="heb-inline">נפילת אפים</span> is a <span class="heb-inline">רשות</span> rather than a <span class="heb-inline">חיוב</span> is widely held in the <span class="heb-inline">ראשונים</span> (e.g., <span class="heb-inline">רמב"ם הלכות תפילה פ"ה ה"י"ג</span>, <span class="heb-inline">רא"ש ברכות</span>). Verify exact <span class="heb-inline">סימן</span> in the printed <em><span class="heb-inline">שו"ת רשב"ש</span></em> or <em><span class="heb-inline">תשב"ץ</span></em>.</div> <a class="backref" href="#ref4" title="Return to text">↩</a></li>
+
+    <li id="fn5"><span class="short"><em><span class="heb-inline">בעל שם טוב על התורה, פרשת וירא</span></em> — <span class="heb-inline">ראשי תיבות</span> of <em><span class="heb-inline">ואת מעכה</span></em>.</span> <span class="expanded">— The <span class="heb-inline">בעל שם טוב</span> (<span class="heb-inline">ר' ישראל בן אליעזר</span>, c. 1700–1760), in his <em><span class="heb-inline">בעל שם טוב על התורה</span></em> (compiled posthumously) on <em><span class="heb-inline">פרשת וירא</span></em>: the names at the close of the <span class="heb-inline">פרשה</span> in <span class="heb-inline">בראשית כ"ב:כ"ד</span> — <em><span class="heb-inline">"רְאוּמָה ... אֶת טֶבַח ... וְאֶת מַעֲכָה"</span></em> — encode <span class="heb-inline">רמזים</span>. The reading of <em><span class="heb-inline">ואת מעכה</span></em> as <span class="heb-inline">ראשי תיבות</span> of <em><span class="heb-inline">ו</span></em>ידוי <em><span class="heb-inline">א</span></em>חר <em><span class="heb-inline">ת</span></em>פילה <em><span class="heb-inline">מ</span></em>גיע <em><span class="heb-inline">ע</span></em>ד <em><span class="heb-inline">כ</span></em>סא <em><span class="heb-inline">ה</span></em>כבוד is widely cited in <span class="heb-inline">חסידי</span> literature; verify exact citation in <em><span class="heb-inline">בעל שם טוב על התורה</span></em>.</span> <a class="backref" href="#ref5" title="Return to text">↩</a></li>
+
+    <li id="fn6"><span class="short"><em><span class="heb-inline">לבוש</span></em> on <em><span class="heb-inline">או"ח קל"א</span></em>.</span> <span class="expanded">— <span class="heb-inline">ר' מרדכי יפה</span> (1530–1612), author of the <em><span class="heb-inline">לבוש</span></em>, codifies the various early customs around the text of <span class="heb-inline">נפילת אפים</span>. He references the older <span class="heb-inline">נוסח</span> (linked to <span class="heb-inline">תהלים פרק כ"ה</span>) as well as the <span class="heb-inline">פרק ו'</span> alternative. The <span class="heb-inline">לבוש</span> is a transitional code between the <span class="heb-inline">טור</span>/<span class="heb-inline">בית יוסף</span> and the later <span class="heb-inline">משנה ברורה</span>; see <em><span class="heb-inline">לבוש החור</span></em> on <span class="heb-inline">או"ח קל"א</span>.</span> <a class="backref" href="#ref6" title="Return to text">↩</a></li>
+
+    <li id="fn7"><span class="short"><em><span class="heb-inline">תהלים פרק כ"ה</span></em> — <em><span class="heb-inline">לדוד אליך ה' נפשי אשא</span></em>.</span> <span class="expanded">— The original <span class="heb-inline">קפיטל</span> the <span class="heb-inline">זוהר</span> directs for <span class="heb-inline">נפילת אפים</span>: an <span class="heb-inline">אקרוסטיכון</span> (alphabetic acrostic) <span class="heb-inline">קפיטל</span> in which <span class="heb-inline">דוד</span> says <em><span class="heb-inline">"אליך ה' נפשי אשא"</span></em> — "to You, ה', I lift my soul." The <span class="heb-inline">זוהר</span>'s warning regarding the danger of saying it without proper <span class="heb-inline">כוונה</span> (the <span class="heb-inline">סכנת אריכות ימים</span>) led Sephardic <span class="heb-inline">קהילות</span> to recite the <span class="heb-inline">קפיטל</span> seated, without literal <span class="heb-inline">נפילה</span>, and Ashkenazic <span class="heb-inline">קהילות</span> to substitute <span class="heb-inline">תהלים פרק ו'</span> (<em><span class="heb-inline">ה' אל באפך תוכיחני</span></em>) over time.</span> <a class="backref" href="#ref7" title="Return to text">↩</a></li>
+
+    <li id="fn8"><span class="short"><em><span class="heb-inline">שמואל ב' פרק כ"ד</span></em>; <em><span class="heb-inline">דברי הימים א' פרק כ"א</span></em>.</span> <span class="expanded">— <span class="heb-inline">דוד המלך</span>'s <span class="heb-inline">חטא</span> of counting <span class="heb-inline">כלל ישראל</span> through <span class="heb-inline">יואב</span>; <span class="heb-inline">גד החוזה</span> presents the three options of punishment; <span class="heb-inline">דוד</span>'s answer: <em><span class="heb-inline">"נפלה נא ביד ה' כי רבים רחמיו וביד אדם אל אפלה"</span></em> (<span class="heb-inline">שמואל ב' כ"ד:י"ד</span>). The <span class="heb-inline">פסוק</span> recited in <span class="heb-inline">תחנון</span> (<em><span class="heb-inline">"ויאמר דוד אל גד..."</span></em>) is taken from this <span class="heb-inline">פרק</span>. The שיעור's note that the placement of this <span class="heb-inline">פסוק</span> in the daily <span class="heb-inline">תחנון</span> may be of late origin — possibly tied to Sabbatean-era liturgical insertions — should be cross-checked against the <span class="heb-inline">לבוש</span>, <span class="heb-inline">מגן אברהם</span>, and the <span class="heb-inline">משנה ברורה</span> on <span class="heb-inline">או"ח קל"א</span>.</span> <a class="backref" href="#ref8" title="Return to text">↩</a></li>
+
+    <li id="fn9"><span class="short"><em><span class="heb-inline">קיצור של"ה</span></em>, <span class="heb-inline">ר' יחיאל מיכל אפשטיין</span> (Frankfurt, late 17th century).</span> <span class="expanded">— Abridgment of <em><span class="heb-inline">שני לוחות הברית</span></em> by <span class="heb-inline">ר' ישעיה הלוי הורוויץ</span>. First printed Frankfurt-am-Main 1683. The author (<span class="heb-inline">ר' יחיאל מיכל אפשטיין</span>; not to be confused with the 19th-century <span class="heb-inline">ערוך השלחן</span>) was a popular halachic and ethical compiler. <span class="heb-inline">ר' יעקב עמדן</span> later identified Sabbatean material in the <span class="heb-inline">הקדמה</span> via the <span class="heb-inline">גמטריא</span> 814 (see fn 11) and issued a strong <span class="heb-inline">חרם</span> against the work. Despite the controversy several of its <span class="heb-inline">תפילות</span> — including <em><span class="heb-inline">ויהי נועם</span></em> and other liturgical insertions — became widely incorporated into Ashkenazic <span class="heb-inline">סדורים</span>.</span> <a class="backref" href="#ref9" title="Return to text">↩</a></li>
+
+    <li id="fn10"><span class="short"><em><span class="heb-inline">תורת הקנאות</span></em>, <span class="heb-inline">ר' יעקב עמדן</span> (1697–1776).</span> <span class="expanded">— <span class="heb-inline">ר' יעקב ישראל בן צבי אשכנזי עמדן</span> ("יעב"ץ"), son of the <span class="heb-inline">חכם צבי</span>, was the leading anti-Sabbatean polemicist of the 18th century. <em><span class="heb-inline">תורת הקנאות</span></em> (Altona, 1752) is his catalog of <span class="heb-inline">שבתי צבי</span>'s teachings and the persistence of crypto-Sabbatean doctrine in <span class="heb-inline">חיבורים</span> appearing in his lifetime, including his identification of Sabbatean coding in the <em><span class="heb-inline">קיצור של"ה</span></em>. He also wrote <em><span class="heb-inline">בית יהונתן הסופר</span></em> as part of his pursuit of <span class="heb-inline">ר' יהונתן אייבשיץ</span> on Sabbatean grounds — one of the great controversies of his era.</span> <a class="backref" href="#ref10" title="Return to text">↩</a></li>
+
+    <li id="fn11"><span class="short">Gematria: <em><span class="heb-inline">משיח האמיתי ימות המשיח</span></em> = <em><span class="heb-inline">שבתי צבי</span></em> = 814.</span> <span class="expanded">— The numerical value of <em><span class="heb-inline">שבתי צבי</span></em> calculates as <span class="heb-inline">ש</span>(300) + <span class="heb-inline">ב</span>(2) + <span class="heb-inline">ת</span>(400) + <span class="heb-inline">י</span>(10) + <span class="heb-inline">צ</span>(90) + <span class="heb-inline">ב</span>(2) + <span class="heb-inline">י</span>(10) = 814. <span class="heb-inline">ר' יעקב עמדן</span>'s identification of this <span class="heb-inline">גמטריא</span> match in the <span class="heb-inline">הקדמה</span> of the <em><span class="heb-inline">קיצור של"ה</span></em> is the basis for his charge of Sabbatean coding. Cf. <em><span class="heb-inline">תורת הקנאות</span></em> ad loc.</span> <a class="backref" href="#ref11" title="Return to text">↩</a></li>
+
+    <li id="fn12"><span class="short"><em><span class="heb-inline">ביאור הגר"א</span></em>; <em><span class="heb-inline">משנה ברורה, או"ח קל"א</span></em> on <em><span class="heb-inline">ויהי נועם</span></em>.</span> <span class="expanded">— The <span class="heb-inline">גר"א</span> (in his <em><span class="heb-inline">מעשה רב</span></em> and <em><span class="heb-inline">ביאור הגר"א</span></em>) and the <span class="heb-inline">משנה ברורה</span> note that some <span class="heb-inline">קהילות</span> omit <em><span class="heb-inline">ויהי נועם</span></em> before <span class="heb-inline">תחנון</span>. Two reasons given: (1) the source <em><span class="heb-inline">קיצור של"ה</span></em> is suspect; (2) the <span class="heb-inline">פסוק</span> contains language of <span class="heb-inline">פורענות</span>, inappropriate before <span class="heb-inline">תחנון</span>. The <span class="heb-inline">סדור בני יששכר</span> also omits it. Most printed Ashkenazic <span class="heb-inline">סידורים</span> retain it, often in small print or parentheses to flag the <span class="heb-inline">מנהג</span> variation.</span> <a class="backref" href="#ref12" title="Return to text">↩</a></li>
+
+    <li id="fn13"><span class="short"><em><span class="heb-inline">יוון מצולה</span></em>, <span class="heb-inline">ר' נתן נטע הנובר</span> (d. 1683).</span> <span class="expanded">— <span class="heb-inline">ר' נתן נטע הנובר</span> of Zaslaw, Volhynia, survivor and chronicler of the <span class="heb-inline">תח"ת</span> massacres (1648–49) under Bohdan Khmelnytsky's Cossack revolt. <em><span class="heb-inline">יוון מצולה</span></em> (Venice, 1653) is the central historical source on the <span class="heb-inline">גזירות תח"ת</span>, in which an estimated 20,000–100,000 Jews were murdered. Hanover later studied <span class="heb-inline">קבלה</span> under <span class="heb-inline">ר' חיים הכהן</span> of Aleppo (a <span class="heb-inline">תלמיד</span> of <span class="heb-inline">ר' חיים ויטאל</span>) in Italy. He was eventually murdered by Turkish soldiers near Ungvár in 1683.</span> <a class="backref" href="#ref13" title="Return to text">↩</a></li>
+
+    <li id="fn14"><span class="short"><em><span class="heb-inline">שערי ציון</span></em>, <span class="heb-inline">ר' נתן נטע הנובר</span> (Prague, 1662).</span> <span class="expanded">— <span class="heb-inline">הנובר</span>'s second major work — a kabbalistic <span class="heb-inline">סדור</span> of supplementary <span class="heb-inline">תפילות</span> drawn from the <span class="heb-inline">אריז"ל</span> via <span class="heb-inline">ר' חיים הכהן</span>. From <em><span class="heb-inline">שערי ציון</span></em> entered <span class="heb-inline">תפילות</span> universally recited today, including the <em><span class="heb-inline">בריך שמיה</span></em> formula recited when opening the <span class="heb-inline">ארון</span> (originally from the <span class="heb-inline">זוהר</span>, but mediated through <em><span class="heb-inline">שערי ציון</span></em>), the <em><span class="heb-inline">יהי רצון</span></em> before entering the <span class="heb-inline">סוכה</span>, and the <em><span class="heb-inline">יהי רצון</span></em> on <span class="heb-inline">ארבעת המינים</span>. <em><span class="heb-inline">שערי ציון</span></em> went through dozens of editions in the 17th–18th centuries; many of its <span class="heb-inline">תפילות</span> rapidly entered standard <span class="heb-inline">סדורים</span>.</span> <a class="backref" href="#ref14" title="Return to text">↩</a></li>
+
+    <li id="fn15"><span class="short"><em><span class="heb-inline">בבא קמא פ"ב ע"א</span></em> — <span class="heb-inline">תקנת עזרא</span> for Monday and Thursday <span class="heb-inline">קריאת התורה</span>.</span> <span class="expanded">— The <span class="heb-inline">גמרא</span> records the ten <span class="heb-inline">תקנות</span> of <span class="heb-inline">עזרא הסופר</span>, among them: <em><span class="heb-inline">"שיהו קורין במנחה בשבת... ותקנו שיהו קורין בשני ובחמישי"</span></em>. The reasoning given (<span class="heb-inline">פ"ב ע"א</span>): so that no three days should pass without <span class="heb-inline">תורה</span> for the <span class="heb-inline">עם</span> — based on <span class="heb-inline">שמות ט"ו:כ"ב</span>, <em><span class="heb-inline">"וילכו שלושת ימים במדבר ולא מצאו מים"</span></em>, with <span class="heb-inline">תורה</span> the parallel of <span class="heb-inline">מים</span>. The <span class="heb-inline">תקנה</span> structures the entire weekly liturgical rhythm including the additional <em><span class="heb-inline">והוא רחום</span></em> and longer <span class="heb-inline">תחנון</span> on these days. (Note: שיעור cited <em><span class="heb-inline">ב"ק פ"ב ע"ב</span></em>; the principal passage is <em><span class="heb-inline">ע"א</span></em>.)</span> <a class="backref" href="#ref15" title="Return to text">↩</a></li>
+
+    <li id="fn16"><span class="short"><em><span class="heb-inline">משנה כתובות פ"א מ"א</span></em>; <em><span class="heb-inline">בבא קמא פ"ב ע"א</span></em> — Monday and Thursday as days of <span class="heb-inline">בית דין</span>.</span> <span class="expanded">— The opening <span class="heb-inline">משנה</span> of <span class="heb-inline">כתובות</span>: <em><span class="heb-inline">"בתולה נשאת ליום הרביעי, ואלמנה ליום החמישי, שפעמים בשבת בתי דינין יושבין בעיירות — ביום השני וביום החמישי"</span></em>. <span class="heb-inline">בית דין</span> sits in every city on Monday and Thursday — also a <span class="heb-inline">תקנת עזרא</span>. The <span class="heb-inline">זוהר</span> connects this to <span class="heb-inline">דין</span> in <span class="heb-inline">שמים</span> on those days, and to the <span class="heb-inline">איסור</span> of <span class="heb-inline">הקזת דם</span> on Monday and Thursday (<span class="heb-inline">שבת קכ"ט ע"ב</span>). The שיעור develops this as the second <span class="heb-inline">שיטה</span> for why we add <span class="heb-inline">תחנונים</span> on these days — to invoke <span class="heb-inline">רחמים</span> in the face of intensified <span class="heb-inline">דין</span>.</span> <a class="backref" href="#ref16" title="Return to text">↩</a></li>
+
+    <li id="fn17"><span class="short"><em><span class="heb-inline">כל בו</span></em> (anonymous, 13th century); <em><span class="heb-inline">רוקח</span></em> (<span class="heb-inline">ר' אלעזר מגרמייזא</span>, c. 1176–1238).</span> <span class="expanded">— Both <span class="heb-inline">ראשונים</span> bring versions of the <span class="heb-inline">סיפור</span> behind <em><span class="heb-inline">והוא רחום</span></em>: three <span class="heb-inline">תנאים</span> exiled by Titus aboard ships set adrift on the Mediterranean, the king's challenge of fire, three days of <span class="heb-inline">תפילה</span> and <span class="heb-inline">תענית</span> during which the three composed the <span class="heb-inline">פיוט</span> in three sections, the <span class="heb-inline">חלום</span> of the <span class="heb-inline">פסוק</span> in <span class="heb-inline">ישעיהו פרק מ"ג</span>, and the <span class="heb-inline">נס</span> through which the chosen <span class="heb-inline">תנא</span> emerged from the fire unharmed. Verify exact citation in printed editions of <em><span class="heb-inline">ספר הרוקח</span></em> and <em><span class="heb-inline">כל בו</span></em> (siman re: <span class="heb-inline">תפילת שני וחמישי</span>); the <span class="heb-inline">סיפור</span> appears in fuller form in the <em><span class="heb-inline">רוקח</span></em>.</span> <a class="backref" href="#ref17" title="Return to text">↩</a></li>
+
+    <li id="fn18"><span class="short"><em><span class="heb-inline">ישעיהו מ"ג:ב'</span></em> — <em><span class="heb-inline">"כי תעבור במים אתך אני... כי תלך במו אש לא תכוה"</span></em>.</span> <span class="expanded">— The <span class="heb-inline">פסוק</span>: <em><span class="heb-inline">"כי תעבור במים אתך אני, ובנהרות לא ישטפוך; כי תלך במו אש לא תכוה ולהבה לא תבער בך"</span></em>. <span class="heb-inline">ה'</span>'s promise to <span class="heb-inline">כלל ישראל</span> through <span class="heb-inline">ישעיהו</span> that He will accompany them through fire and water — two times <em><span class="heb-inline">כי</span></em>, three times <em><span class="heb-inline">לא</span></em>. The <span class="heb-inline">פסוק</span> is the basis of the famous <em><span class="heb-inline">"כי תעבור במים"</span></em> niggun and central to the <em><span class="heb-inline">והוא רחום</span></em> origin <span class="heb-inline">סיפור</span>.</span> <a class="backref" href="#ref18" title="Return to text">↩</a></li>
+
+    <li id="fn19"><span class="short"><em><span class="heb-inline">מלכים ב' פרק י"ט</span></em>; <em><span class="heb-inline">ישעיהו פרק ל"ז</span></em>; <em><span class="heb-inline">סנהדרין צ"ה ע"ב</span></em> — <span class="heb-inline">חזקיהו</span>'s <span class="heb-inline">תפילה</span> and the fall of 185,000.</span> <span class="expanded">— The siege of <span class="heb-inline">ירושלים</span> by <span class="heb-inline">סנחריב</span>; <span class="heb-inline">חזקיהו</span>'s <span class="heb-inline">תפילה</span>; the angel of <span class="heb-inline">ה'</span> who struck 185,000 of the Assyrian army in a single night. <span class="heb-inline">חז"ל</span> in <span class="heb-inline">סנהדרין צ"ה</span> develop the magnitude and method of the <span class="heb-inline">נס</span>. The שיעור's tradition that the <span class="heb-inline">תפילה</span> of <span class="heb-inline">חזקיהו</span> is encoded in the <span class="heb-inline">ראשי תיבות</span> of one stanza of <em><span class="heb-inline">והוא רחום</span></em> (<span class="heb-inline">ח-ז-ק-י-ה-ו</span>) is part of an alternative <span class="heb-inline">מסורה</span> on the origin of the <span class="heb-inline">פיוט</span>, alongside the three-<span class="heb-inline">תנאים</span> tradition.</span> <a class="backref" href="#ref19" title="Return to text">↩</a></li>
+  </ol>
+</section>
+
+<footer class="colophon">
+  Reworked from a שיעור delivered by Rabbi Ephrati on 10 November 2025 (י״א חשון תשפ״ו).<br>
+  לעילוי נשמת הרב חיים זצ״ל ביום היארצייט שלו, ולעילוי נשמת כל נשמות עם ישראל.<br>
+  Hebrew terminology preserved in Hebrew script throughout, with footnotes and מראה מקומות appended.
+</footer>
+
+</body>
+</html>

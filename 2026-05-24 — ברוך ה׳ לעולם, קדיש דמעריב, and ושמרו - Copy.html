@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ברוך ה׳ לעולם, קדיש דמעריב, and ושמרו — Rabbi Ephrati</title>
+<style>
+  :root{--blue:#1e3a8a;--blue-soft:#2c5282;--gold:#b8860b;--gold-soft:#d4a017;--ink:#1a1a1a;--paper:#fdfaf3;--rule:#c9a227}
+  *{box-sizing:border-box}
+  body{font-family:"Georgia","Iowan Old Style","Times New Roman",serif;background:var(--paper);color:var(--ink);max-width:820px;margin:40px auto;padding:0 28px 60px 28px;line-height:1.65;font-size:17px}
+  header.title{text-align:center;border-top:3px double var(--rule);border-bottom:3px double var(--rule);padding:22px 10px;margin-bottom:32px}
+  header.title .kicker{font-variant:small-caps;letter-spacing:.18em;color:var(--gold);font-size:.9rem;margin-bottom:8px}
+  header.title h1{font-size:1.7rem;color:var(--blue);margin:.1em 0 .25em 0;line-height:1.25}
+  header.title .subtitle{font-style:italic;color:var(--blue-soft);font-size:1.05rem}
+  header.title .meta{margin-top:14px;font-size:.92rem;color:#5a4b1a}
+  .lead{font-style:italic;color:#3b3b3b;border-left:3px solid var(--gold);padding:6px 16px;margin:0 0 28px 0;background:#fbf4dd55}
+  .dedication{border:1px solid var(--gold-soft);background:#fbf4dd66;padding:10px 18px;margin:0 0 28px 0;font-size:.95rem;color:#3b3b3b}
+  .dedication .label{display:block;font-variant:small-caps;letter-spacing:.12em;color:var(--gold);font-size:.78rem;margin-bottom:6px}
+  h2{font-variant:small-caps;letter-spacing:.06em;color:var(--blue);border-bottom:1.5px solid var(--gold);padding-bottom:4px;margin-top:42px;font-size:1.25rem}
+  h3{color:var(--gold);font-style:italic;font-size:1.08rem;margin-top:28px;margin-bottom:6px}
+  blockquote{border-left:3px solid var(--blue-soft);margin:14px 0;padding:6px 18px;background:#eef2fb55;color:#222}
+  blockquote.heb{border-left:none;border-right:3px solid var(--blue-soft);background:#eef2fb55}
+  .heb{font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;direction:rtl;unicode-bidi:embed;color:var(--blue)}
+  .heb-inline{font-family:"SBL Hebrew","Times New Roman","Ezra SIL",serif;direction:rtl;unicode-bidi:embed}
+  .callout{background:#fbf4dd;border:1px solid var(--gold-soft);border-radius:6px;padding:14px 18px;margin:22px 0}
+  .callout .label{display:block;font-variant:small-caps;letter-spacing:.12em;color:var(--gold);font-size:.82rem;margin-bottom:6px}
+  .footnote-ref{font-size:.78rem;vertical-align:super;color:var(--gold);text-decoration:none;margin-left:1px}
+  .footnote-ref:hover{text-decoration:underline}
+  section.mareh{margin-top:48px;border-top:2px solid var(--rule);padding-top:18px}
+  section.mareh h2{border-bottom:none;margin-top:0}
+  section.mareh ol{padding-left:22px;color:#2a2a2a;list-style:decimal}
+  section.mareh li{margin:12px 0;padding-left:4px}
+  section.mareh li .short{font-weight:600;color:var(--blue)}
+  section.mareh li .expanded{color:#2a2a2a}
+  section.mareh li .backref{color:var(--gold);text-decoration:none;margin-left:6px;font-size:0.85em}
+  section.mareh .note-academic{border-left:3px solid var(--gold-soft);background:rgba(184,134,11,0.04);padding:8px 12px;margin-top:4px;font-size:0.95em}
+  footer.colophon{margin-top:50px;border-top:3px double var(--rule);padding-top:18px;text-align:center;font-style:italic;color:#5a4b1a;font-size:.92rem}
+  hr.fancy{border:none;text-align:center;margin:30px 0}
+  hr.fancy::before{content:"❦";color:var(--gold);font-size:1.2rem}
+</style>
+</head>
+<body>
+
+<header class="title">
+  <div class="kicker">Rabbi Ephrati · Sunday Morning שיעור on תפילה</div>
+  <h1>ברוך ה׳ לעולם, קדיש דמעריב, and ושמרו</h1>
+  <div class="subtitle">The architecture of מעריב — minhag, history, סמיכת גאולה לתפילה, and the role of קדיש</div>
+  <div class="meta">Recorded 24 May 2026 · ז׳ סיון תשפ״ו · Reworked from the original שיעור</div>
+</header>
+
+<div class="dedication">
+  <span class="label">Dedication</span>
+  Today's שיעור and breakfast are sponsored by R' Shimshon Dovid Frisch <span class="heb-inline">לעילוי נשמת</span> his father <span class="heb-inline">ר' יעקב משה בן ימין יוסף ע״ה</span>. May the learning be a true <span class="heb-inline">זכות</span> for the <span class="heb-inline">נשמה</span>, and to the family — <span class="heb-inline">לחיים</span> and only <span class="heb-inline">בשורות טובות</span>.
+</div>
+
+<p class="lead">
+  Last week's שיעור closed with the long machloikes over <span class="heb-inline">יראו עינינו</span> at the seam between גאולה and תפילה — Ramban, Rashbash, and Gra on one side; the broader chutz-laaretz מנהג on the other. This week we open the same seam from the inside out. What is <span class="heb-inline">ברוך ה' לעולם אמן ואמן</span> actually <em>doing</em> there? Seven distinct reasons across the ראשונים — from Rav Natronai Gaon and the original status of מעריב as <span class="heb-inline">רשות</span>, to the Abudraham's tradition of a <span class="heb-inline">שעת השמד</span>, to the Geonim's accommodation of latecomers, to Rashi's inner-readiness reason of <span class="heb-inline">גירוש מחשבות</span>. From there into the parallel question of קדיש: why we say it before Shemoneh Esrei at מעריב but not at שחרית — and the central machloikes between the Rambam (קדיש as <span class="heb-inline">הכנה</span> to תפילה, saturated with longing for גאולה) and the Raavad (קדיש as <span class="heb-inline">סיום</span> to an older core unit). And finally to <span class="heb-inline">ושמרו</span> on Friday night — the Tur's "שבת is the שמירה," the parallel inserts on יום טוב and ראש השנה, and the remarkable chiddush of <em>סידור ר' שלמה מוורמייזא</em> that <span class="heb-inline">ושמרו</span> itself was, in its earliest layer, the kehillah's act of <span class="heb-inline">קבלת שבת</span>.
+</p>
+
+<h2>I. The Practical Minhag Split</h2>
+<p>
+  In most בתי כנסיות in <span class="heb-inline">חוץ לארץ</span>, after <span class="heb-inline">השכיבנו</span> we say <span class="heb-inline">ברוך ה' לעולם אמן ואמן</span>, followed by the paragraph commonly called <span class="heb-inline">יראו עינינו</span> — eighteen פסוקים drawn from various places in תנ״ך, each one containing a name of הקדוש ברוך הוא. In <span class="heb-inline">ארץ ישראל</span>, the common practice is <em>not</em> to say it. An American who walks into a מעריב מנין in Eretz Yisrael for the first time often feels the gap — the davening just <em>ends</em>, much faster than he is used to.
+</p>
+<p>
+  That generates a real-life question with two faces. A <span class="heb-inline">בן חוץ לארץ</span> who travels to Eretz Yisrael and finds himself in a tzibbur that does not say it — should he say it anyway as his personal minhag? And the reverse: a <span class="heb-inline">בן ארץ ישראל</span> in chutz la'aretz, in a tzibbur that does say it — does he say it with them? The general principle most people fall back on is <span class="heb-inline">מנהג המקום</span>: do what the kehillah you find yourself in does. But that does not actually answer the underlying question. To know what to do, and why the communities diverged in the first place, you need to clarify what is halachically and historically at stake.
+</p>
+
+<h2>II. The Halachic Pressure Point — <span class="heb-inline">סמיכת גאולה לתפילה</span></h2>
+<p>
+  The principal halachic sensitivity is <span class="heb-inline">סמיכת גאולה לתפילה</span><a href="#fn1" id="ref1" class="footnote-ref">[1]</a>: the ברכה of גאולה (<span class="heb-inline">גאל ישראל</span>) should immediately precede שמונה עשרה without halachic interruption. At מעריב, the closing ברכה of גאולה is followed by <span class="heb-inline">השכיבנו</span>. The Gemara explains why השכיבנו is not considered a הפסק — it is part of the theme of גאולה, a <span class="heb-inline">גאולה אריכתא</span><a href="#fn2" id="ref2" class="footnote-ref">[2]</a>, an "extended גאולה" that continues the theme rather than interrupting it.
+</p>
+<p>
+  But once you start adding further material <em>after</em> השכיבנו — especially material that was not clearly enacted by חז״ל — you confront the question all over again: is this not a fresh הפסק at the most sensitive seam in the entire מעריב, the seam between גאולה and תפילה? The <span class="heb-inline">גר״א</span><a href="#fn3" id="ref3" class="footnote-ref">[3]</a> ruled sharply: it is. He viewed <span class="heb-inline">ברוך ה' לעולם</span> as a halachically problematic interruption and was opposed to its recitation. The Volozhin tradition followed the Gra's lead, and from Volozhin the omission passed into the major Lithuanian yeshivos and, through them, into American Litvish shuls. Several <span class="heb-inline">חסידויות</span>, most prominently <em>Chabad</em>, were equally wary — for the same structural reason. This is one of the rare places in halacha where the Vilna Gaon and the Alter Rebbe stood on the same side. Most things they argued about; here they did not.
+</p>
+
+<h2>III. The Authorization Objection — <span class="heb-inline">מטבע שטבעו חכמים</span></h2>
+<p>
+  Beyond the הפסק issue is a second, related objection: חז״ל did not author <span class="heb-inline">ברוך ה' לעולם אמן ואמן</span> as a formal ברכה in the classical structure. The Gemara's principle of <span class="heb-inline">מטבע שטבעו חכמים</span><a href="#fn4" id="ref4" class="footnote-ref">[4]</a> — the "coinage" or "mint-mark" of the Sages — is not just a metaphor; it has halachic force. The fixed liturgical formulas are the standardized currency of עבודה; you do not casually introduce new ברכות into the cycle.
+</p>
+<p>
+  So the objection comes in two layers at once. First, <span class="heb-inline">ברוך ה' לעולם</span> may be a הפסק between גאולה and תפילה. Second, even setting aside the placement, the unit itself may be "unauthorized" — a later insertion not rooted in the original תקנת חז״ל. רש״י<a href="#fn5" id="ref5" class="footnote-ref">[5]</a> in a תשובה takes both objections together and rules sharply: <em>you are not allowed to say יראו עינינו, you are not allowed to say ברוך ה' לעולם אמן ואמן — who gave you the right? It is a הפסק</em>. Rashi's view, together with the Ramban's<a href="#fn6" id="ref6" class="footnote-ref">[6]</a>, anchors the omission tradition in the early ראשונים.
+</p>
+
+<h2>IV. Why It Became Standard in So Many Places</h2>
+
+<h3>A) The Liturgical Reality of the Old Yishuv</h3>
+<p>
+  If the Gra and the Alter Rebbe agreed in opposition, why is the Eretz-Yisrael מנהג so consistently <em>not</em> to say it? Because the early Old Yishuv — the kehillot of Eretz Yisrael in the seventeen, eighteen, and early nineteen hundreds — was shaped by exactly the two streams most opposed to the unit. The <span class="heb-inline">פרושים</span> (תלמידי הגר״א, sent in waves beginning at the end of the eighteenth century, with a strong messianic emphasis about hastening the redemption by aliyah) and the early <span class="heb-inline">חסידים</span> (including communities aligned with the Alter Rebbe) were the dominant streams of the established Yishuv. Both followed leaders who opposed reciting <span class="heb-inline">ברוך ה' לעולם</span> after השכיבנו. The minhag of Eretz Yisrael solidified around the omission for the most straightforward reason: the founders held that way.
+</p>
+
+<h3>B) The Igros Moshe — Don't Stand Out</h3>
+<p>
+  What about the traveler? The <strong>אגרות משה</strong><a href="#fn7" id="ref7" class="footnote-ref">[7]</a> addressed exactly this. When a person walks into a tzibbur that does not say <span class="heb-inline">ברוך ה' לעולם</span>, he should not insert himself awkwardly into the structure of the kehillah's tefillah by saying it on his own. The principle is straightforward: this whole sugya is precisely about the <em>structure</em> of the communal מעריב. You cannot defend "I am preserving my minhag" by violating the structural integrity of the tzibbur you are davening with. <span class="heb-inline">מנהג המקום</span> here is not a soft default; it is the natural extension of the very sensitivity the sugya is built around.
+</p>
+
+<h3>C) The Lubavitcher Rebbe's Chiddush on <span class="heb-inline">ושמרו</span></h3>
+<p>
+  An interesting parallel: the Lubavitcher Rebbe wrote in a letter that if a Lubavitcher chasid walks into a Friday-night מעריב in a shul that says <span class="heb-inline">ושמרו</span> aloud, and the chazan is going to wait for the tzibbur — the Lubavitcher should <em>still not say ושמרו</em>. Have someone else say it; you do not say it. The Rebbe quotes his great-great-grandfather the Alter Rebbe: even if you are davening in a tzibbur that says it, you do not say it.
+</p>
+<p>
+  This is striking. Ordinarily an instruction like that would create real disruption in a small shul — the entire tzibbur is waiting for the chazan to repeat <span class="heb-inline">ושמרו</span>, the chazan waits for the tzibbur to finish, and a Lubavitcher in the room is silent through both. But it shows how sharply the Alter Rebbe held that the recitation was a problem of הפסק — not a soft preference, but a structural halachic objection that overrode the social pull of <span class="heb-inline">פנים מסבירות</span>.
+</p>
+
+<h2>V. The Gaonic Framework — Why חוץ לארץ Says It at All</h2>
+
+<h3>A) Rav Natronai Gaon and Maariv as <span class="heb-inline">רשות</span></h3>
+<p>
+  The most influential explanation for why the unit was inserted in the first place comes from <strong>רב נטרונאי גאון</strong><a href="#fn8" id="ref8" class="footnote-ref">[8]</a>. Rav Natronai was one of the major Geonim before Rav Amram Gaon and Rav Hai Gaon — early ninth century, twelve hundred years ago, Rosh Yeshiva of the Sura academy in Bavel, the main yeshiva from which much of our normative halacha emerged. The Tur cites him repeatedly.
+</p>
+<p>
+  Rav Natronai's framework: <em>תפילת ערבית רשות</em><a href="#fn9" id="ref9" class="footnote-ref">[9]</a>. Originally — unlike שחרית and מנחה — מעריב was not obligatory. The Gemara debates this directly; <span class="heb-inline">תפילת ערבית רשות או חובה</span> is one of the major sugyos in ברכות. Over time, כלל ישראל accepted it upon themselves as obligatory in practice — <span class="heb-inline">קבלוה עלייהו כחובה</span> — but the ancient classification left an imprint on the structure of the service. There remain a number of <span class="heb-inline">נפקא מינות</span> that flow from the original status even today.
+</p>
+
+<h3>B) A "Mini-שמונה עשרה" Option</h3>
+<p>
+  On Rav Natronai's framework, <span class="heb-inline">ברוך ה' לעולם אמן ואמן</span> together with the surrounding פסוקים functioned as a <em>compressed substitute</em> for שמונה עשרה — for a time when not everyone would stay to daven a full מעריב. The structural shape supports this reading: the unit contains eighteen פסוקים, each one mentioning a name of הקדוש ברוך הוא, corresponding to the eighteen ברכות of the original שמונה עשרה (before the addition of <span class="heb-inline">ברכת המינים</span>). The repetition and the structured sequence read like an abridged stand-in for the full עמידה.
+</p>
+
+<div class="callout">
+<span class="label">Aside — A Gaonic Story</span>
+There is a famous tradition that connects Rav Natronai Gaon to the wider history of <span class="heb-inline">קפיצת הדרך</span>. The story: Rav Natronai had a <span class="heb-inline">קפיצת הדרך</span> from Surah-Pumbedisa in Bavel to the city of Lucena in Spain, where the Jewish community had written asking him to clarify the <span class="heb-inline">מאה ברכות</span> a Jew is required to say each day. Rav Hai Gaon — much later — rejected the story sharply: <em>it never happened. Imagination. We don't need bubbe maasos to strengthen our emunah. We know tzaddikim have a כח; you don't have to make up stories.</em> The exchange across the generations is itself revealing about how the Gaonim balanced the legitimate reverence for early authorities against the discipline of historical truth.
+</div>
+
+<h3>C) Why It Stuck — <span class="heb-inline">תקנה במקומה עומדת</span></h3>
+<p>
+  If today every שליח ציבור and every מתפלל davens a full שמונה עשרה at מעריב, why preserve what began as an option? One answer, brought in the name of the <strong>רא״ש</strong><a href="#fn10" id="ref10" class="footnote-ref">[10]</a>: the general halachic principle <em>תקנה במקומה עומדת</em>. Once a communal תקנה is established by responsible authorities and accepted by כלל ישראל, it does not automatically dissolve when the original conditions no longer obtain. The Rosh applies the rule here: the unit remains in the siddur because the תקנה stands.
+</p>
+<p>
+  A second possibility offered in the שיעור: perhaps we retain <span class="heb-inline">ברוך ה' לעולם</span> precisely as a quiet structural reminder that מעריב is historically rooted in <span class="heb-inline">רשות</span>, even though we treat it as obligatory in practice. The unit functions as a mesorah-marker — a residue of the older status that keeps the historical fact present in the liturgy.
+</p>
+
+<h2>VI. Night Danger, Roads, and Getting People Home Faster</h2>
+<p>
+  Another classical reason is practical and almost touchingly pre-modern. In earlier eras — and the Gemara itself attests to this — בתי כנסיות were sometimes located <em>outside</em> the residential center of the town, often in what the Gemara calls <span class="heb-inline">בשדה</span>. People were genuinely afraid to walk home alone late at night: real physical danger from roads and animals, and the wider category of <span class="heb-inline">מזיקין</span> — the nighttime spiritual-physical threats that the Gemara takes with great seriousness.
+</p>
+<p>
+  On this account, the structure of an early מעריב looked something like this. The tzibbur would say <span class="heb-inline">ברכות קריאת שמע</span> through השכיבנו. Then the tzibbur would say <span class="heb-inline">ברוך ה' לעולם אמן ואמן</span> with <span class="heb-inline">יראו עינינו</span>. Then <span class="heb-inline">קדיש</span>. People could now leave the shul together — finishing as a group rather than scattering at different points — and those who wished could daven a full שמונה עשרה later, at home. The unit was a communal safety accommodation: not "extra," but the deliberate construction of a halachically defensible early-exit point so that the kehillah could walk home together at the most vulnerable hour.
+</p>
+
+<h2>VII. <span class="heb-inline">הביננו</span> vs. <span class="heb-inline">ברוך ה' לעולם</span> — Two Different Shortening Logics</h2>
+<p>
+  A natural question arose during the שיעור: doesn't חז״ל already provide an authorized abridged שמונה עשרה in the form of <strong>הביננו</strong><a href="#fn11" id="ref11" class="footnote-ref">[11]</a>? The Gemara presents הביננו explicitly as a short alternative for someone who cannot daven the full שמונה עשרה. If a shortening was needed for those who could not daven the full עמידה, why not just use הביננו?
+</p>
+<p>
+  The שיעור drew a sharp distinction. <strong>הביננו</strong> presupposes a full <em>obligation</em> to daven שמונה עשרה, and provides a shorter form only in cases of <span class="heb-inline">אונס</span> — when a person genuinely cannot daven the full עמידה. The <strong>ברוך ה' לעולם</strong> framework (in the Gaonic reading) reflects a fundamentally different situation: a time when מעריב itself had the status of <span class="heb-inline">רשות</span>, and the text functioned as an alternative communal framework rather than as an emergency substitute. The logic of each is structurally distinct: הביננו is a concession to need; <span class="heb-inline">ברוך ה' לעולם</span> is a reflection of original status.
+</p>
+
+<h2>VIII. The Rashba's Warning — Shortened in Shul, Full at Home</h2>
+<p>
+  Even within the communities that used the shortened version, the <strong>רשב״א</strong><a href="#fn12" id="ref12" class="footnote-ref">[12]</a> issues a sharp warning: if you used the shortened version in shul — saying <span class="heb-inline">ברוך ה' לעולם</span> and קדיש and going home — <em>do not forget to say the full שמונה עשרה when you get home</em>. The structural shortening was a concession to the danger of walking home, not a halachic dispensation from the עמידה itself.
+</p>
+<p>
+  For us today this part of the picture is mostly not operative — we daven the full שמונה עשרה in shul at מעריב — but the older reality remained embedded in the siddur, and many <span class="heb-inline">בני חוץ לארץ</span> accepted the older elements as a continuing <span class="heb-inline">מנהג</span>. The Rashba's warning is preserved as a marker of the historical reality the text encodes.
+</p>
+
+<h2>IX. The Abudraham — "Coinage," and a Tradition of a Decree</h2>
+
+<h3>A) The Name</h3>
+<p>
+  One of the classic ראשונים on תפילה is the <strong>אבודרהם</strong><a href="#fn13" id="ref13" class="footnote-ref">[13]</a> — Rabbeinu David, generally identified as ר' דוד בן יוסף אבודרהם of fourteenth-century Sevilla. There is a longstanding discussion about the name itself. People pronounce it "Avudraham," but the more historically accurate pronunciation seems to be closer to <em>Abu Dirham</em> — the Arabic name structure of <em>Abu</em> ("father of") plus <em>dirham</em> (a currency, still in use today in Morocco and the United Arab Emirates).
+</p>
+<p>
+  Two explanations of the name circulate. The first, simpler: his family were money-changers; they worked with currency; the family name preserved the trade. In medieval Spain family names were routinely formed from occupations. The second, "cuter" but probably mid-rash: חז״ל call the fixed formulas of ברכה <em>מטבע שטבעו חכמים</em> — "the coinage that the Sages minted." You do not improvise the currency; you do not casually alter the נוסח of a ברכה. Since the אבודרהם's entire sefer is devoted to explaining the structure and meaning of the ברכות — to walking through the "coinage" — the dirham association becomes a thematic fit with his life's work. The שיעור flagged this as a <em>cute pshat</em>, not necessarily an <em>emes pshat</em>. The conventional academic identification follows the first explanation.
+</p>
+
+<h3>B) The Abudraham's Tradition — A <span class="heb-inline">גזירה</span> Against Maariv</h3>
+<p>
+  The אבודרהם records a striking historical tradition — and Rabbi Ephrati emphasized that he was unable to find many parallel sources for it. There was a period when non-Jewish authorities issued a גזירה specifically against davening <em>מעריב</em>. Guards were stationed at the שולים to prevent Jews from entering shul for מעריב. Why מעריב in particular, when שחרית and מנחה were allowed, is unclear in the source. But during that period, the kehillot enacted that people would gather as a tzibbur but <em>not</em> say שמונה עשרה. Instead they would recite a set of פסוקים — a substitute structure built around eighteen invocations of הקדוש ברוך הוא — that served halachically and emotionally "in place of" the עמידה.
+</p>
+<p>
+  When the גזירה lifted, the substitute structure was already embedded in the siddur and remained. The אבודרהם presents this as a tradition recorded by a major ראשון, but the specific historical setting — which government, what period, which region — is not securely identified. The שיעור left this as an open <span class="heb-inline">בירור</span>, and Rabbi Ephrati invited the kehillah to bring any further sources to his attention.
+</p>
+
+<h2>X. The Geonim and Latecomers — A Mussar Point about <span class="heb-inline">תפילה בציבור</span></h2>
+<p>
+  The שיעור took a sharp turn here into a striking observation. Communities often frown on latecomers — and there is real truth to the expectation that a Jew should come to shul on time. But notice what the Geonim did. They did not just criticize latecomers; <em>they catered to them</em>, restructuring parts of the davening so that latecomers would still be included in <span class="heb-inline">תפילה בציבור</span>.
+</p>
+<p>
+  Rabbi Ephrati made an important definitional point. <strong>תפילה בציבור does not mean "I eventually reach שמונה עשרה while other people are somewhere in the room."</strong> It means <em>I begin the core תפילה together with the tzibbur — when they stand, I stand with them</em>. When you finally pull yourself together to start עמידה and the tzibbur is already <span class="heb-inline">מודים</span>, you are not <span class="heb-inline">מתפלל בציבור</span>; you are davening alongside a tzibbur. The two are not the same.
+</p>
+<p>
+  So what happens when many people arrive and the tzibbur is already close to קריאת שמע? They will not realistically catch up by the time the tzibbur begins שמונה עשרה — and then they lose תפילה בציבור entirely. The Geonim's solution: insert the unit of <span class="heb-inline">ברוך ה' לעולם</span> as a deliberate pause of two or three minutes between השכיבנו and the עמידה. The tzibbur stops; the latecomers align; more people can stand together for the עמידה. Yes, it creates some <span class="heb-inline">טירחא דציבורא</span>, but there is real value in making room for more Yidden to stand together at the central moment of the entire service — when the kehillah stands before the King.
+</p>
+<p>
+  The שיעור underlined the mussar embedded in this. The Geonim were so sensitive to the practical reality of human life — wives needing help, an oynus on the road, a hundred quiet reasons — that they reshaped the liturgy itself to include the latecomer rather than reject him. The contrast with the modern shul, often run as if speed and punctuality were the supreme communal values, was left implicit but unmistakable.
+</p>
+
+<h2>XI. Maariv Has No <span class="heb-inline">חזרת הש״ץ</span> — So the Unit Functions as a Mini-חזרה</h2>
+<p>
+  A further reason: שחרית and מנחה each have a full <span class="heb-inline">חזרת הש״ץ</span>; מעריב, by long-standing practice, does not. The insertion of <span class="heb-inline">ברוך ה' לעולם</span> with its eighteen פסוקים and its eighteen invocations of the Name can be understood as a kind of quasi-communal echo — a structured tzibbur recitation that gives מעריב a faint parallel to the public repetition that the other two tefillot have, where מעריב would otherwise have none.
+</p>
+<p>
+  (Why מעריב has no חזרת הש״ץ is itself a broader sugya — connected to its origin as <span class="heb-inline">רשות</span>, the absence of a corresponding קרבן at night, and the historical structure of the early communal tefillah. The שיעור flagged it for later discussion.)
+</p>
+
+<h2>XII. Rashi's Reason — <span class="heb-inline">הכנה</span>, <span class="heb-inline">גירוש מחשבות</span>, and <span class="heb-inline">שמחה</span></h2>
+<p>
+  There is one more reason — and this one is associated with <strong>רש״י</strong><a href="#fn14" id="ref14" class="footnote-ref">[14]</a>, who himself did <em>not</em> say <span class="heb-inline">יראו עינינו</span>. Rashi nonetheless explains the reason for those who do. The reason is internal, almost <span class="heb-inline">עבודה</span>-focused, rather than structural.
+</p>
+<p>
+  The Gemara says a person should daven שמונה עשרה <span class="heb-inline">מתוך שמחה</span> — out of joy, not out of grief or anger or sadness or a toxic state. There is a real practical problem here, especially at מנחה: people arrive in shul at the last second, say אשרי quickly, exchange a few words with a friend, and then immediately take three steps back and start עמידה. That is not the right mode to talk to <span class="heb-inline">מלך מלכי המלכים</span>. You need a moment of <span class="heb-inline">הכנה</span>: pause, clear the head, push away other thoughts.
+</p>
+<p>
+  In modern language people call this "meditation." The שיעור preferred the older, sharper formulation: <em>גירוש מחשבות</em> — actively expelling distracting thoughts so you can stand consciously before הקדוש ברוך הוא. Rashi's idea: the right preparation is not just the absence of distraction but the active <em>presence</em> of שמחה. And what helps generate שמחה? Praising פסוקים, expressions of <span class="heb-inline">ביטחון</span> in הקדוש ברוך הוא. Reciting <span class="heb-inline">ברוך ה' לעולם אמן ואמן</span> — the long string of הקדוש ברוך הוא's names with their resonance of trust and royal sovereignty — can function as a bridge, cultivating ביטחון, generating שמחה, and preparing the person for the עמידה.
+</p>
+
+<h2>XIII. The הפסק Difficulty — Returning to the Underlying Question</h2>
+<p>
+  We have collected seven reasons (and several family members of reasons): rishus-substitute, safety-and-roads, decree-substitute, latecomer-accommodation, mini-chazaras-hashatz, hachana-and-simchah, plus the principle of takana-bimkomah-omedet that holds the rest in place. But even with all of them in hand, the structural hard problem returns. <em>How is this not הפסק?</em>
+</p>
+<p>
+  If the rationale ties to גאולה — if you can argue that the eighteen פסוקים are themselves a continuation of the theme of redemption — then perhaps these פסוקים function the way השכיבנו does, as <span class="heb-inline">גאולה אריכתא</span>: an extension of the topic rather than a break. But the שיעור acknowledged the difficulty plainly: the unit is <em>not short</em>. It is a substantial block of liturgical text. The Geonim and many other ראשונים held that yes — it <em>is</em> a הפסק.
+</p>
+<p>
+  On the other hand, if you take the approach that מעריב's עמידה was historically framed as <span class="heb-inline">רשות</span>, and the unit was the <em>ending</em> of the service rather than an addition before further obligation — then the question dissolves: you cannot be interrupting something you are not, in that older framing, required to proceed into. We do not pasken that way today, but the older framing is the conceptual ground on which the unit was originally laid.
+</p>
+
+<div class="callout">
+<span class="label">An older נוסח possibility</span>
+The שיעור raised a tentative third option: perhaps there was an older נוסח in which what we now call השכיבנו was structured as a <em>single long ברכה</em> rather than as ברכה-plus-something-new. On that reading, what we read as a closing and a new opening was, in the earlier practice, one continuous unit — which would reduce the "break" sensation, since the flow would remain within one ענין. Rabbi Ephrati associated this tentatively with the Rambam's world but was not fully certain of the citation, and he stressed that we do not commonly see that practice today. We preserve the possibility as a marker of how the seam may once have looked.
+</div>
+
+<h2>XIV. Transition to <span class="heb-inline">קדיש</span> — Why מעריב Has It Where שחרית Cannot</h2>
+<p>
+  The structural phenomenon is immediately visible if you look at the three daily tefillot in sequence:
+</p>
+<p>
+  At <strong>שחרית</strong>, we go directly from <span class="heb-inline">גאל ישראל</span> into שמונה עשרה — no קדיש in between, precisely to preserve <span class="heb-inline">סמיכת גאולה לתפילה</span>. At <strong>מנחה</strong>, there is no <span class="heb-inline">ברכת גאולה</span> at all, so the placement of קדיש presents no parallel problem; it sits where it sits without disturbing anything. At <strong>מעריב</strong>, we say קדיש — between השכיבנו (and, in chutz-laaretz מנהג, after <span class="heb-inline">ברוך ה' לעולם</span>) and שמונה עשרה. The placement is striking, because the same סמיכת גאולה לתפילה sensitivity that ruled out קדיש at שחרית does not seem to rule it out at מעריב. Why not?
+</p>
+<p>
+  The classical framework is a <span class="heb-inline">מחלוקת</span> between the <strong>רמב״ם</strong><a href="#fn15" id="ref15" class="footnote-ref">[15]</a> and the <strong>ראב״ד</strong><a href="#fn16" id="ref16" class="footnote-ref">[16]</a> — and as the שיעור observed wryly, like all good machloikes in כלל ישראל, the Rambam and the Raavad. The שיעור opened with a smaller example. Why do we say קדיש after יִשתבח, before ברכת קריאת שמע? On the Rambam's reading, that קדיש has nothing to do with פסוקי דזמרה <em>per se</em>. It reflects a broader principle: <em>before any major standing tefillah, we say קדיש</em> — except in שחרית, where the principle would create a הפסק between גאל ישראל and עמידה, so the קדיש is moved earlier (to after ישתבח). The Rambam reads קדיש as preparation for what is coming next.
+</p>
+
+<h2>XV. <span class="heb-inline">גאולה</span> in <span class="heb-inline">גלות</span> — When Do We Actually Feel Redemption?</h2>
+<p>
+  Before laying out the full Rambam-vs.-Raavad on קדיש at מעריב, the שיעור took a substantial detour into hashkafah — and we will preserve the detour, because it is the conceptual ground on which the Rambam's read of קדיש makes sense.
+</p>
+<p>
+  We talk about גאולה constantly. But when do we actually <em>think</em> about it? Ideally, we would think about גאולה precisely when we say the words in תפילה that speak about it. But one of the hardest tests of גלות is this: <em>when a Jew becomes so comfortable that he stops feeling he is in גלות at all</em>. People settle in: home, business, community, society, culture. "I am fine where I am. Why do I need to go anywhere?" That itself is the deepest <span class="heb-inline">הסתר פנים</span>.
+</p>
+<p>
+  Reb Nachman of Breslov described a <span class="heb-inline">מצב</span> in which people can even "make a <em>niggun</em>" out of their exile — meaning, they normalize it so completely that it no longer hurts. The numbness is itself part of the catastrophe. The first stage of גלות is the pain of גלות. The deeper stage is the loss of the pain.
+</p>
+
+<h2>XVI. A Story at the <span class="heb-inline">כותל</span> — Crying Because We Don't Know Why</h2>
+<p>
+  There is a famous story from the days of the Six Day War, when Jews returned to the <span class="heb-inline">כותל המערבי</span> after nineteen years of separation. Rav Shlomo Goren is often associated with the moment.
+</p>
+<p>
+  Soldiers — many of them not observant, with little Torah background — arrived at the כותל and began crying. Someone asked them: <em>why are you crying?</em> One of them answered: <em>because we see everyone else crying — and we don't even know why they're crying. So we're crying that we don't know.</em>
+</p>
+<p>
+  The line pierces the heart. The כותל is a last remnant, a last visible connection that says <em>we are not severed from our source</em>. But the deeper tragedy is when a Jew no longer knows what גלות is, and no longer understands what there is to mourn. The soldier's tear was the tear at exactly that gap. He had Jewish neshama enough to cry, but he had been distanced from the source enough that he could no longer name what he was crying for. He was crying for the gap itself.
+</p>
+
+<h2>XVII. <span class="heb-inline">קדיש</span> as a Declaration of Hope — the Rambam's Frame</h2>
+<p>
+  This is exactly where the Rambam's reading of קדיש lands. According to the Rambam, the reason we say קדיש before תפילה — every time Jews gather together — is not arbitrary structural padding. It is a deliberate, regular reminder: <em>there will be a day when Hashem's Name will be complete and revealed in the world</em>.
+</p>
+<p>
+  When we answer <span class="heb-inline">אמן</span>, and especially <span class="heb-inline">אמן יהא שמיה רבא מברך לעולם ולעלמי עלמיא</span>, we are not merely responding to "a nice thing." We are affirming something fundamental about our relationship to גלות: <em>don't give up. You are in גלות now, but there will be גאולה. The Name is not yet whole; it will be.</em>
+</p>
+
+<h3>A Note on Nusach — <span class="heb-inline">ויצמח פורקנה ויקרב משיחה</span></h3>
+<p>
+  There are different customs in קדיש regarding the line <span class="heb-inline">ויצמח פורקנה ויקרב משיחה</span> — "may He cause His salvation to flourish and bring near His anointed one." Some נוסחאות include it, some do not. People can be very sensitive about נוסח changes; when you grow up with one version, even one additional word can feel like a new religion. The שיעור noted this with both warmth and a touch of irony — that the larger point of the קדיש, in the Rambam's reading, is the planting of <span class="heb-inline">גאולה</span>-consciousness in the middle of routine life, and the נוסח variations are minor variants on the same essential move.
+</p>
+
+<h2>XVIII. Rambam vs. Raavad on <span class="heb-inline">קדיש</span> at מעריב</h2>
+
+<h3>A) The Rambam — <span class="heb-inline">קדיש</span> as <span class="heb-inline">הכנה</span> to שמונה עשרה</h3>
+<p>
+  On the Rambam's reading, saying קדיש before שמונה עשרה at מעריב functions as an introduction to the עמידה: <em>we are now a tzibbur, a מנין of Yidden — remember משיח, remember גאולה, before you step forward to stand before הקדוש ברוך הוא</em>.
+</p>
+<p>
+  On this approach, the קדיש is <em>not</em> a problematic הפסק between גאולה and תפילה, for two reasons that converge. First, השכיבנו is <span class="heb-inline">גאולה אריכתא</span> — the theme of גאולה is already extended through the ברכה. Second, the קדיש itself is saturated with the language and longing of גאולה — the entire text is a declaration of yearning for the complete revelation of Hashem's Name. The קדיש therefore <em>continues</em> the same redemption-consciousness rather than breaking it. It does not interrupt; it deepens. And this is why, on the Rambam's frame, the קדיש can stand at מעריב in the exact seam where it cannot stand at שחרית — because at מעריב, the prior ברכה is גאולה אריכתא, and the קדיש thematically extends the theme; at שחרית, the prior ברכה is גאל ישראל without that extension, and the קדיש would be a true interruption.
+</p>
+
+<h3>B) The Raavad — <span class="heb-inline">קדיש</span> as a <span class="heb-inline">סיום</span> to an Older Core Unit</h3>
+<p>
+  On the Raavad's reading (and the line of reasoning associated with several other ראשונים), מעריב historically functioned differently. It was originally treated as <span class="heb-inline">רשות</span>; the primary <span class="heb-inline">חיובא</span> structure revolved around <span class="heb-inline">קריאת שמע</span> and its <span class="heb-inline">ברכות</span>, not necessarily around שמונה עשרה. On that older structure, after the kehillah finished the main unit of the service — ברכות קריאת שמע, ending with השכיבנו — the natural place for קדיש was at the <em>end</em> of that unit, as a סיום before dispersing.
+</p>
+<p>
+  When the practice later shifted and שמונה עשרה became standard at מעריב as well, the קדיש <em>remained where it was</em> — at the structural end of the older core unit. So today, looking at the davening, it looks as if קדיש sits between גאולה and תפילה. But on the Raavad's read, it does not really sit "between"; it sits at the historical סיום of one structure, with the עמידה later appended as a separate later expansion.
+</p>
+<p>
+  Many ראשונים note that once the practice entered the fixed structure, the מנהג remained: the unit is in the סידור, we say it. On both the Rambam's and the Raavad's accounts the קדיש stays in place; the difference is only in the conceptual story about <em>why</em>.
+</p>
+
+<h2>XIX. A Halachic Side Point — Announcing <span class="heb-inline">יעלה ויבוא</span></h2>
+<p>
+  Many people assume that because we try not to be <span class="heb-inline">מפסיק</span> between גאולה and תפילה, the <span class="heb-inline">גבאי</span> at the appropriate moment must <em>only</em> clap — never verbalize a reminder like <span class="heb-inline">יעלה ויבוא</span>, <span class="heb-inline">על הניסים</span>, or <span class="heb-inline">ותן טל ומטר</span>. The assumption is widespread but wrong.
+</p>
+<p>
+  The <strong>שולחן ערוך</strong><a href="#fn17" id="ref17" class="footnote-ref">[17]</a> is explicit that the <span class="heb-inline">שליח ציבור</span> — and, practically, the person responsible for the tzibbur, often the gabbai — may verbally announce the relevant reminder because the announcement is <em>צורך התפילה</em>: it enables the tzibbur to daven correctly. It is not "random chatter"; it is part of the structural support of the תפילה itself. The רשב״א writes a תשובה on this directly. The single-word reminder, said by the right person at the right moment, falls inside the תפילה rather than outside it.
+</p>
+<p>
+  Where it becomes touchier is when <em>individuals</em> call out reminders in the middle of other people's שמונה עשרה — that potentially disturbs <span class="heb-inline">כוונה</span> and requires careful discussion. But the gabbai's licensed reminder is not the problem; it is the structural solution.
+</p>
+
+<h2>XX. Moving to Shabbos מעריב — Why We Say <span class="heb-inline">ושמרו</span></h2>
+<p>
+  We now move to <span class="heb-inline">מעריב של שבת</span>. Many communities recite (not all do):
+</p>
+<blockquote class="heb"><span class="heb">וְשָׁמְרוּ בְנֵי יִשְׂרָאֵל אֶת הַשַּׁבָּת לַעֲשׂוֹת אֶת הַשַּׁבָּת לְדֹרֹתָם בְּרִית עוֹלָם. בֵּינִי וּבֵין בְּנֵי יִשְׂרָאֵל אוֹת הִיא לְעֹלָם כִּי שֵׁשֶׁת יָמִים עָשָׂה ה' אֶת הַשָּׁמַיִם וְאֶת הָאָרֶץ וּבַיּוֹם הַשְּׁבִיעִי שָׁבַת וַיִּנָּפַשׁ.</span><a href="#fn18" id="ref18" class="footnote-ref">[18]</a></blockquote>
+
+<h3>A) The Tur — שבת Itself Is the שמירה</h3>
+<p>
+  The <strong>טור</strong><a href="#fn19" id="ref19" class="footnote-ref">[19]</a> explains that on Friday night the closing of <span class="heb-inline">השכיבנו</span> changes. On weekdays we say <span class="heb-inline">בָּרוּךְ אַתָּה ה' שׁוֹמֵר עַמּוֹ יִשְׂרָאֵל לָעַד</span>. On Shabbos we say <span class="heb-inline">וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ…</span>. Why the change? Because <em>שבת itself is the שמירה</em> — <span class="heb-inline">שבת היא השמירה</span>. The day functions as the protection. Keep Shabbos and Shabbos keeps you. (The famous line in modern Jewish discourse — "more than the Jews kept Shabbos, Shabbos kept the Jews" — is attributed by some to Ahad Ha'Am. The structural intuition is much older.) The Tur reads our recitation of <span class="heb-inline">ושמרו</span> immediately after the new <span class="heb-inline">חתימה</span> as the natural extension: we do not need to ask for שמירה in the same petitionary mode, because we have just declared the form of שמירה that Friday night already <em>is</em>.
+</p>
+
+<h3>B) The Reminder Model — Tonight's <span class="heb-inline">עמידה</span> is Different</h3>
+<p>
+  A second explanation aligns with the very point we just made about announcements: <span class="heb-inline">ושמרו</span> functions as a tzibbur-level reminder — <em>tonight is שבת; the עמידה you are about to begin is a Shabbos שמונה עשרה, not weekday</em>. The Rashba's allowance for the gabbai to announce <span class="heb-inline">יעלה ויבוא</span> as <span class="heb-inline">צורך התפילה</span> extends here: the entire kehillah reciting <span class="heb-inline">ושמרו</span> together is itself a structural cue, signaling the change of mode to every מתפלל in the room.
+</p>
+<p>
+  People space out. People come out of davening genuinely uncertain what they said — weekday? Shabbos? Yom Tov? It is not malice; it is human. The Rabbi noted that a member of the kehillah had come to him recently after מוסף on the second day of yom tov, uncertain whether he had said the מוסף of שלוש רגלים or the מוסף of שבת — and indeed uncertain whether he had not, in fact, repeated <span class="heb-inline">שחרית</span> by mistake. The communal recitation of <span class="heb-inline">ושמרו</span> on Friday night is a structural counter-measure: it shifts the room into the correct mode before the עמידה begins.
+</p>
+
+<h2>XXI. Extending the Model to יום טוב — <span class="heb-inline">דבר משה</span> and <span class="heb-inline">תקעו בחודש שופר</span></h2>
+<p>
+  Some ראשונים discuss why on <span class="heb-inline">יום טוב</span> — and especially on <span class="heb-inline">ראש השנה</span> and <span class="heb-inline">יום כיפור</span> — we insert additional פסוקים, such as:
+</p>
+<blockquote class="heb"><span class="heb">דַּבֵּר מֹשֶׁה אֶת מֹעֲדֵי ה' אֶל בְּנֵי יִשְׂרָאֵל.</span><a href="#fn20" id="ref20" class="footnote-ref">[20]</a></blockquote>
+<p>And on Rosh HaShanah:</p>
+<blockquote class="heb"><span class="heb">תִּקְעוּ בַחֹדֶשׁ שׁוֹפָר בַּכֵּסֶה לְיוֹם חַגֵּנוּ.</span><a href="#fn21" id="ref21" class="footnote-ref">[21]</a></blockquote>
+<p>
+  If the Tur's "Shabbos is שמירה" logic is unique to Shabbos, why do we do similar mode-shifting inserts on Yom Tov? Some ראשונים actually <em>do</em> say one should not say these on Yom Tov — Rabbi Ephrati flagged this as a minority view but a real one. The widespread מנהג, however, is to say them, and the operative explanation is the second of the two above: the tzibbur needs a structural reminder of what night it is. The insertion functions like a communal announcement: <em>tonight's שמונה עשרה is שלוש רגלים / ראש השנה / יום כיפור — not Shabbos, not weekday</em>.
+</p>
+<p>
+  The <strong>לבוש</strong><a href="#fn22" id="ref22" class="footnote-ref">[22]</a> adds a further framing: all <span class="heb-inline">ימים טובים</span> are <span class="heb-inline">זכר ליציאת מצרים</span>. On that reading these פסוקים can also be understood as a continuation of the redemption theme — a kind of <span class="heb-inline">גאולה אריכתא</span> on the יום טוב level, parallel to השכיבנו on the weekday level, rather than as a disruptive interruption. The same conceptual move that defends <span class="heb-inline">ברוך ה' לעולם</span> as גאולה-continuation lets the Yom Tov inserts pass as well: the theme is one, the insertion is its extension.
+</p>
+
+<h2>XXII. A Historical חידוש — <span class="heb-inline">ושמרו</span> as <span class="heb-inline">קבלת שבת</span></h2>
+<p>
+  A remarkable point appears in the writings of <strong>ר' שלמה מוורמייזא</strong><a href="#fn23" id="ref23" class="footnote-ref">[23]</a> — Rabbi Shlomo of Worms, the major contemporary of רש״י (the שיעור noted that Rashi eclipsed him in lasting fame, but Rabbi Shlomo was the central rabbinic figure of his moment in Germany, civilly recognized in his role by the imperial authorities). He authored a siddur — <em>סידור ר' שלמה מוורמייזא</em> — and in it he writes something the שיעור flagged as taking a moment to fully <span class="heb-inline">חאפן</span>: <strong>at the moment the tzibbur says <span class="heb-inline">ושמרו</span>, that itself was their קבלת שבת</strong>.
+</p>
+<p>
+  In earlier centuries the kehillot did not have the full structure of Kabbalas Shabbos that we know today — the <span class="heb-inline">לכה דודי</span> arrangement of the Tzfas <span class="heb-inline">מקובלים</span> in the sixteenth century, the surrounding mizmorim, the formal opening of <span class="heb-inline">לכו נרננה</span> — none of that yet existed in the era of the early ראשונים, a thousand years ago. So how did a weekday מעריב in the shul of Rabbi Shlomo of Worms become a Shabbos מעריב? The kehillah would gather. There may have been a learning seder or a דרשה. They would begin to daven מעריב. Then the tzibbur rose together and said <span class="heb-inline">ושמרו</span>.
+</p>
+<p>
+  The collective declaration <em>made it Shabbos in the synagogue</em>. The kehillah's recitation of <span class="heb-inline">ושמרו בני ישראל את השבת</span>, said as one voice, was the ציבור's act of accepting Shabbos. From that moment forward they entered the Shabbos שמונה עשרה. The recitation was not only a reminder; it was a ציבור act of identity — the formal communal statement that we are stepping into Shabbos consciousness together. The later Kabbalas Shabbos structure built around it; the older core, on Rabbi Shlomo's frame, was the recitation of <span class="heb-inline">ושמרו</span> itself.
+</p>
+
+<div class="callout">
+<span class="label">A small frame</span>
+This is exactly the kind of historical chiddush that recasts the meaning of what we are saying. Most of us recite <span class="heb-inline">ושמרו</span> at Friday-night מעריב as a kind of liturgical filler — beautiful, but functionally a transition piece. On Rabbi Shlomo of Worms's framing, the recitation is <em>the historical kabbalas Shabbos itself</em>. The hands of a thousand years of subsequent practice — לכה דודי, מזמור שיר ליום השבת, the whole Tzfas-inflected service of Kabbalas Shabbos — have been built on top of an older core that was, originally, exactly this one moment in the davening. The transition piece is the original mountain.
+</div>
+
+<h2>XXIII. The Thread Through All the Sugyos</h2>
+<p>
+  The arc of the שיעור runs through three apparently separate questions — <span class="heb-inline">ברוך ה' לעולם</span>, קדיש דמעריב, ושמרו — and lands on a single point. The structural sensitivity of <span class="heb-inline">סמיכת גאולה לתפילה</span> rules each of them; the question in every case is whether the insertion is a הפסק at the seam or a thematic extension of גאולה. The Rambam, the Raavad, the Geonim, Rabbi Shlomo of Worms, the Tur, the Lvush, the אבודרהם — each in their place — answer the same structural question differently, and each answer carries a different shape of <span class="heb-inline">עבודת ה'</span> with it.
+</p>
+<p>
+  And underneath the structural answers runs a hashkafic thread that the שיעור made explicit in its closing minutes. The danger of גלות is not only pain; it is numbness. קדיש and these carefully placed communal recitations — the eighteen invocations of <span class="heb-inline">ברוך ה' לעולם</span>, the announcement of <span class="heb-inline">ושמרו</span>, the longing-language of <span class="heb-inline">יתגדל ויתקדש שמיה רבה</span> — are designed to keep the Jew awake. Awake to גאולה, awake to what is missing in the world right now, awake to who he is and where he is meant to be going. The architecture of מעריב is the architecture of staying awake at night in גלות.
+</p>
+<p>
+  May we be <span class="heb-inline">זוכה</span> to serve הקדוש ברוך הוא <span class="heb-inline">מתוך שמחה</span>, and to live with a real sense of longing for the complete גאולה — for the day when the gap the soldier at the כותל wept for is finally closed.
+</p>
+
+<hr class="fancy">
+
+<p>
+  The arc of the שיעור in three movements: <em>(i)</em> seven distinct reasons for <span class="heb-inline">ברוך ה' לעולם</span> after השכיבנו — from Rav Natronai Gaon's rishus-substitute to the Abudraham's gezeira-substitute to the Geonim's latecomer-accommodation to Rashi's inner-readiness reason — held together by the principle that <em>תקנה במקומה עומדת</em>, while the Ramban, the Gra, and the Alter Rebbe all hold that even with all the reasons, the unit remains a הפסק. <em>(ii)</em> The Rambam-vs.-Raavad machloikes over the קדיש of מעריב — קדיש as <span class="heb-inline">הכנה</span> to שמונה עשרה (Rambam) or קדיש as <span class="heb-inline">סיום</span> to an older core unit (Raavad) — placed against the hashkafic frame of גאולה in גלות and the story of the soldiers at the כותל. <em>(iii)</em> <span class="heb-inline">ושמרו</span> on Friday night: the Tur's "שבת is the שמירה," the parallel Yom Tov inserts, and the historical chiddush of <em>סידור ר' שלמה מוורמייזא</em> that the recitation of <span class="heb-inline">ושמרו</span> itself was, in its earliest layer, the kehillah's act of <span class="heb-inline">קבלת שבת</span>.
+</p>
+
+<section class="mareh">
+<h2>מראה מקומות</h2>
+<ol>
+  <li id="fn1"><span class="short"><em>ברכות ד׳ ע״ב</em> — <span class="heb-inline">כל הסומך גאולה לתפילה אינו ניזוק כל היום כולו</span>.</span> <span class="expanded">— The core principle: the closing ברכה of גאולה must be followed by שמונה עשרה without halachic interruption. The principle is codified for both שחרית (where the seam is גאל ישראל → עמידה) and מעריב (where it is the closing ברכה of גאולה → השכיבנו → עמידה). The unique structural sensitivity at this seam is the conceptual ground for the entire long machloikes over insertions — אשכיבנו itself (defended as גאולה אריכתא), ושמרו (disputed), and ברוך ה' לעולם / יראו עינינו (the central focus of this שיעור).</span> <a class="backref" href="#ref1" title="Return to text">↩</a></li>
+
+  <li id="fn2"><span class="short"><em>ברכות ט׳ ע״ב</em> — principle of <span class="heb-inline">גאולה אריכתא</span>.</span> <span class="expanded">— The Gemara frames השכיבנו as an extension of the גאולה theme rather than as a separate ברכה interrupting it. The same conceptual move — "this is not a הפסק because it continues the theme of גאולה" — is the only available defense for ברוך ה' לעולם / יראו עינינו, for the Rambam's reading of קדיש at מעריב, and for the Lvush's framing of the Yom Tov inserts. Whether the move works in each case is the central question.</span> <a class="backref" href="#ref2" title="Return to text">↩</a></li>
+
+  <li id="fn3"><span class="short">The position of the <em>גר״א</em> (ר' אליהו, the Vilna Gaon, 1720–1797).</span> <span class="expanded">— The Gra ruled against reciting <span class="heb-inline">ברוך ה' לעולם</span> and <span class="heb-inline">יראו עינינו</span> as a הפסק between גאולה and תפילה; he likewise ruled against reciting <span class="heb-inline">ושמרו</span> on Friday night for the same structural reason. The Volozhin tradition (founded by the Gra's primary תלמיד, ר' חיים of Volozhin) followed his lead, and through Volozhin the omission entered the major Lithuanian yeshivos — Mir, Slabodka, Telshe, Slutsk, and (through ר' יצחק הוטנר) Chaim Berlin in America. The שיעור noted a small biographical aside: ר' איסר זלמן מלצר, an einikel of ר' ישראל זלמן מלצר and one of the closest תלמידים of ר' חיים סולוביצ'יק, was one of the only ultra-Orthodox rabbanim to be מספיד Rav Kook and was famously stoned and pelted with vegetables during the levaya for doing so — a reminder, from inside the same Volozhin-Lithuanian tradition that opposed the unit, that the political battles of pre-state Eretz Yisrael were not the natural arena of these rabbanim, who carried both halachic strictness and rabbinic respect across the political lines of their time.</span> <a class="backref" href="#ref3" title="Return to text">↩</a></li>
+
+  <li id="fn4"><span class="short">Principle of <em>מטבע שטבעו חכמים</em>; <em>ברכות מ' ע״א</em>.</span> <span class="expanded">— The Gemara's foundational rule on the fixed shapes of ברכות: <span class="heb-inline">כל ברכה שאין בה שם ומלכות אינה ברכה</span>, and more generally, the שטר and shape of a ברכה is the mint-mark of חז״ל. You do not introduce new ברכות into the cycle and you do not casually modify the נוסח of an existing ברכה. This is the meta-halachic anchor of the second objection to <span class="heb-inline">ברוך ה' לעולם</span> — even setting aside the placement, the unit may be "unauthorized." Rashi and the Ramban treat this objection as decisive.</span> <a class="backref" href="#ref4" title="Return to text">↩</a></li>
+
+  <li id="fn5"><span class="short"><em>תשובות רש״י</em> — cited as objecting to ברוך ה' לעולם / יראו עינינו as הפסק and as an unauthorized ברכה.</span> <span class="expanded">— Rashi (ר' שלמה יצחקי, 1040–1105, Troyes) writes in a תשובה referenced in the שיעור that one is not permitted to recite ברוך ה' לעולם אמן ואמן or יראו עינינו: it constitutes a הפסק between גאולה and תפילה, and post-talmudic ברכות are categorically disfavored. The שיעור referenced the תשובה but did not provide an exact siman; the Gemara reference brought in connection with Rashi's reasoning about שמחה and הכנה for תפילה was ברכות דף ל״א.</span> <a class="backref" href="#ref5" title="Return to text">↩</a><div class="note-academic">The שיעור cited "תשובות רש״י" without specifying a precise siman or edition. The position is well-attested in the broader ראשונים' reporting of Rashi's view; for the exact text and source, verify against published editions of תשובות רש״י (ed. Elfenbein, Mossad HaRav Kook, or similar) before quoting in a formal halachic context.</div></li>
+
+  <li id="fn6"><span class="short">The position of the <em>רמב״ן</em> (ר' משה בן נחמן, 1194–1270, Catalonia).</span> <span class="expanded">— The Ramban's opposition to ברוך ה' לעולם / יראו עינינו on the joint grounds of הפסק and post-talmudic authorship is the touchstone of the omission tradition discussed at length in last week's שיעור. The position is reported in the Rashbash, the Bais Yosef, and several other ראשונים; the שיעור this week assumed familiarity with the framework from the prior week's treatment.</span> <a class="backref" href="#ref6" title="Return to text">↩</a></li>
+
+  <li id="fn7"><span class="short"><em>אגרות משה, אורח חיים</em> — on conduct when the local tzibbur does not say ברוך ה' לעולם.</span> <span class="expanded">— ר' משה פיינשטיין (1895–1986) addressed the question of a בן חוץ לארץ who finds himself in a tzibbur (typically in Eretz Yisrael) that does not say ברוך ה' לעולם / יראו עינינו. The psak: do not introduce it on your own. The reasoning is that the entire sugya is about the structural integrity of the communal מעריב, and inserting your private מנהג into a tzibbur that has consciously omitted the unit on halachic grounds violates the very sensitivity the unit's defenders themselves take seriously.</span> <a class="backref" href="#ref7" title="Return to text">↩</a><div class="note-academic">The שיעור referenced an Igros Moshe תשובה on this question without specifying chelek and siman. Verify the exact citation before relying on the precise wording of the psak.</div></li>
+
+  <li id="fn8"><span class="short"><em>רב נטרונאי גאון</em> (Rosh Yeshiva of Surah, mid-9th century).</span> <span class="expanded">— One of the major Geonim before Rav Amram Gaon. His responsa were a foundational source for the early ראשונים and are cited repeatedly in the Tur. The framework that מעריב was originally <span class="heb-inline">רשות</span> and that <span class="heb-inline">ברוך ה' לעולם</span> with its eighteen פסוקים functioned as a compressed mini-עמידה is the central explanatory contribution attributed to him for the institution of the unit. His responsa survive partly in the various compilations of גאוני תשובות (Sha'arei Tzedek, Teshuvos HaGeonim, etc.) and are cited by name throughout the early ראשונים' literature on תפילה.</span> <a class="backref" href="#ref8" title="Return to text">↩</a></li>
+
+  <li id="fn9"><span class="short"><em>ברכות כ״ז ע״ב</em> — <span class="heb-inline">תפילת ערבית רשות או חובה</span>.</span> <span class="expanded">— The classical sugya in ברכות on the original halachic status of מעריב. The dispute itself, between Rabban Gamliel and Rabbi Yehoshua, plays out in the famous story of the deposition of Rabban Gamliel from the נשיאות. The practical outcome — that כלל ישראל accepted מעריב as obligatory in practice, while a number of structural <span class="heb-inline">נפקא מינות</span> from its origin as רשות persist — is the conceptual ground for the entire Gaonic explanation of ברוך ה' לעולם as a mini-עמידה for those who would not stay for the full שמונה עשרה.</span> <a class="backref" href="#ref9" title="Return to text">↩</a></li>
+
+  <li id="fn10"><span class="short">The <em>רא״ש</em> (ר' אשר בן יחיאל, c. 1250–1327) — principle of <em>תקנה במקומה עומדת</em>.</span> <span class="expanded">— The Rosh explains the survival of ברוך ה' לעולם in the siddur on the general halachic principle that a properly enacted communal תקנה remains in force even when the original conditions or reasons no longer obtain. The principle has wide applicability across the halachic literature and is one of the standard responses to the question of why we continue to say liturgical material whose original purpose has lapsed. The exact location in the Rosh's writings on this question was not specified in the שיעור.</span> <a class="backref" href="#ref10" title="Return to text">↩</a></li>
+
+  <li id="fn11"><span class="short"><em>ברכות כ״ט ע״א</em> — תקנת <em>הביננו</em>.</span> <span class="expanded">— The Gemara's institution of הביננו as a shortened, condensed form of שמונה עשרה for someone who cannot daven the full עמידה (specifically because of <span class="heb-inline">אונס</span> or comparable circumstances). The text combines the themes of the middle thirteen ברכות into a single ברכה. The שיעור drew a sharp structural distinction: הביננו presupposes a full חיוב to daven שמונה עשרה and provides relief; ברוך ה' לעולם, on the Gaonic framework, reflects an original status in which מעריב itself was <span class="heb-inline">רשות</span> and the unit was an alternative communal framework. The two shortening strategies belong to fundamentally different logics.</span> <a class="backref" href="#ref11" title="Return to text">↩</a></li>
+
+  <li id="fn12"><span class="short">The <em>רשב״א</em> — on completing שמונה עשרה at home after a shortened מעריב in shul.</span> <span class="expanded">— ר' שלמה בן אדרת (c. 1235–1310, Barcelona) writes that if the kehillah used the shortened version of מעריב in shul — saying ברוך ה' לעולם and קדיש and going home — one must not forget to say the full שמונה עשרה upon arriving home. The shortening was a concession to the danger of walking home at night, not a halachic dispensation from the עמידה itself. The Rashba's warning is one of the structural anchors that preserves the older reality of two-layer מעריב practice in the written record. Exact siman not specified in the שיעור.</span> <a class="backref" href="#ref12" title="Return to text">↩</a></li>
+
+  <li id="fn13"><span class="short"><em>אבודרהם</em> — ר' דוד אבודרהם (14th century Sevilla).</span> <span class="expanded">— Major early commentator on תפילה. His <em>ספר אבודרהם</em> is one of the foundational comprehensive treatments of the structure and meaning of the daily, Shabbos, and Yom Tov ברכות and prayers. Cited at length by the Tur and the Bais Yosef. The שיעור brought him for two distinct contributions: <em>(a)</em> the name etymology (<em>Abu Dirham</em> from the family trade of money-changing, with the secondary play on <span class="heb-inline">מטבע שטבעו חכמים</span>) and <em>(b)</em> the tradition of a non-Jewish <span class="heb-inline">גזירה</span> against מעריב, with the substitute structure of פסוקים eventually becoming embedded in the siddur. The exact siman in the אבודרהם for the gezeira tradition was not provided in the שיעור.</span> <a class="backref" href="#ref13" title="Return to text">↩</a><div class="note-academic">The historical specifics of the גזירה described by the אבודרהם — which non-Jewish government, what period, what region — are not securely identified in the modern scholarly literature. Rabbi Ephrati explicitly invited the kehillah to bring further sources to his attention. The tradition stands on the authority of the אבודרהם himself; the historical setting remains an open <span class="heb-inline">בירור</span>.</div></li>
+
+  <li id="fn14"><span class="short"><em>רש״י על ברכות ל״א</em> — on entering תפילה <span class="heb-inline">מתוך שמחה</span> with <span class="heb-inline">גירוש מחשבות</span>.</span> <span class="expanded">— Rashi explains the inner-avodah reason for the recitation of praiseful פסוקים before the עמידה: a person must daven שמונה עשרה <span class="heb-inline">מתוך שמחה</span>, and the structured recitation of פסוקים expressing <span class="heb-inline">ביטחון</span> in הקדוש ברוך הוא is a means of cultivating that שמחה. Even though Rashi himself does not say ברוך ה' לעולם (he holds it constitutes a הפסק), his explanation of the practice is one of the standard defenses for those who do. The reference is to ברכות ל״א; exact ע״א/ע״ב not specified in the שיעור.</span> <a class="backref" href="#ref14" title="Return to text">↩</a></li>
+
+  <li id="fn15"><span class="short">The <em>רמב״ם</em> — קדיש as <span class="heb-inline">הכנה</span> to שמונה עשרה, saturated with longing for גאולה.</span> <span class="expanded">— The Rambam reads קדיש before שמונה עשרה (and the corresponding קדיש after יִשתבח before ברכות קריאת שמע at שחרית) as an introduction to the עמידה. The structural principle: <em>before any major standing tefillah, the kehillah says קדיש</em> — except where the principle would create a הפסק at the seam between גאולה and תפילה (i.e., at שחרית), in which case the קדיש is moved earlier to after ישתבח. At מעריב, the קדיש sits in place because השכיבנו is גאולה אריכתא and קדיש itself is saturated with the language of גאולה — the two together extend the theme rather than break it. The exact citation in the Rambam (Hilchos Tefillah) was not specified in the שיעור.</span> <a class="backref" href="#ref15" title="Return to text">↩</a></li>
+
+  <li id="fn16"><span class="short">The <em>ראב״ד</em> — קדיש as <span class="heb-inline">סיום</span> to an older core unit.</span> <span class="expanded">— ר' אברהם בן דוד of Posquières (c. 1125–1198), the standard halachic counterpoint to the Rambam in the Mishneh Torah's text. On קדיש at מעריב the Raavad reads the structural placement historically rather than thematically: מעריב originally functioned around קריאת שמע and its ברכות, with שמונה עשרה being <span class="heb-inline">רשות</span>. After completing the core unit through השכיבנו, the kehillah said קדיש as a סיום before dispersing. When שמונה עשרה later became standard at מעריב as well, the קדיש remained where it was — at the end of the older core, with the עמידה now appended afterward. The visible position of קדיש "between גאולה and תפילה" today is, on the Raavad's read, an artifact of the older structural placement rather than a deliberate insertion. The exact citation was not specified in the שיעור.</span> <a class="backref" href="#ref16" title="Return to text">↩</a></li>
+
+  <li id="fn17"><span class="short"><em>שולחן ערוך אורח חיים</em> — on the gabbai's announcement of <span class="heb-inline">יעלה ויבוא</span>, <span class="heb-inline">על הניסים</span>, ותן טל ומטר.</span> <span class="expanded">— The Shulchan Aruch is explicit that the שליח ציבור (or the gabbai, in practice) may verbalize the relevant reminder at the appropriate point, because the announcement qualifies as <em>צורך התפילה</em> — it enables the tzibbur to daven the correct nusach. It is not classified as "speech" in the sense that creates a halachic problem. The corresponding תשובה of the Rashba addresses the same question directly. Exact siman not specified in the שיעור (the standard discussions are in סימן ק״י and the surrounding ספרים on מעריב and on the structure of שמונה עשרה in different occasions).</span> <a class="backref" href="#ref17" title="Return to text">↩</a><div class="note-academic">The שיעור referenced the Shulchan Aruch's allowance and the Rashba's תשובה without providing exact simanim. Verify against the standard simanim on הפסק, on the announcement of Ya'aleh V'Yavo, and on the structure of שמונה עשרה before relying on a specific formulation.</div></li>
+
+  <li id="fn18"><span class="short"><em>שמות פרק ל״א פסוקים ט״ז–י״ז</em>.</span> <span class="expanded">— <span class="heb-inline">וְשָׁמְרוּ בְנֵי יִשְׂרָאֵל אֶת הַשַּׁבָּת לַעֲשׂוֹת אֶת הַשַּׁבָּת לְדֹרֹתָם בְּרִית עוֹלָם. בֵּינִי וּבֵין בְּנֵי יִשְׂרָאֵל אוֹת הִיא לְעֹלָם כִּי שֵׁשֶׁת יָמִים עָשָׂה ה' אֶת הַשָּׁמַיִם וְאֶת הָאָרֶץ וּבַיּוֹם הַשְּׁבִיעִי שָׁבַת וַיִּנָּפַשׁ.</span> The two פסוקים as recited in the siddur after השכיבנו at Friday-night מעריב in most Ashkenazic and Sefardic נוסחאות. The recitation is omitted in Chabad and in certain other communities aligned with the Alter Rebbe's psak that it constitutes a הפסק.</span> <a class="backref" href="#ref18" title="Return to text">↩</a></li>
+
+  <li id="fn19"><span class="short">The <em>טור</em> — explanation of the Friday-night changes in השכיבנו and the rationale for ושמרו.</span> <span class="expanded">— ר' יעקב בן אשר (c. 1269–c. 1343, son of the Rosh, author of the Tur) explains that the change in <span class="heb-inline">חתימה</span> from <span class="heb-inline">שומר עמו ישראל לעד</span> on weekdays to <span class="heb-inline">פורש סוכת שלום עלינו</span> on Shabbos reflects that <em>שבת itself is the שמירה</em>. The recitation of <span class="heb-inline">ושמרו</span> immediately after follows naturally: we do not need to ask for שמירה in the same petitionary mode because Shabbos already <em>is</em> the שמירה — and the recitation makes the structural fact explicit. The Tur's framing was extensively discussed in last week's שיעור (2026-05-17) as well; this week's treatment built on that foundation. Exact siman not specified in the שיעור.</span> <a class="backref" href="#ref19" title="Return to text">↩</a></li>
+
+  <li id="fn20"><span class="short"><em>ויקרא פרק כ״ג פסוק מ״ד</em>.</span> <span class="expanded">— <span class="heb-inline">וַיְדַבֵּר מֹשֶׁה אֶת מֹעֲדֵי ה' אֶל בְּנֵי יִשְׂרָאֵל.</span> The closing pasuk of the parsha of the מועדים in ויקרא. Recited at Friday-night מעריב on יום טוב (when יום טוב falls on a weekday) in many Ashkenazic and Sefardic נוסחאות as the parallel mode-shifting insert to <span class="heb-inline">ושמרו</span> on Shabbos.</span> <a class="backref" href="#ref20" title="Return to text">↩</a></li>
+
+  <li id="fn21"><span class="short"><em>תהלים פרק פ״א פסוק ד'</em>.</span> <span class="expanded">— <span class="heb-inline">תִּקְעוּ בַחֹדֶשׁ שׁוֹפָר בַּכֵּסֶה לְיוֹם חַגֵּנוּ.</span> Recited at מעריב on ראש השנה in many נוסחאות. The pasuk's reference to the שופר sounded "at the new moon" (or, on a different reading, "at the concealment") is the source for the <span class="heb-inline">דרשה</span> that ראש השנה is the only Yom Tov on which the moon is hidden at its inception — and the only one with the central mitzvah of שופר.</span> <a class="backref" href="#ref21" title="Return to text">↩</a></li>
+
+  <li id="fn22"><span class="short">The <em>לבוש</em> — framing the Yom Tov inserts as זכר ליציאת מצרים within גאולה אריכתא.</span> <span class="expanded">— ר' מרדכי יפה (c. 1530–1612), author of the ten-volume Levushim and an important post-Tur halachic codifier. On the Yom Tov inserts at מעריב (<span class="heb-inline">דבר משה</span>, <span class="heb-inline">תקעו בחודש שופר</span>), the לבוש offers the conceptual frame that all <span class="heb-inline">ימים טובים</span> are <span class="heb-inline">זכר ליציאת מצרים</span> — and on that reading the inserted פסוקים function as continuations of the redemption theme, parallel to השכיבנו's status as <span class="heb-inline">גאולה אריכתא</span>. The framing dissolves the apparent הפסק problem by classifying the inserts as thematic extensions rather than as breaks. Exact siman not specified in the שיעור.</span> <a class="backref" href="#ref22" title="Return to text">↩</a></li>
+
+  <li id="fn23"><span class="short"><em>סידור ר' שלמה מוורמייזא</em> — chiddush that ושמרו itself was the kehillah's <span class="heb-inline">קבלת שבת</span>.</span> <span class="expanded">— Rabbi Shlomo of Worms — a major contemporary of רש״י, trained with him under <span class="heb-inline">רבינו יעקב בר יקר</span> of Mainz, civilly recognized as <em>Episcopus Judaeorum</em> by the imperial authorities and serving as chief Rav of Worms — authored a siddur preserved partly in citation by later ראשונים. The chiddush brought in the שיעור: in the era before the formal structure of Kabbalas Shabbos (which crystallizes only in 16th-century Tzfas under the מקובלים), the recitation of <span class="heb-inline">ושמרו</span> by the tzibbur at Friday-night מעריב <em>was itself</em> the kehillah's act of <span class="heb-inline">קבלת שבת</span>. The communal recitation made it Shabbos in the synagogue; the kehillah then entered the Shabbos שמונה עשרה. Later Kabbalas Shabbos liturgy was built on top of this older core.</span> <a class="backref" href="#ref23" title="Return to text">↩</a><div class="note-academic">The exact identity of "Rabbi Shlomo of Worms" in the medieval Ashkenazic record is somewhat contested — the most widely cited candidate is R' Shlomo b. Shimshon of Mainz/Worms, killed in the First Crusade massacres of 1096. Last week's שיעור (2026-05-17) discussed his identity at length in connection with the expanded Shabbos נוסח of אשכיבנו (סוכת שלום), and the same identification holds here. The שיעור referenced his siddur for the קבלת שבת chiddush; verify the exact siddur citation against published editions before quoting in a formal context.</div></li>
+</ol>
+</section>
+
+<footer class="colophon">
+  Reworked from the original שיעור delivered Sunday morning, 24 May 2026 · ז׳ סיון תשפ״ו.<br>
+  Mareh Mekomos prepared with dual-layer citations; uncertain attributions flagged for verification.
+</footer>
+
+</body>
+</html>

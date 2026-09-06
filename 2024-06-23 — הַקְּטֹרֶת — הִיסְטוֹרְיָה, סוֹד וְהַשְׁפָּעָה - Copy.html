@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Shiur — 23 June 2024 — הַקְּטֹרֶת — הִיסְטוֹרְיָה, סוֹד וְהַשְׁפָּעָה</title>
+<style>
+  :root{
+    --blue:#1e3a8a;        /* deep royal blue */
+    --blue-soft:#2c5282;   /* slightly lighter blue */
+    --gold:#b8860b;        /* dark goldenrod */
+    --gold-soft:#d4a017;   /* softer gold */
+    --ink:#1a1a1a;
+    --paper:#fdfaf3;       /* warm off-white */
+    --rule:#c9a227;
+  }
+  *{box-sizing:border-box}
+  body{
+    font-family: "Georgia","Iowan Old Style","Times New Roman", serif;
+    background: var(--paper);
+    color: var(--ink);
+    max-width: 820px;
+    margin: 40px auto;
+    padding: 0 28px 60px 28px;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  header.title{
+    text-align:center;
+    border-top: 3px double var(--gold);
+    border-bottom: 3px double var(--gold);
+    padding: 22px 10px;
+    margin-bottom: 36px;
+    background: linear-gradient(180deg, rgba(184,134,11,0.05), rgba(30,58,138,0.05));
+  }
+  header.title h1{
+    font-family: "Georgia", serif;
+    color: var(--blue);
+    font-size: 28px;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.3px;
+  }
+  header.title .sub{
+    color: var(--gold);
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+  }
+  header.title .date{
+    margin-top: 10px;
+    color: var(--blue-soft);
+    font-size: 14px;
+  }
+  h2{
+    color: var(--blue);
+    font-size: 22px;
+    margin-top: 38px;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--gold);
+    font-variant: small-caps;
+    letter-spacing: 0.4px;
+  }
+  h3{
+    color: var(--gold);
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 4px;
+    font-style: italic;
+  }
+  .lead{
+    font-style: italic;
+    color: #444;
+    border-left: 3px solid var(--gold);
+    padding: 4px 14px;
+    margin: 18px 0 26px 0;
+    background: rgba(184,134,11,0.04);
+  }
+  .heb{
+    font-family: "SBL Hebrew","Times New Roman","Ezra SIL", serif;
+    direction: rtl;
+    unicode-bidi: embed;
+    color: var(--blue);
+  }
+  em.term{ /* English transliteration of a Hebrew term */
+    font-style: italic;
+    color: #2a2a2a;
+  }
+  blockquote{
+    border-left: 4px solid var(--blue);
+    background: rgba(30,58,138,0.04);
+    margin: 18px 0;
+    padding: 10px 18px;
+    color: #222;
+  }
+  blockquote .heb{
+    font-size: 19px;
+    line-height: 1.9;
+  }
+  blockquote .trans{
+    margin-top: 8px;
+    font-style: italic;
+    color: #444;
+  }
+  .pullquote{
+    border: 1px solid var(--gold);
+    padding: 14px 18px;
+    margin: 18px 0;
+    background: rgba(184,134,11,0.06);
+    border-radius: 4px;
+  }
+  ul, ol{ margin: 8px 0 14px 22px; }
+  li{ margin: 4px 0; }
+  .mareh{
+    margin-top: 50px;
+    border-top: 3px double var(--gold);
+    padding-top: 18px;
+  }
+  .mareh h2{
+    text-align:center;
+    border-bottom: none;
+    margin-top: 0;
+  }
+  .mareh ol{
+    margin: 0 0 0 24px;
+    counter-reset: fn;
+    list-style: decimal;
+  }
+  .mareh li{
+    margin: 12px 0;
+    padding-left: 4px;
+  }
+  .mareh li .short{
+    font-weight: 600;
+    color: var(--blue);
+  }
+  .mareh li .expanded{
+    color: #2a2a2a;
+  }
+  .mareh li .backref{
+    color: var(--gold);
+    text-decoration: none;
+    margin-left: 6px;
+    font-size: 0.85em;
+  }
+  .mareh li .backref:hover{
+    text-decoration: underline;
+  }
+  .mareh .note-academic{
+    border-left: 3px solid var(--gold-soft);
+    background: rgba(184,134,11,0.04);
+    padding: 8px 12px;
+    margin-top: 4px;
+    font-size: 0.95em;
+  }
+  .footnote-ref{
+    color: var(--gold);
+    text-decoration: none;
+    font-size: 0.85em;
+    vertical-align: super;
+  }
+  .footnote-ref:hover{
+    text-decoration: underline;
+  }
+  .added{
+    /* a subtle marker for newly added passages — feel free to remove */
+    /* background: rgba(184,134,11,0.06); */
+  }
+  .divider{
+    text-align:center;
+    color: var(--gold);
+    margin: 30px 0;
+    letter-spacing: 8px;
+  }
+  footer{
+    margin-top: 50px;
+    text-align:center;
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+  }
+
+
+  /* Hebrew title upgrade */
+  header.title h1.heb-title{
+    font-family:"SBL Hebrew","Noto Serif Hebrew","David","Frank Ruehl CLM","Times New Roman",serif;
+    direction:rtl;
+    unicode-bidi:isolate;
+    text-align:center;
+    color:var(--blue);
+    font-size:32px;
+    line-height:1.35;
+    letter-spacing:0;
+    margin:0 0 8px 0;
+    font-weight:700;
+  }
+  header.title .english-title{
+    font-family:"Georgia","Iowan Old Style","Times New Roman",serif;
+    color:var(--gold);
+    font-size:15px;
+    font-style:italic;
+    letter-spacing:0.2px;
+    margin-top:4px;
+  }
+  .heb, [dir="rtl"]{
+    font-family:"SBL Hebrew","Noto Serif Hebrew","David","Frank Ruehl CLM","Times New Roman",serif;
+    direction:rtl;
+    unicode-bidi:isolate;
+  }
+
+  /* Print: attempt true bottom-of-page footnotes */
+  @media print{
+    body{ max-width: none; margin: 0; padding: 18mm; font-size: 12pt; }
+    .mareh{ page-break-before: always; }
+    a.footnote-ref{ color: #000; }
+  }
+</style>
+</head>
+<body>
+<header class="title">
+<h1 class="heb-title" dir="rtl">הַקְּטֹרֶת — הִיסְטוֹרְיָה, סוֹד וְהַשְׁפָּעָה</h1><div class="english-title">The Ketores: History, Mystery, and Impact</div>
+<div class="sub">Shiur of Rabbi Ephrati — Sunday Morning Series on <em>Tefillah</em></div>
+<div class="date">Recorded 23 June 2024  ·  Reworked 30 April 2026  ·  Mareh Mekomos upgraded 5 May 2026</div>
+</header>
+<p class="lead"><em>L'ilui nishmas</em> Rav Moshe Wolfson, <em class="term">zt"l</em> (<span class="heb">זצ״ל</span>), <em>niftar</em> the morning of this <em>shiur</em>.</p>
+<h2>I. Opening — A Living Model of Tefillah</h2>
+<p>On the way to <em>shiur</em> this morning, word arrived that a great <em class="term">Yid</em> (<span class="heb">איד</span>), Rav Moshe Wolfson <em class="term">zt"l</em>, had been <em class="term">niftar</em> (<span class="heb">נפטר</span>), and that the <em class="term">levayah</em> (<span class="heb">לוויה</span>) would be taking place shortly. With Hashem's help, I will go straight from the <em class="term">shiur</em> to the <em class="term">levayah</em>.</p>
+<p>I had a <em class="term">shaychus</em> (<span class="heb">שייכות</span>) with him from my years in Miami. Every winter, for two or three months, he would stay by Avi Sholtzen, and that is how I came to know him. He was a true <em class="term">tzaddik</em> (<span class="heb">צדיק</span>) — and especially apt for a series on <em class="term">tefillah</em>, because I have never seen anyone <em class="term">daven</em> like him.</p>
+<p>Our <em class="term">minyan</em> began at 9:00 AM. He arrived around 8:10 or 8:15 AM, opened to <em class="term">Korbanos</em> (<span class="heb">קרבנות</span>), and proceeded with painstaking deliberation through every word. By the time the rest of the <em class="term">tzibbur</em> reached <em>Shochen Ad</em> (<span class="heb">שכן עד</span>) at roughly 9:45 AM, he had also just arrived at that point in his own unhurried, deeply focused prayer. What took us forty-five minutes took him close to an hour and a half. <span class="added">Every morning, it would take me a full half-hour just to "catch up" with him.</span></p>
+<p>I used to <em>daven Pesukei d'Zimra</em> (<span class="heb">פסוקי דזמרא</span>) aloud at the <em class="term">amud</em> (<span class="heb">עמוד</span>) — as is the custom in many <em class="term">Chasidish</em> (<span class="heb">חסידיש</span>) communities — and he would often sit right next to me. I could hear him; I could see him. His entire body would shudder when he reached "<em>Nishmas kol chai</em>" (<span class="heb">נשמת כל חי</span>). He would cry — tears of joy, of emotion, of gratitude, of appreciation. <span class="added">I observed this from when he was about 88 years old until he was 93 or 94, when I left Miami; he was 99 at his <em class="term">petirah</em>.</span> It brought me <em class="term">chizuk</em> (<span class="heb">חיזוק</span>) in my own <em class="term">davening</em> just to witness a <em class="term">Yid</em> who prayed as one is truly meant to pray. May our learning today be <em>l'ilui nishmaso</em> (<span class="heb">לעילוי נשמתו</span>).</p>
+<h2>II. The Place of Korbanos and Ketores in Tefillah</h2>
+<h3>Why the Yeshiva World Skips — and Why That Is Justified</h3>
+<p>A few weeks ago, we began discussing the <em class="term">kavanos</em> (<span class="heb">כוונות</span>) of <em class="term">tefillah</em>, and today we arrive at the section of <em class="term">Ketores</em> (<span class="heb">קטורת</span>). In the <em class="term">yeshiva</em> (<span class="heb">ישיבה</span>) world, it is common to begin <em class="term">davening</em> straight from <em>Baruch She'amar</em> (<span class="heb">ברוך שאמר</span>), skipping <em class="term">Korbanos</em> and <em class="term">Ketores</em> entirely.</p>
+<p>While I hope most people who have the time do say them, there is a real justification for this practice. The <em>Mishnah Berurah</em> (<span class="heb">משנה ברורה</span>)<a class="footnote-ref" id="ref1" href="#fn1">[1]</a> <em class="term">paskens</em> that if a person is <em>osek b'Torah</em> (<span class="heb">עוסק בתורה</span>), he is not obligated to recite <em class="term">Korbanos</em>. This is the rationale behind the practice in <em class="term">yeshivos</em>.</p>
+<p>Of course, one might argue that if there is time for a "kiddush club," there is time to say <em class="term">Korbanos</em> before <em class="term">davening</em>. This touches the famous concept of <span class="heb">רבי שמעון בר יוחאי</span>, whose Torah study was itself his form of prayer (<em>Torasan umnasan</em> — <span class="heb">תורתן אומנותן</span>); he only had to recite <em>Kriyas Shema</em> (<span class="heb">קריאת שמע</span>). For the rest of us, reciting <em class="term">Korbanos</em> is "extra credit." <span class="added">Even old <em class="term">siddurim</em> reflect this: the <em class="term">Babish</em> <em class="term">siddur</em>, which I just returned, skips many parts of <em class="term">Korbanos</em> and does not have the standard set we are accustomed to.</span></p>
+<h3>The Theological Foundation</h3>
+<p>The central idea is that <em class="term">tefillah</em> was instituted to correspond to the daily sacrifices: <span class="heb">תְּפִלּוֹת כְּנֶגֶד תְּמִידִין תִּקְּנוּם</span>.<a class="footnote-ref" id="ref2" href="#fn2">[2]</a> Therefore, when we begin our prayers by reciting the <em class="term">parshiyos</em> (<span class="heb">פרשיות</span>) of the <em class="term">korbanos</em> — discussing the <em class="term">halachos</em> of how they were brought, learning the relevant passages from the <em class="term">Chumash</em>, <em class="term">Mishnah</em>, and <em class="term">Gemara</em> — it is considered as if we had actually brought the <em class="term">korban</em>. This recitation enhances the <em class="term">tefillah</em> that follows. We discussed this at length a few weeks ago; today the focus narrows to the <em class="term">Ketores</em>.</p>
+<h2>III. The Influence of Kabbalah on the Siddur</h2>
+<p>When we study the <em>Seder HaTefillah</em> (<span class="heb">סדר התפילה</span>), it is crucial to recognize the profound impact that <em class="term">Kabbalah</em> (<span class="heb">קבלה</span>), the <em class="term">Zohar</em> (<span class="heb">זוהר</span>), and the <em>Arizal</em> (<span class="heb">האר״י ז״ל</span>) have had on the structure of our <em class="term">davening</em>. We take the layout of our <em class="term">siddurim</em> for granted, but the prayer book looked very different before the teachings of <em class="term">Kabbalah</em> were widely revealed. Many additions — particularly before <em>Shemoneh Esrei</em> (<span class="heb">שמונה עשרה</span>) and after — stem from the <em>Sefer HaZohar</em> (<span class="heb">ספר הזוהר</span>) of <span class="heb">רבי שמעון בר יוחאי</span>.</p>
+<p>The principal example is the recitation of <em>parshas ha'ketores</em> (<span class="heb">פרשת הקטורת</span>). Every morning we say the passage from the Torah and continue with the <em class="term">Baraisa</em> of "<em>Pitum HaKetores</em>" (<span class="heb">פיטום הקטורת</span>) from the <em class="term">Gemara</em>,<a class="footnote-ref" id="ref3" href="#fn3">[3]</a> which lists the <em>sammanei ha'ketores</em> (<span class="heb">סממני הקטורת</span>) and various <em class="term">halachos</em>. Where did this practice originate? The source is the <em>Zohar HaKadosh</em> (<span class="heb">הזוהר הקדוש</span>).</p>
+<h2>IV. The Mystery and Authenticity of the Sefer HaZohar</h2>
+<h3>1,100 Years of Silence</h3>
+<p>Tradition teaches that the <em class="term">Zohar</em> was authored by <span class="heb">רבי שמעון בר יוחאי</span>, a <em class="term">Tanna</em> from the second century — a <em class="term">talmid</em> of Rabbi Akiva, not long after the <em class="term">Churban</em>. Yet for over 1,100 years, <em>Klal Yisrael</em> had no knowledge of this <em class="term">sefer</em>.<a class="footnote-ref" id="ref4" href="#fn4">[4]</a> It is not mentioned in the <em class="term">Mishnah</em> — even though its compiler, <span class="heb">רבי יהודה הנשיא</span>, was a <em class="term">talmid</em> of Rabbi Shimon bar Yochai — nor in the <em class="term">Gemara</em>, nor in the writings of the <em class="term">Geonim</em> (<span class="heb">גאונים</span>).</p>
+<h3>The Discovery of Rabbi Moshe de León (c. 1255)</h3>
+<p>Then, in the 13th century — <span class="added">around the year 1255</span> — a great <em class="term">mekubal</em> (<span class="heb">מקובל</span>) from Spain named <strong>Rabbi Moshe de León</strong> announced that he had discovered an ancient manuscript containing the deepest secrets of the Torah (<em>sodos haTorah</em> — <span class="heb">סודות התורה</span>) as written by Rabbi Shimon bar Yochai. He explained that the text had been transmitted secretly among a select few <em>yechidei segulah</em> (<span class="heb">יחידי סגולה</span>), but the time had finally come for it to be disseminated to <em>Klal Yisrael</em>.</p>
+<p>The claim was met with immediate skepticism. Many <em class="term">mekubalim</em> objected: "We have never heard of this — who says it is authentic?"</p>
+<h3>The Quest of Rabbi Yitzchak of Akko</h3>
+<p>During this period, a <em class="term">Rishon</em> named <span class="heb">רבי יצחק דְּמִן עַכּוֹ</span> (<strong>Rabbi Yitzchak of Akko</strong>), a <em class="term">talmid</em> of the Ramban, dedicated his life to investigating the matter.<a class="footnote-ref" id="ref5" href="#fn5">[5]</a> He embarked on the long, arduous journey from <em>Eretz Yisrael</em> to Spain — a trip that, in those days, took years.</p>
+<p>He finally reached the city where Rabbi Moshe de León lived and begged for an audience. Rabbi Moshe de León gave him his solemn promise, swearing an oath: "<span class="heb">בְּשֵׁם ה׳</span> — In the name of God, I have the ancient copy at home. Come back tomorrow and I will show it to you."</p>
+<p>When Rabbi Yitzchak returned the next day, he was met with the sounds of wailing. Rabbi Moshe de León had passed away just an hour before. After <em>shiva</em> (<span class="heb">שבעה</span>), Rabbi Yitzchak approached the widow and explained his quest. Her response was shattering: <em>"What are you talking about? My husband wrote it. He made it all up himself."</em> She added that he had attributed it to Rabbi Shimon bar Yochai for purely commercial reasons: "If I were to write it in my own name, there would be no <em class="term">koinim</em> (<span class="heb">קונים</span>) — but by attributing it to Rabbi Shimon bar Yochai, it's a bestseller." Indeed, it became a bestseller.</p>
+<p class="added"><strong>Two versions even before he left.</strong> It is striking that already <em>before</em> Rabbi Yitzchak departed <em>Eretz Yisrael</em>, two competing traditions had taken shape: one held that the Ramban himself possessed an ancient copy of the <em class="term">Zohar</em>, which he transmitted to Rabbi Moshe de León for copying; the other held that the entire work was a fabrication. So the controversy was not born only at the deathbed in Spain — it accompanied the <em class="term">Zohar</em> from the moment of its appearance.</p>
+<h3>His Later Reversal — A Mystery</h3>
+<p>Yet later in life, in a different <em class="term">chibur</em> (<span class="heb">חיבור</span>), Rabbi Yitzchak of Akko writes that he is now convinced the <em class="term">Zohar</em> is authentic. What changed his mind he never tells us. It remains one of the great mysteries of Jewish intellectual history.</p>
+<h2>V. Sabbatean Misuse and the Yaavetz's Challenge</h2>
+<p class="added">In the 17th century, the false messiah <strong>Shabsai Tzvi</strong> (<span class="heb">ימח שמו וזכרו</span>) tragically misappropriated the mystical language of the <em class="term">Zohar</em>. Anyone with even a basic familiarity with <em class="term">Kabbalah</em> knows that everything is built on <em>zachor u'nekeivah</em> (<span class="heb">זכר ונקבה</span>) — masculine and feminine — with concepts like <em>zivugim</em> (<span class="heb">זיווגים</span>), <em class="term">partzufim</em> (<span class="heb">פרצופים</span>), and <em>Adam Kadmon</em> (<span class="heb">אדם קדמון</span>). With a corrupt mind, this language can be twisted, and Shabsai Tzvi did precisely that — translating mystical concepts into actual antinomian practice.</p>
+<p class="added"><strong>Jacob Frank and Eva Frank.</strong> Worse still was <strong>Yaakov Frank</strong>, a <em class="term">talmid</em> of the Sabbatean tradition who took the corruption further. His daughter <strong>Eva ("Chava") Frank</strong> built a massive cult that spread through Poland and Czechoslovakia. In the 1700s, <em class="term">mysticism</em> was the most popular discipline in Jewish life — more popular even than <em class="term">halacha</em> — and that hunger left people vulnerable. Many <em class="term">Yidden</em> fell into this <em class="term">avoidah zarah</em>; <em>Hashem yerachem</em>.</p>
+<p>In the wake of all this, the <em>Yaavetz</em> (<span class="heb">יעב״ץ</span>) — Rabbi Yaakov Emden — wrote <em>Mitpachas Sefarim</em> (<span class="heb">מטפחת ספרים</span>),<a class="footnote-ref" id="ref6" href="#fn6">[6]</a> in which he methodically argued that <em>not every piece</em> of the <em class="term">Zohar</em> can be authentically attributed to <span class="heb">רבי שמעון בר יוחאי</span>. By his day, the <em class="term">Zohar</em> had already been embraced by <em>Klal Yisrael</em> — largely because of how heavily the <em>Arizal</em> built upon it — so this caused great <em class="term">rash</em>. But there was a real need for someone to point out that not every line of the work should be treated as <em>Halacha l'Moshe miSinai</em>.</p>
+<h3>R' Elazar Fleckeles and Linguistic Proofs</h3>
+<p>Following the Yaavetz, <strong>Rabbi Elazar Fleckeles</strong>, a prominent <em class="term">talmid</em> of the <em>Noda biYehudah</em> (<span class="heb">נודע ביהודה</span>) and Av Beis Din of Prague, made a stunning declaration in his <em class="term">sefer</em> <em>Teshuvah Me'Ahavah</em> (<span class="heb">תשובה מאהבה</span>):<a class="footnote-ref" id="ref7" href="#fn7">[7]</a> <em>"I swear that not all of the Zohar is from Rabbi Shimon bar Yochai."</em></p>
+<p class="added">His proofs were largely linguistic. The Aramaic of the <em class="term">Zohar</em> does not match the Aramaic spoken in <em>Eretz Yisrael</em> in the second century — compare it with the Aramaic of the <em class="term">Gemara</em> of those centuries, and the differences are evident. There are even what appear to be Spanish loan-words. He concludes that some of the work was indeed composed by Rabbi Moshe de León in 13th-century Spain.</p>
+<p>Fleckeles even expresses gratitude that <strong>Emperor Franz Joseph</strong> of the Austro-Hungarian Empire had prohibited the printing of the <em class="term">Zohar</em> in his country, since the Frankists were so distorting it that the local non-Jewish authorities themselves came to view it as dangerous. (Of course, the <em class="term">Zohar</em> later returned to print and is, today, one of the most studied <em class="term">sefarim</em> in the Jewish world.)</p>
+<h2>VI. Reconciling Authenticity with Tradition</h2>
+<h3>Where We Stand</h3>
+<p>I do not have a definitive answer that will satisfy every objection. My position is rooted in <em class="term">mesorah</em>. I am part of a lineage — our fathers and grandfathers learned from <em class="term">sefarim</em> and from <em class="term">rabbonim</em> who all accepted that the <em class="term">Zohar</em> is authentic. That is the side I am on.</p>
+<p>The figure most responsible for cementing the <em class="term">Zohar</em>'s place in <em>Klal Yisrael</em> is the <em>Arizal</em>, who authenticated it from a source we cannot access — the <em>olamos ha'elyonim</em> (<span class="heb">עולמות העליונים</span>). Ultimately, <em>Klal Yisrael</em> trusts the <em>Arizal</em>. Many <em class="term">halachos</em> in <em>Shulchan Aruch</em> are practiced today exactly as he taught them, even where they appear to differ from the printed text.</p>
+<p class="added"><strong>R' Yonason Eibeschitz's ruling.</strong> It is important to know that Rabbi Yonason Eibeschitz — himself a great master of <em class="term">Kabbalah</em> — writes that one who does <em>not</em> believe in the authenticity of the <em class="term">Zohar</em> is <em>not</em> a <em class="term">koifer</em> (<span class="heb">כופר</span>).<a class="footnote-ref" id="ref9" href="#fn9">[9]</a> The same is implied by other <em class="term">poskim</em>. This is no small matter; it shows the gravity with which the question was treated even by those who themselves accepted the <em class="term">Zohar</em>.</p>
+<h3>Academia vs. Mesorah</h3>
+<p>If you turn to secular academics — most famously <strong>Professor Gershom Scholem</strong> of Hebrew University — you will find entire volumes dedicated to "proving" that the <em class="term">Zohar</em> is the work of 13th-century Spanish mystics. <span class="added">When I was a <em class="term">bachur</em> in Brisk, I had Thursday nights free, and I used to slip into the Hebrew University library where his bequeathed collection is kept — a special <em>Cheder Gershom Scholem</em> requiring permission to enter. I read his papers and saw his manuscripts.</span> As <em>frum Yidden</em>, this scholarship does not sway our core beliefs, because we have a <em class="term">mesorah</em>. Who are we to question it?</p>
+<h3>The Vilna Gaon's Position</h3>
+<p>The position of the <em>Vilna Gaon</em> (<span class="heb">הגאון מווילנא</span>) is particularly interesting. He revered every word of the <em>Arizal</em>, and we have no indication that he was critical of the <em class="term">Zohar</em>'s general attribution. However, his <em class="term">talmid</em> <strong>Rav Chaim of Volozhin</strong> writes in <em>Nefesh HaChaim</em> (<span class="heb">נפש החיים</span>) that there were certain pieces in the <em class="term">Zohar</em> that the Gaon did not accept — without specifying which.<a class="footnote-ref" id="ref8" href="#fn8">[8]</a></p>
+<p class="added">The picture is further complicated because the <em>talmidei haGra</em> themselves had a <em class="term">machloikes</em> on this issue. <strong>Rav Mendel of Shklov</strong> and Rav Chaim Volozhin transmitted somewhat different versions of the Gaon's view. The same goes for the Gaon's commentaries on <em>Sefer Yetzirah</em> (<span class="heb">ספר יצירה</span>) and <em>Tiferes Tznius</em> (<span class="heb">תפארת צניעות</span>) — the precise scope of his reservations is not preserved with full clarity.</p>
+<p>So we are left with the <em class="term">Zohar</em> as a whole, and we accept it in its entirety. It has changed our lives — and the way we <em class="term">daven</em> — beyond recognition.</p>
+<h2>VII. The Enduring Power of the Ketores</h2>
+<h3>More Beloved Than Tefillah Itself</h3>
+<p>With this background in place, we can finally turn to the <em>Zohar HaKadosh</em>'s teachings on the <em class="term">ketores</em>. The <em class="term">Zohar</em> reveals something astonishing: <strong>the <em class="term">parsha</em> of the <em class="term">ketores</em> is more <em class="term">chaviv</em> (<span class="heb">חביב</span>) — beloved and cherished — by <em>HaKadosh Baruch Hu</em> (<span class="heb">הקדוש ברוך הוא</span>) than even <em class="term">tefillah</em> itself.</strong> This is a revolutionary idea. Because of this elevated status, the <em class="term">Zohar</em> instructs that we recite the <em class="term">parsha</em> of the <em class="term">ketores</em> both <em>before</em> and <em>after</em> our daily prayers — it acts as a frame, an enhancement.</p>
+<p class="added">There is also an internal reason for the doubling: in the <em>Beis HaMikdash</em> (<span class="heb">בית המקדש</span>), the <em class="term">ketores</em> was offered <em>after</em> the <em>korban tamid</em> (<span class="heb">קרבן תמיד</span>), so the order of our <em class="term">tefillah</em> mirrors the <em class="term">avodah</em> of the day.</p>
+<p>The <em class="term">Zohar</em> adds a condition: if you recite it daily <em>with kavanah</em>, you will be protected. The <em>Chofetz Chaim</em> (<span class="heb">חפץ חיים</span>) writes in the <em>Mishnah Berurah</em> that today there is no excuse not to have <em class="term">kavanah</em>. Take five or ten minutes to learn the passage and understand what it means. <span class="added">A practical recommendation: <strong>Rabbi Aryeh Kaplan</strong>'s anthology — sometimes referred to as the "purple <em class="term">chumash</em>" — has an excellent treatment of <em>parshas ha'ketores</em> and the eleven <em class="term">samimanim</em>, going through every ingredient with clarity.<a class="footnote-ref" id="ref11" href="#fn11">[11]</a></span></p>
+<h3>Rabbi Shimon's Famous Words</h3>
+<blockquote>
+<div class="heb">אָמַר רַבִּי שִׁמְעוֹן, אִלּוּ הֲווֹ יָדְעִין בְּנֵי נָשָׁא כַּמָה עִילָאָה עֲבוֹדָתָא דִקְטֹרֶת קֳדָם קוּדְשָׁא בְּרִיךְ הוּא, הֲווֹ נָטְלִין כָּל מִלָּה וּמִלָּה מִנֵּיהּ וְסַלְקִין לָהּ עַל רֵישַׁיְיהוּ כְּכִתְרָא דִדְהֲבָא.</div>
+<div class="trans">Rabbi Shimon said: If human beings would know how elevated the service of the <em>ketores</em> is before the Holy One, Blessed be He, they would take every single word of it and place it upon their heads like a crown of gold.</div>
+</blockquote>
+<h3>Berachos and Segulos</h3>
+<p>The <em>Zohar HaKadosh</em> in <em>Parshas Vayakhel</em> (<span class="heb">פרשת ויקהל</span>)<a class="footnote-ref" id="ref10" href="#fn10">[10]</a> elaborates that daily recitation has the power to annul negative decrees, to shield from <em>hirhurim ra'im</em> (<span class="heb">הרהורים רעים</span>) — bad thoughts — and from harsh <em class="term">dinim</em> (<span class="heb">דינים</span>). And if a person needs a <em class="term">yeshuah</em> (<span class="heb">ישועה</span>), this is what to say.</p>
+<p>It is also a well-known <em class="term">segulah</em> (<span class="heb">סגולה</span>) for <em class="term">ashirus</em> (<span class="heb">עשירות</span>) — material wealth. This is why many <em class="term">shuls</em> commission a parchment with <em>parshas ha'ketores</em> written in <em>ksav Ashuris</em> (<span class="heb">כתב אשורית</span>) — the script of a <em>Sefer Torah</em> — to be read after <em class="term">davening</em>. (Note the wordplay: reading from <em>Ashuris</em> [aleph] is a <em class="term">segulah</em> for <em>Ashirus</em> [ayin]. Many people try it and report that it works.)</p>
+<p>This brings to mind related <em class="term">segulos</em> — like reading <em>Parshas HaMan</em> (<span class="heb">פרשת המן</span>) on the Tuesday of <em>Parshas Beshalach</em>. The <em>Chasam Sofer</em> (<span class="heb">חתם סופר</span>) famously commented: <em>"It is a great segulah… but the greatest segulah is to go to work!"</em><a class="footnote-ref" id="ref12" href="#fn12">[12]</a> One is not a <em class="term">koifer</em> for not believing in every <em class="term">segulah</em>, but we do believe in them because they are transmitted through our <em class="term">mesorah</em>.</p>
+<h2>VIII. The Ketores Enters the Siddur — The Shelah HaKadosh</h2>
+<p>Reciting the <em class="term">ketores</em> before and after <em class="term">davening</em> was not always standard. The <em class="term">Babish</em> <em class="term">siddur</em>, Rabbi Yaakov Emden's <em class="term">siddur</em>, and others from before the <em>Arizal</em>'s influence took hold do not contain the <em class="term">ketores</em> at all. The change was instituted by the <em>Arizal</em>, based on the <em class="term">Zohar</em>.</p>
+<h3>Rabbeinu Yeshaya HaLevi Horowitz</h3>
+<p>A pivotal figure in this liturgical shift was the <em>Shelah HaKadosh</em> (<span class="heb">השל״ה הקדוש</span>) — <strong>Rabbeinu Yeshaya HaLevi Horowitz</strong>.<a class="footnote-ref" id="ref13" href="#fn13">[13]</a> <span class="added">He was from Prague, in present-day Czechoslovakia. His father was a <em class="term">talmid</em> of the Rema (<span class="heb">הרמ״א</span>), placing him squarely within the great Ashkenazic <em class="term">mesorah</em>.</span></p>
+<p class="added">In <strong>1622</strong>, he traveled to <em>Eretz Yisrael</em>. The journey took roughly a year, by way of Syria. He arrived first in Yerushalayim, but a serious incident there forced him to relocate; he settled in <em>Tveria</em> (<span class="heb">טבריה</span>) and is buried there beside the <em>Rambam</em>.</p>
+<h3>Why "Shaar HaShamayim"?</h3>
+<p class="added">The week he stepped off the boat — at Haifa or Akko — was <em>Parshas Vayetzei</em>. That week's <em class="term">leining</em> contains the verse <strong><span class="heb">אֵין זֶה כִּי אִם בֵּית אֱלֹקִים וְזֶה שַׁעַר הַשָּׁמָיִם</span></strong> ("This is none other than the house of God, and this is the gate of Heaven"). He took it as a <em class="term">siman</em> from Heaven and named the <em class="term">siddur</em> he was preparing <strong><em>Shaar HaShamayim</em></strong> (<span class="heb">שער השמים</span>).</p>
+<p>In his last will and testament — written in his final years in the late 1620s — he instructed his children to publish the <em class="term">siddur</em>, emphasizing one crucial addition he had nearly forgotten: <em>the ketores</em>. <em>"Don't forget to add the ketores."</em> Since the publication of <em>Shaar HaShamayim</em>, virtually all subsequent <em class="term">siddurim</em> have included the <em class="term">parsha</em> of the <em class="term">ketores</em> before and after <em class="term">davening</em>.</p>
+<h3 class="added">An Aside — The Title "Hakadosh"</h3>
+<p class="added">It is worth pausing on this. There are only a small number of personalities to whom <em>Klal Yisrael</em> has appended the title <em>Hakadosh</em>. By tradition: <strong>Rabbeinu Hakadosh</strong> (Rabbi Yehudah HaNasi), the <strong>Ari Hakadosh</strong>, the <strong>Shelah Hakadosh</strong>, the <strong>Or HaChaim Hakadosh</strong>, and (the title of the work itself) the <strong>Zohar Hakadosh</strong>. Some include the <strong>Alshech Hakadosh</strong>; some apply it to the <strong>Baal Shem Tov</strong>. The point my grandfather, an old-timer, used to make is that not every great <em class="term">Yid</em> earns this title — and the modern habit of attaching <em>"heilig"</em> to anyone is a departure from how it once was used.</p>
+<h2>IX. The Three Pesukim — Israel's Battle Cry</h2>
+<p>Immediately following the <em class="term">ketores</em>, we recite three <em class="term">pesukim</em>, each repeated three times. This too is from the <em>Arizal</em>, based on the <em class="term">Zohar</em>, and it is connected to the deep secrets of the <em class="term">ketores</em>, which signifies a <em class="term">kesher</em> (<span class="heb">קשר</span>) — a <em>bond</em> — to <em>HaKadosh Baruch Hu</em>. <span class="added">The very word <em>ketores</em> shares this root: it expresses a binding, a connection, a tying-together of the human and the Divine.</span></p>
+<h3 class="added">The Yerushalmi Source</h3>
+<p class="added">The first two <em class="term">pesukim</em> are rooted in the <em>Yerushalmi</em> in <em>Berachos</em>,<a class="footnote-ref" id="ref14" href="#fn14">[14]</a> which says that a person should have these verses constantly upon his lips. The <em>Yerushalmi</em> itself does not include the third <em class="term">pasuk</em>; the <em>Arizal</em> added it and instructed that each be repeated three times.</p>
+<h3>The Hidden Radak — A Battle Cry</h3>
+<p>The last of the three <em class="term">pesukim</em> carries another remarkable significance. A little-known <em class="term">Radak</em> on <em>Tehillim</em><a class="footnote-ref" id="ref15" href="#fn15">[15]</a> reveals that this <em class="term">pasuk</em> was the <em>battle cry of Klal Yisrael</em>. Every nation in the ancient world had its battle cry; the cry the Jewish people raised on the battlefield was:</p>
+<blockquote>
+<div class="heb">ה' הוֹשִׁיעָה, הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ.</div>
+<div class="trans">"Hashem, save! May the King answer us on the day we call."</div>
+</blockquote>
+<p>Some have noted parallels — <em>Mi LaShem Eilai</em> from the <em class="term">Chashmonaim</em>, and earlier still from Moshe Rabbeinu — but the <em class="term">Radak</em> is explicit that <strong>this</strong> verse was the cry that accompanied <em>Klal Yisrael</em> into war. <span class="added">It is the kind of detail to share with a soldier in <em>Eretz Yisrael</em> today: the verse you say every morning is the same one your ancestors shouted as they ran toward the enemy.</span></p>
+<h2>X. Closing</h2>
+<p>The structure of our <em class="term">tefillos</em>, so rich and layered, is a testament to the confluence of <em class="term">Halacha</em>, <em class="term">Midrash</em>, and <em class="term">Kabbalah</em>. From the <em class="term">Zohar</em>'s revelation about the <em class="term">ketores</em>, to the <em>Arizal</em>'s integration of it into our daily prayers, to the <em>Shelah HaKadosh</em>'s decision to embed it permanently in the <em class="term">siddur</em> — we see how the profound depth of our Torah continuously shapes and elevates our service to Hashem.</p>
+<p>And the <em class="term">ketores</em> stands at the very heart of it: more <em class="term">chaviv</em> than <em class="term">tefillah</em> itself, a <em class="term">kesher</em> between the Jew and his Creator, a <em class="term">segulah</em> for protection and prosperity, and a daily reminder that even in the smallest detail of our <em class="term">davening</em>, we are continuing the <em class="term">avodah</em> of the <em>Beis HaMikdash</em>.</p>
+<div class="divider">✦   ✦   ✦</div>
+<section class="mareh">
+<h2><span class="heb">מראה מקומות</span>  ·  Mareh Mekomos</h2>
+<p style="text-align:center;font-style:italic;color:#555;font-size:14px;margin-bottom:18px;">Each note runs <em>short citation</em> first (for quick lookup), then an expanded Artscroll-style elaboration. Numbers run sequentially with the body text.</p>
+<ol>
+<li id="fn1"><span class="short"><em>Mishnah Berurah</em>, <span class="heb">או״ח נ״ט ס״ק י׳</span> (59:10) — citation as preserved from the source document.</span> <span class="expanded">— The Chofetz Chaim, citing the <em>Magen Avraham</em> and earlier authorities, rules that one who is fully <em>osek b'Torah</em> may begin <em class="term">davening</em> from <em>Baruch She'amar</em> and is not obligated in the recitation of the <em class="term">Korbanos</em>. This is the explicit <em class="term">heter</em> upon which much of the <em class="term">yeshiva</em>-world practice relies. <em>(Note: the precise <em class="term">siman</em>/<em class="term">se'if katan</em> in the standard Vilna edition of MB on this <em class="term">halacha</em> is best verified against a printed copy; the citation above reflects the source document.)</em></span> <a class="backref" href="#ref1" title="Return to text">↩</a></li>
+
+<li id="fn2"><span class="short"><em>Berachos</em> <span class="heb">כ״ו ע״ב</span> (26b).</span> <span class="expanded">— <span class="heb">תְּפִלּוֹת כְּנֶגֶד תְּמִידִין תִּקְּנוּם</span>: the <em class="term">Gemara</em>'s formulation of the principle that the daily prayers were instituted to correspond to the <em class="term">temidin</em>. The <em class="term">sugya</em> presents an alternative view (<em class="term">tefillot</em> instituted by the <em class="term">Avos</em>) and resolves that both are correct — <em class="term">tikun</em> by the <em class="term">Avos</em>, formal structure parallel to the <em class="term">korbanos</em>.</span> <a class="backref" href="#ref2" title="Return to text">↩</a></li>
+
+<li id="fn3"><span class="short"><em>Kerisos</em> <span class="heb">ו׳ ע״א</span> (6a); parallel in <em>Yerushalmi Yoma</em>, ch. 4.</span> <span class="expanded">— The <em class="term">Baraisa</em> of <em>Pitum HaKetores</em>, listing the eleven <em class="term">samimanim</em> and the <em class="term">halachos</em> of their preparation. Also discussed at <em>Yoma</em> <span class="heb">ל״ח ע״א</span> (38a, the <em>Bais Avtinas</em> sugya). The text recited in <em class="term">davening</em> is the Talmudic Baraisa, with later additions drawn from the <em class="term">Yerushalmi</em>.</span> <a class="backref" href="#ref3" title="Return to text">↩</a></li>
+
+<li id="fn4"><span class="short">On the historical revelation of <em>Sefer HaZohar</em> (general reference).</span> <span class="expanded">— The discussion of the 1,100-year silence is not based on a single textual source but on the historical record. The <em class="term">Zohar</em> is unmentioned in <em class="term">Mishnah</em>, <em class="term">Gemara</em>, the <em class="term">Geonim</em>, the <em>Rambam</em>, the <em>Rif</em>, and the <em>Rosh</em>; its first public appearance is in the circle of Rabbi Moshe de León in late-13th-century Castile (<em>Avila</em> / <em>Guadalajara</em>). For an academic treatment see Gershom Scholem, <em>Major Trends in Jewish Mysticism</em>, ch. 5–6 — used here only to indicate where the historical question is laid out, not as <em class="term">mesorah</em>.</span> <a class="backref" href="#ref4" title="Return to text">↩</a></li>
+
+<li id="fn5"><span class="short">Account of <span class="heb">רבי יצחק דְּמִן עַכּוֹ</span> — preserved by R' Avraham Zacuto, <em>Sefer Yuchasin</em>.</span> <div class="note-academic"><em>Note on source-type:</em> the testimonial of Rabbi Yitzchak of Akko is <strong>not</strong> a <em class="term">sugya</em> with a fixed <em class="term">daf</em>. It is preserved primarily in the historical work <em>Sefer Yuchasin</em> by R' Avraham Zacuto (early 16th c.), citing R' Yitzchak's own writings. Modern reprints render the passage in the section on the <em class="term">Rishonim</em> (<em>Ma'amar HaRishon</em>). His later, contradictory affirmation of the <em class="term">Zohar</em>'s authenticity appears in his <em class="term">chibur</em> <em>Otzar HaChaim</em> (still in manuscript in many editions). Treated here as an academic-style reference because no single printed <em class="term">daf</em>/<em class="term">siman</em> is universally cited.</div> <a class="backref" href="#ref5" title="Return to text">↩</a></li>
+
+<li id="fn6"><span class="short">R' Yaakov Emden (the <em>Yaavetz</em>), <em>Mitpachas Sefarim</em>, Part I (Altona, 1768).</span> <span class="expanded">— A systematic, internal critique of the <em class="term">Zohar</em>'s authorship. The Yaavetz does <em>not</em> reject the <em class="term">Zohar</em>; he argues that not every passage in the printed text can be attributed to <span class="heb">רבי שמעון בר יוחאי</span>. His criteria include anachronisms (later Rishonim cited by name), Aramaic register, and internal contradictions. The relevant survey runs through the opening chapters (<em>perakim</em> 1–10 of Part I in standard editions).</span> <a class="backref" href="#ref6" title="Return to text">↩</a></li>
+
+<li id="fn7"><span class="short">R' Elazar Fleckeles, <em>Teshuvah Me'Ahavah</em>, Vol. I (responsa on <em class="term">Orach Chaim</em>).</span> <span class="expanded">— The famous sworn declaration that not all of the <em class="term">Zohar</em> derives from <span class="heb">רבי שמעון בר יוחאי</span>, with proofs largely linguistic (Aramaic register; suspected Spanish loan-words). Fleckeles also expresses gratitude for Emperor Franz Joseph's prohibition on Frankist printings of the <em class="term">Zohar</em>. Standard printings place this material in Vol. I; precise <em class="term">siman</em> varies by edition.</span> <a class="backref" href="#ref7" title="Return to text">↩</a></li>
+
+<li id="fn8"><span class="short">R' Chaim of Volozhin, <em>Nefesh HaChaim</em>, <em>Sha'ar</em> III–IV (general reference).</span> <span class="expanded">— Rav Chaim records that there were certain passages in the <em class="term">Zohar</em> his <em class="term">rebbe</em> the <em>Vilna Gaon</em> did not accept, without specifying which. The transmission is also reflected in <em>Tosefta</em> additions in early Vilna prints of the <em class="term">Zohar</em>. The talmidim of the Gra (notably R' Mendel of Shklov vs. R' Chaim Volozhin) preserved somewhat different versions of the Gaon's view.</span> <a class="backref" href="#ref8" title="Return to text">↩</a></li>
+
+<li id="fn9"><span class="short">R' Yonason Eibeschitz, <em>Ya'aros Devash</em>; cf. parallel formulations in his other <em class="term">drashos</em>.</span> <span class="expanded">— The ruling that one who does not believe in the authenticity of the <em class="term">Zohar</em> is <em>not</em> a <em class="term">koifer</em>. The same position is implied by other <em class="term">poskim</em> who accepted the <em class="term">Zohar</em> while preserving the legitimacy of dissent. The point is significant: it limits the dogmatic weight of the question even from within the camp of those who accept the <em class="term">sefer</em>.</span> <a class="backref" href="#ref9" title="Return to text">↩</a></li>
+
+<li id="fn10"><span class="short"><em>Zohar</em>, <em>Parshas Vayakhel</em> (<em>Zohar</em> II, the <em>Idra</em> and surrounding section on <em class="term">ketores</em>).</span> <span class="expanded">— The <em class="term">parsha</em> of the <em class="term">ketores</em> as a daily <em class="term">segulah</em>: annulling decrees, shielding from <em>hirhurim ra'im</em>, breaking harsh <em class="term">dinim</em>, drawing down <em class="term">yeshuah</em>. The famous <em class="term">ma'amar</em> of <span class="heb">אָמַר רַבִּי שִׁמְעוֹן, אִלּוּ הֲווֹ יָדְעִין בְּנֵי נָשָׁא…</span> appears in this section, urging that every word of <em>Pitum HaKetores</em> be treated as a <em class="term">kisra dedhava</em> — a crown of gold.</span> <a class="backref" href="#ref10" title="Return to text">↩</a></li>
+
+<li id="fn11"><span class="short">R' Aryeh Kaplan, <em>The Living Torah</em> / <em>The Living Nach</em> — the "purple <em class="term">chumash</em>."</span> <span class="expanded">— Rabbi Aryeh Kaplan's accessible English anthology, with extensive endnotes, identifying each of the eleven <em class="term">samimanim</em> of the <em class="term">ketores</em> and explaining their botanical and historical background. Recommended in the <em class="term">shiur</em> as a practical aid for <em class="term">kavanah</em> when reciting <em>parshas ha'ketores</em>.</span> <a class="backref" href="#ref11" title="Return to text">↩</a></li>
+
+<li id="fn12"><span class="short"><em>Chasam Sofer</em> — <em class="term">drashos</em> and <em class="term">teshuvos</em> on <em>Parshas HaMan</em> and the practice of segulos (general reference).</span> <span class="expanded">— The famous quip — <em>"It is a great segulah… but the greatest segulah is to go to work"</em> — is preserved in the Chasam Sofer literature in connection with <em>Parshas HaMan</em> said on the Tuesday of <em>Parshas Beshalach</em>. The line is widely cited in <em class="term">poskim</em> and <em class="term">drashos</em> rather than from a single fixed siman.</span> <a class="backref" href="#ref12" title="Return to text">↩</a></li>
+
+<li id="fn13"><span class="short">R' Yeshaya HaLevi Horowitz (the <em>Shelah HaKadosh</em>), <em>Shnei Luchos HaBris</em>; <em>Siddur Shaar HaShamayim</em>.</span> <span class="expanded">— The Shelah's <em class="term">tzava'ah</em> to his children to publish his siddur and to <em>"not forget to add the ketores"</em> is the historical pivot point for the <em class="term">ketores</em> entering the standard <em class="term">nusach</em>. The <em class="term">Shelah</em> arrived in <em>Eretz Yisrael</em> in 1622, settled in <em class="term">Tveria</em>, and is buried near the <em>Rambam</em>. The siddur takes its name from the verse <span class="heb">אֵין זֶה כִּי אִם בֵּית אֱלֹקִים וְזֶה שַׁעַר הַשָּׁמָיִם</span> read on <em>Parshas Vayetzei</em> the week he disembarked.</span> <a class="backref" href="#ref13" title="Return to text">↩</a></li>
+
+<li id="fn14"><span class="short"><em>Yerushalmi Berachos</em>, <em class="term">perek</em> 5 (the <em class="term">sugya</em> of <span class="heb">ה׳ צבאות עמנו</span> / <span class="heb">ה׳ צבאות אשרי אדם</span>).</span> <span class="expanded">— The <em class="term">Yerushalmi</em> teaches that a person should have these two verses constantly upon his lips. The third verse — <span class="heb">ה׳ הוֹשִׁיעָה, הַמֶּלֶךְ יַעֲנֵנוּ</span> — is <em>not</em> in the <em class="term">Yerushalmi</em>; the <em>Arizal</em> added it and instituted that each of the three be said three times. (Standard <em class="term">siddurim</em> reflect this <em>Arizal</em> arrangement.)</span> <a class="backref" href="#ref14" title="Return to text">↩</a></li>
+
+<li id="fn15"><span class="short"><em>Radak</em> on <em>Tehillim</em> 20:10.</span> <span class="expanded">— <span class="heb">ה' הוֹשִׁיעָה, הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ</span> — identified by the <em class="term">Radak</em> as the <em>battle cry</em> of <em>Klal Yisrael</em>: the verse the Jewish nation called out on the battlefield, paralleling the war-cries of the surrounding nations. A striking detail to bear in mind every morning, when these very words are recited after <em>parshas ha'ketores</em>.</span> <a class="backref" href="#ref15" title="Return to text">↩</a></li>
+</ol>
+</section>
+<footer>
+  Reworked summary of Rabbi Ephrati's Sunday-morning <em>shiur</em> on <em>Tefillah</em>, dated 23 June 2024. Hebrew terms preserved; additions drawn from the original transcript and integrated by topic. Mareh Mekomos upgraded with dual-layer (short + expanded) footnotes; non-exact sources flagged in academic-style notes.
+</footer>
+</body>
+</html>
